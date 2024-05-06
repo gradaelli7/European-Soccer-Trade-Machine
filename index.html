@@ -6,24 +6,72 @@
     <title>European Soccer Trade Machine</title>
     <style>
         /* Add your CSS styles here */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tabs button {
+            background-color: #f2f2f2;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        .tabs button:hover {
+            background-color: #ddd;
+        }
+
+        .tabs button.active {
+            background-color: #ccc;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>European Soccer Trade Machine</h1>
     </header>
+
+    <!-- Navigation tabs -->
+    <div class="tabs">
+        <button id="manager-tab" class="active" onclick="openTab('manager')">Manager Mode</button>
+        <button id="fan-tab" onclick="openTab('fan')">Fan Mode</button>
+    </div>
+
     <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>Insert your project description here.</p>
+        <section id="manager-content">
+            <h2>Manager Mode</h2>
+            <!-- Insert content for Manager Mode here -->
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Insert your contact information here.</p>
+        <section id="fan-content" style="display: none;">
+            <h2>Fan Mode</h2>
+            <!-- Insert content for Fan Mode here -->
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 European Soccer Trade Machine</p>
     </footer>
+
+    <script>
+        function openTab(tabName) {
+            var i, tabContent, tabLinks;
+            tabContent = document.getElementsByTagName("section");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            tabLinks = document.getElementsByTagName("button");
+            for (i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName + "-content").style.display = "block";
+            document.getElementById(tabName + "-tab").className += " active";
+        }
+        // Show Manager Mode by default
+        openTab("manager");
+    </script>
 </body>
 </html>
