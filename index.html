@@ -10,65 +10,38 @@
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             color: #333;
+            text-align: center;
         }
 
         header {
             background-color: #333;
             color: #fff;
-            text-align: center;
             padding: 20px 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        .tabs {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
-        .tabs button {
-            background-color: #fff;
-            border: none;
-            outline: none;
-            cursor: pointer;
+        .btn {
+            background-color: #4CAF50;
+            color: white;
             padding: 10px 20px;
-            transition: background-color 0.3s, color 0.3s;
-            border-radius: 5px 5px 0 0;
-        }
-
-        .tabs button:hover {
-            background-color: #ddd;
-        }
-
-        .tabs button.active {
-            background-color: #ddd;
-            color: #333;
-        }
-
-        main {
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: none;
             border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
 
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-        }
-
-        #description {
-            padding: 20px;
-            background-color: #f2f2f2;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        .btn:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -77,50 +50,20 @@
         <h1>European Soccer Trade Machine</h1>
     </header>
 
-    <!-- Description section -->
-    <section id="description">
-        <p>One of the best ways to gain a competitive advantage in professional sports such as soccer is to identify undervalued players that are particularly well suited to the team’s needs. In this project, we will develop a tool for recommending strong transfers in European soccer leagues, based on factors including teams' financial resources, players' market values, positions, and performance statistics (appearances, goals, position-specific stats, etc.). We intend to utilize a machine learning model to determine the characteristics that are most likely to predict a winning trade. We then plan to implement a CSP algorithm involving constraints regarding team positional and financial needs in order to determine optimal potential transfers. This tool would be of value to general managers and front office staff for making transfer decisions based on factors such as positional needs, financial constraints, and season ambitions.</p>
-    </section>
+    <div class="container">
+        <!-- Introduction -->
+        <section id="introduction">
+            <h2>Welcome to European Soccer Trade Machine!</h2>
+            <p>One of the best ways to gain a competitive advantage in professional sports such as soccer is to identify undervalued players that are particularly well suited to the team’s needs. In this project, we have developed a tool for recommending strong transfers in European soccer leagues, based on factors including teams' financial resources, players' market values, positions, and performance statistics (appearances, goals, position-specific stats, etc.). Our tool utilizes a machine learning model to determine the characteristics that are most likely to predict a winning trade. We then implement a CSP algorithm involving constraints regarding team positional and financial needs in order to determine optimal potential transfers. This tool is valuable for general managers and front office staff for making transfer decisions based on factors such as positional needs, financial constraints, and season ambitions.</p>
+        </section>
 
-    <!-- Navigation tabs -->
-    <div class="tabs">
-        <button id="manager-tab" class="active" onclick="openTab('manager')">Manager Mode</button>
-        <button id="fan-tab" onclick="openTab('fan')">Fan Mode</button>
+        <!-- Mode Selection -->
+        <section id="mode-selection">
+            <h2>Choose a Mode</h2>
+            <a href="manager.html" class="btn">Manager Mode</a>
+            <a href="fan.html" class="btn">Fan Mode</a>
+        </section>
     </div>
 
-    <main>
-        <section id="manager-content">
-            <h2>Manager Mode</h2>
-            <!-- Insert content for Manager Mode here -->
-            <p>This is Manager Mode content.</p>
-        </section>
-        <section id="fan-content" style="display: none;">
-            <h2>Fan Mode</h2>
-            <!-- Insert content for Fan Mode here -->
-            <p>This is Fan Mode content.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 European Soccer Trade Machine</p>
-    </footer>
-
-    <script>
-        function openTab(tabName) {
-            var i, tabContent, tabLinks;
-            tabContent = document.getElementsByTagName("section");
-            for (i = 0; i < tabContent.length; i++) {
-                tabContent[i].style.display = "none";
-            }
-            tabLinks = document.getElementsByTagName("button");
-            for (i = 0; i < tabLinks.length; i++) {
-                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName + "-content").style.display = "block";
-            document.getElementById(tabName + "-tab").className += " active";
-        }
-        // Show Manager Mode by default
-        openTab("manager");
-    </script>
 </body>
 </html>
