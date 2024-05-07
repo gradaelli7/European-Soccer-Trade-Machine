@@ -10,18 +10,17 @@ def backtracking(row, candidates, requested_positions, players, budget):
         return True
 
     else:
-        for i in range(row, len(candidates)):
-            # Function of row is to limit range of considered rows -- once we know player is bad, don't revisit them.
-            # However, incrementing row by 1 at each new level of recursion might produce unexpected behavior
-            # if a player is
-            print(requested_positions)
-            player = candidates[i] # in the candidates list, to be checked
+        candidates_temp = candidates.copy()
+        while(len(candidates_temp) > 0):
+            # print(requested_positions)
+            player = candidates.pop(0) # in the candidates list, to be checked
             if Is_valid(player, requested_positions):
                 players.append(player)
                 requested_positions_updated = requested_positions.copy()
                 requested_positions_updated.remove(player['position'])
                 if backtracking(row + 1, candidates[1:], requested_positions_updated, players, budget - player['price']):
                     return True
+                # print("Popping")
                 players.pop()               
     return False
 
@@ -29,18 +28,18 @@ def Is_valid(player, requested_positions): # Done psudo code check validation
     # check position match
     #if player.position not in request_players.postion:
     #    return False
-    print(player['name'])
+    # print(player['name'])
 
     # the constraint
     # financial constraints
     if budget < player['price'] : # financial constraint failed
-        print("Budget insufficient")
+        # print("Budget insufficient")
         return False
     
     # Position constraints
     # if requested_positions[0] != player['position']:
     if player['position'] not in requested_positions:
-        print("Not looking for this position")
+        # print("Not looking for this position")
         return False
     
     # Nationality constraints # TODO
@@ -51,7 +50,7 @@ def Is_valid(player, requested_positions): # Done psudo code check validation
     #if (Not other_contraint): 
     #    return False
          
-    print("Player is valid")
+    # print("Player is valid")
     return True
     
 
