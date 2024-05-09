@@ -1,0 +1,1773 @@
+,player_name,age,fee,transfer_period,season,Squad,player_code
+2,Rasmus Kristensen,24.0,13000000.0,Summer,2022/2023,Leeds United,rasmus-kristensen97
+4,Luis Sinisterra,23.0,25000000.0,Summer,2022/2023,Leeds United,luis-sinisterra99
+5,Brenden Aaronson,21.0,32840000.000000004,Summer,2022/2023,Leeds United,brenden-aaronson00
+11,Darko Gyabi,18.0,5800000.0,Summer,2022/2023,Leeds United,darko-gyabi04
+21,Wilfried Gnonto,18.0,4500000.0,Summer,2022/2023,Leeds United,degnand-gnonto03
+28,Laurens De Bock,29.0,0.0,Summer,2022/2023,Zulte Waregem,laurens-de-bock92
+45,James Tarkowski,29.0,0.0,Summer,2022/2023,Everton,james-tarkowski92
+52,Conor Coady,29.0,0.0,Summer,2022/2023,Everton,conor-coady93
+56,James Garner,21.0,10400000.0,Summer,2022/2023,Everton,james-garner01
+57,Neal Maupay,26.0,11800000.0,Summer,2022/2023,Everton,neal-maupay96
+58,Dwight McNeil,22.0,24000000.0,Summer,2022/2023,Everton,dwight-mcneil99
+61,Cheikhou Kouyaté,32.0,0.0,Summer,2022/2023,Nott'ham Forest,cheikhou-kouyate89
+69,Manor Solomon,23.0,0.0,Summer,2022/2023,Fulham,manor-solomon99
+72,Daniel James,24.0,0.0,Summer,2022/2023,Fulham,daniel-james97
+73,Willian,34.0,0.0,Summer,2022/2023,Fulham,willian88
+75,Carlos Vinícius,27.0,5000000.0,Summer,2022/2023,Fulham,carlos-vinicius95
+76,Andreas Pereira,26.0,9500000.0,Summer,2022/2023,Fulham,andreas-pereira96
+78,Issa Diop,25.0,17800000.0,Summer,2022/2023,Fulham,issa-diop97
+79,João Palhinha,26.0,20000000.0,Summer,2022/2023,Fulham,joao-palhinha95
+83,João Virgínia,22.0,0.0,Summer,2022/2023,Cambuur,joao-virginia99
+84,Jarrad Branthwaite,20.0,0.0,Summer,2022/2023,PSV Eindhoven,jarrad-branthwaite02
+102,Gabriel Jesus,25.0,52200000.0,Summer,2022/2023,Arsenal,gabriel-jesus97
+103,Raheem Sterling,27.0,56200000.0,Summer,2022/2023,Chelsea,raheem-sterling94
+111,Facundo Pellistri,20.0,0.0,Summer,2022/2023,Manchester Utd,facundo-pellistri01
+113,Álvaro Fernandez,20.0,0.0,Summer,2022/2023,Manchester Utd,alvaro-fernandez98
+119,Dean Henderson,26.0,0.0,Summer,2022/2023,Manchester Utd,dean-henderson97
+122,Alejandro Garnacho,18.0,0.0,Summer,2022/2023,Manchester Utd,alejandro-garnacho04
+125,Martin Dúbravka,33.0,2310000.0,Summer,2022/2023,Manchester Utd,martin-dubravka89
+126,Tyrell Malacia,22.0,15000000.0,Summer,2022/2023,Manchester Utd,tyrell-malacia99
+127,Lisandro Martínez,24.0,57370000.0,Summer,2022/2023,Manchester Utd,lisandro-martinez98
+128,Casemiro,30.0,70650000.0,Summer,2022/2023,Manchester Utd,casemiro92
+129,Antony,22.0,95000000.0,Summer,2022/2023,Manchester Utd,antony00
+134,Sadio Mané,30.0,32000000.0,Summer,2022/2023,Bayern Munich,sadio-mane92
+139,Fábio Carvalho,19.0,5900000.0,Summer,2022/2023,Liverpool,fabio-carvalho02
+143,Takumi Minamino,27.0,15000000.0,Summer,2022/2023,Monaco,takumi-minamino95
+146,Wesley Fofana,21.0,80400000.0,Summer,2022/2023,Chelsea,wesley-fofana00
+149,Dennis Praet,28.0,0.0,Summer,2022/2023,Leicester City,dennis-praet94
+151,Wout Faes,24.0,17000000.0,Summer,2022/2023,Leicester City,wout-faes98
+154,Julián Álvarez,22.0,0.0,Summer,2022/2023,Manchester City,julian-alvarez00
+155,Sergio Gómez,21.0,13000000.0,Summer,2022/2023,Manchester City,sergio-gomez00
+163,Stefan Ortega,29.0,0.0,Summer,2022/2023,Manchester City,stefan-ortega92
+165,Ben Davies,26.0,4700000.0,Summer,2022/2023,Rangers,ben-davies93
+166,Kalvin Phillips,26.0,49000000.0,Summer,2022/2023,Manchester City,kalvin-phillips95
+167,Erling Haaland,21.0,60000000.0,Summer,2022/2023,Manchester City,erling-haaland00
+176,Remi Matthews,29.0,0.0,Summer,2022/2023,Crystal Palace,remi-matthews94
+178,Marcus Tavernier,23.0,11900000.0,Summer,2022/2023,Bournemouth,marcus-tavernier99
+179,Marcos Senesi,25.0,15000000.0,Summer,2022/2023,Bournemouth,marcos-senesi97
+187,Joe Rothwell,27.0,0.0,Summer,2022/2023,Bournemouth,joe-rothwell95
+193,Matt Targett,26.0,17500000.0,Summer,2022/2023,Newcastle Utd,matt-targett95
+197,Ryan Fredericks,29.0,0.0,Summer,2022/2023,Bournemouth,ryan-fredericks92
+199,Aaron Hickey,20.0,16500000.0,Summer,2022/2023,Brentford,aaron-hickey02
+205,Ben Mee,32.0,0.0,Summer,2022/2023,Brentford,ben-mee89
+207,Mikkel Damsgaard,22.0,15000000.0,Summer,2022/2023,Brentford,mikkel-damsgaard00
+208,Keane Lewis-Potter,21.0,19000000.0,Summer,2022/2023,Brentford,keane-lewis-potter01
+209,Jack Stephens,28.0,0.0,Summer,2022/2023,Bournemouth,jack-stephens94
+222,Mattéo Guendouzi,23.0,11000000.0,Summer,2022/2023,Marseille,matteo-guendouzi99
+227,Reiss Nelson,22.0,0.0,Summer,2022/2023,Arsenal,reiss-nelson99
+231,Bernd Leno,30.0,3600000.0,Summer,2022/2023,Fulham,bernd-leno92
+235,Marquinhos,19.0,3500000.0,Summer,2022/2023,Arsenal,marquinhos03
+237,Fábio Vieira,22.0,35000000.0,Summer,2022/2023,Arsenal,fabio-vieira00
+238,Oleksandr Zinchenko,25.0,35000000.0,Summer,2022/2023,Arsenal,oleksandr-zinchenko96
+241,Konstantinos Mavropanos,24.0,3200000.0,Summer,2022/2023,Stuttgart,konstantinos-mavropanos97
+248,Jan Bednarek,26.0,0.0,Summer,2022/2023,Aston Villa,jan-bednarek96
+251,Robin Olsen,32.0,3500000.0,Summer,2022/2023,Aston Villa,robin-olsen90
+252,Philippe Coutinho,30.0,20000000.0,Summer,2022/2023,Aston Villa,philippe-coutinho92
+254,Diego Carlos,29.0,31000000.0,Summer,2022/2023,Aston Villa,diego-carlos93
+262,Halil Dervisoglu,22.0,0.0,Summer,2022/2023,Brentford,halil-dervisoglu99
+265,Armando Broja,20.0,0.0,Summer,2022/2023,Chelsea,armando-broja01
+267,Timo Werner,26.0,20000000.0,Summer,2022/2023,RB Leipzig,timo-werner96
+273,Conor Gallagher,22.0,0.0,Summer,2022/2023,Chelsea,conor-gallagher00
+275,Romelu Lukaku,29.0,8000000.0,Summer,2022/2023,Inter,romelu-lukaku93
+278,Carney Chukwuemeka,18.0,18000000.0,Summer,2022/2023,Chelsea,carney-chukwuemeka03
+286,Christian Eriksen,30.0,0.0,Summer,2022/2023,Manchester Utd,christian-eriksen92
+288,Malcolm Ebiowei,18.0,0.0,Summer,2022/2023,Crystal Palace,malcolm-ebiowei03
+289,Sam Johnstone,29.0,0.0,Summer,2022/2023,Crystal Palace,sam-johnstone93
+310,Shane Duffy,31.0,0.0,Summer,2022/2023,Brighton,shane-duffy92
+313,Levi Colwill,19.0,0.0,Summer,2022/2023,Brighton,levi-colwill03
+314,Simon Adingra,20.0,8000000.0,Summer,2022/2023,Brighton,simon-adingra02
+315,Billy Gilmour,21.0,10400000.0,Summer,2022/2023,Brighton,billy-gilmour01
+316,Julio Enciso,18.0,11600000.0,Summer,2022/2023,Brighton,julio-enciso04
+317,Pervis Estupiñán,24.0,17800000.0,Summer,2022/2023,Brighton,pervis-estupinan98
+330,Deniz Undav,25.0,0.0,Summer,2022/2023,Brighton,deniz-undav96
+332,Steven Alzate,23.0,0.0,Summer,2022/2023,Standard Liège,steven-alzate98
+345,Marc Cucurella,24.0,65300000.0,Summer,2022/2023,Chelsea,marc-cucurella98
+350,Amadou Onana,20.0,35000000.0,Summer,2022/2023,Everton,amadou-onana01
+351,Jesse Lingard,29.0,0.0,Summer,2022/2023,Nott'ham Forest,jesse-lingard92
+357,Albert Sambi Lokonga,23.0,0.0,Winter,2022/2023,Crystal Palace,albert-sambi-lokonga99
+358,Naouirou Ahamada,20.0,12000000.0,Winter,2022/2023,Crystal Palace,naouirou-ahamada02
+363,João Félix,23.0,11000000.0,Winter,2022/2023,Chelsea,joao-felix99
+364,David Datro Fofana,20.0,12000000.0,Winter,2022/2023,Chelsea,david-datro-fofana02
+366,Malo Gusto,19.0,30000000.0,Winter,2022/2023,Chelsea,malo-gusto03
+367,Noni Madueke,20.0,35000000.0,Winter,2022/2023,Chelsea,noni-madueke02
+369,Mykhaylo Mudryk,22.0,70000000.0,Winter,2022/2023,Chelsea,mykhailo-mudryk01
+371,Ellis Simms,21.0,0.0,Winter,2022/2023,Everton,ellis-simms01
+378,Weston McKennie,24.0,1250000.0,Winter,2022/2023,Leeds United,weston-mckennie98
+379,Maximilian Wöber,24.0,12000000.0,Winter,2022/2023,Leeds United,maximilian-wober98
+380,Georginio Rutter,20.0,28000000.0,Winter,2022/2023,Leeds United,georginio-rutter02
+387,Tyrese Francois,22.0,0.0,Winter,2022/2023,Fulham,tyrese-francois00
+388,Cédric Soares,31.0,0.0,Winter,2022/2023,Fulham,cedric-soares91
+394,Leandro Trossard,28.0,24000000.0,Winter,2022/2023,Arsenal,leandro-trossard94
+395,Harry Souttar,24.0,17000000.0,Winter,2022/2023,Leicester City,harry-souttar98
+399,Antoine Semenyo,23.0,10250000.0,Winter,2022/2023,Bournemouth,antoine-semenyo00
+401,Ilya Zabarnyi,20.0,22700000.0,Winter,2022/2023,Bournemouth,illia-zabarnyi02
+409,Bertrand Traoré,27.0,0.0,Winter,2022/2023,Aston Villa,bertrand-traore95
+411,Álex Moreno,29.0,13500000.0,Winter,2022/2023,Aston Villa,alex-moreno93
+412,Jhon Durán,19.0,16640000.0,Winter,2022/2023,Aston Villa,jhon-duran03
+420,Yasin Ayari,19.0,4000000.0,Winter,2022/2023,Brighton,yasin-ayari03
+421,Facundo Buonanotte,18.0,6000000.0,Winter,2022/2023,Brighton,facundo-buonanotte04
+431,Kevin Schade,21.0,1000000.0,Winter,2022/2023,Brentford,kevin-schade01
+438,Victor Kristiansen,20.0,14000000.0,Winter,2022/2023,Leicester City,victor-bernth-kristiansen02
+439,Jorginho,31.0,11300000.0,Winter,2022/2023,Arsenal,jorginho91
+445,Arnaut Danjuma,25.0,3000000.0,Winter,2022/2023,Tottenham,arnaut-danjuma97
+449,James Bree,25.0,0.0,Winter,2022/2023,Southampton,james-bree97
+451,Mislav Orsic,30.0,5750000.0,Winter,2022/2023,Southampton,mislav-orsic92
+452,Carlos Alcaraz,20.0,13650000.0,Winter,2022/2023,Southampton,carlos-alcaraz02
+453,Paul Onuachu,28.0,18000000.0,Winter,2022/2023,Southampton,paul-onuachu94
+459,Danny Ings,30.0,12000000.0,Winter,2022/2023,West Ham,danny-ings92
+460,Craig Dawson,32.0,3750000.0,Winter,2022/2023,Wolves,craig-dawson90
+466,Fábio Silva,20.0,0.0,Winter,2022/2023,PSV Eindhoven,fabio-silva02
+473,Ki-Jana Hoever,21.0,0.0,Winter,2022/2023,Wolves,ki-jana-hoever02
+475,Daniel Bentley,29.0,0.0,Winter,2022/2023,Wolves,daniel-bentley93
+477,Pablo Sarabia,30.0,5000000.0,Winter,2022/2023,Wolves,pablo-sarabia92
+479,João Gomes,21.0,18700000.0,Winter,2022/2023,Wolves,joao-gomes01
+483,Tetê,22.0,0.0,Winter,2022/2023,Leicester City,tete00
+487,Kobbie Mainoo,17.0,0.0,Winter,2022/2023,Manchester Utd,kobbie-mainoo05
+490,Wout Weghorst,30.0,2960000.0,Winter,2022/2023,Manchester Utd,wout-weghorst92
+495,Diego Rosa,20.0,0.0,Winter,2022/2023,Manchester City,diego-rosa02
+496,Máximo Perrone,20.0,11000000.0,Winter,2022/2023,Manchester City,maximo-perrone03
+498,Cody Gakpo,23.0,42000000.0,Winter,2022/2023,Liverpool,cody-gakpo99
+500,Ayoze Pérez,29.0,0.0,Winter,2022/2023,Betis,ayoze-perez93
+509,Alex Mighten,20.0,0.0,Winter,2022/2023,Nott'ham Forest,alex-mighten02
+510,André Ayew,33.0,0.0,Winter,2022/2023,Nott'ham Forest,andre-ayew89
+511,Chris Wood,31.0,0.0,Winter,2022/2023,Nott'ham Forest,chris-wood91
+513,Jonjo Shelvey,30.0,0.0,Winter,2022/2023,Nott'ham Forest,jonjo-shelvey92
+514,Gustavo Scarpa,28.0,0.0,Winter,2022/2023,Nott'ham Forest,gustavo-scarpa94
+515,Danilo,21.0,20000000.0,Winter,2022/2023,Nott'ham Forest,danilo91
+516,Anthony Gordon,21.0,45600000.0,Winter,2022/2023,Newcastle Utd,anthony-gordon01
+523,Garang Kuol,18.0,0.0,Winter,2022/2023,Newcastle Utd,garang-kuol04
+542,Serge Aurier,29.0,0.0,Summer,2022/2023,Nott'ham Forest,serge-aurier92
+550,Duje Caleta-Car,25.0,10000000.0,Summer,2022/2023,Southampton,duje-caleta-car96
+554,Samuel Edozie,19.0,0.0,Summer,2022/2023,Southampton,samuel-edozie03
+556,Juan Larios,18.0,7000000.0,Summer,2022/2023,Southampton,juan-larios04
+557,Joe Aribo,25.0,7100000.0,Summer,2022/2023,Southampton,joe-aribo96
+559,Roméo Lavia,18.0,12300000.0,Summer,2022/2023,Southampton,romeo-lavia04
+561,Sékou Mara,19.0,13000000.0,Summer,2022/2023,Southampton,sekou-mara02
+562,Gavin Bazunu,20.0,14000000.0,Summer,2022/2023,Southampton,gavin-bazunu02
+569,Wayne Hennessey,35.0,0.0,Summer,2022/2023,Nott'ham Forest,wayne-hennessey87
+576,Elliot Anderson,19.0,0.0,Summer,2022/2023,Newcastle Utd,elliot-anderson02
+578,Nick Pope,30.0,11500000.0,Summer,2022/2023,Newcastle Utd,nick-pope92
+590,Jakub Kiwior,22.0,25000000.0,Winter,2022/2023,Arsenal,jakub-kiwior00
+593,Harry Toffolo,26.0,2400000.0,Summer,2022/2023,Nott'ham Forest,harry-toffolo95
+594,Orel Mangala,24.0,13000000.0,Summer,2022/2023,Nott'ham Forest,orel-mangala98
+597,Renan Lodi,24.0,5000000.0,Summer,2022/2023,Nott'ham Forest,renan-lodi98
+599,Remo Freuler,30.0,9000000.0,Summer,2022/2023,Nott'ham Forest,remo-freuler92
+600,Lewis O'Brien,23.0,9400000.0,Summer,2022/2023,Nott'ham Forest,lewis-obrien98
+602,Moussa Niakhaté,26.0,10000000.0,Summer,2022/2023,Nott'ham Forest,moussa-niakhate96
+603,Emmanuel Dennis,24.0,14800000.0,Summer,2022/2023,Nott'ham Forest,emmanuel-dennis97
+605,Neco Williams,21.0,20000000.0,Summer,2022/2023,Nott'ham Forest,neco-williams01
+607,Morgan Gibbs-White,22.0,29500000.0,Summer,2022/2023,Nott'ham Forest,morgan-gibbs-white00
+615,Fraser Forster,34.0,0.0,Summer,2022/2023,Tottenham,fraser-forster88
+616,Matheus Nunes,23.0,45000000.0,Summer,2022/2023,Wolves,matheus-nunes98
+619,Bruno Jordão,23.0,0.0,Summer,2022/2023,Wolves,bruno-jordao98
+620,Boubacar Traoré,21.0,0.0,Summer,2022/2023,Wolves,boubacar-traore01
+623,Nathan Collins,21.0,24300000.0,Summer,2022/2023,Wolves,nathan-collins01
+624,Gonçalo Guedes,25.0,32600000.0,Summer,2022/2023,Wolves,goncalo-guedes96
+628,Nikola Vlasic,24.0,0.0,Summer,2022/2023,Torino,nikola-vlasic97
+652,Willy Boly,31.0,2600000.0,Summer,2022/2023,Nott'ham Forest,willy-boly91
+654,Leander Dendoncker,27.0,15000000.0,Summer,2022/2023,Aston Villa,leander-dendoncker95
+663,Djed Spence,21.0,14700000.0,Summer,2022/2023,Tottenham,djed-spence00
+665,Yves Bissouma,25.0,29200000.0,Summer,2022/2023,Tottenham,yves-bissouma96
+667,Richarlison,25.0,58000000.0,Summer,2022/2023,Tottenham,richarlison97
+677,Flynn Downes,23.0,10650000.0,Summer,2022/2023,West Ham,flynn-downes99
+682,Thilo Kehrer,25.0,12000000.0,Summer,2022/2023,West Ham,thilo-kehrer96
+684,Emerson,28.0,15400000.0,Summer,2022/2023,West Ham,emerson99
+685,Maxwel Cornet,25.0,20700000.0,Summer,2022/2023,West Ham,maxwel-cornet96
+686,Nayef Aguerd,26.0,35000000.0,Summer,2022/2023,West Ham,nayef-aguerd96
+688,Lucas Paquetá,25.0,42950000.0,Summer,2022/2023,West Ham,lucas-paqueta97
+692,Tanguy Ndombélé,25.0,500000.0,Summer,2022/2023,Napoli,tanguy-ndombele96
+694,Steven Bergwijn,24.0,31250000.0,Summer,2022/2023,Ajax,steven-bergwijn97
+695,Cameron Carter-Vickers,24.0,7000000.0,Summer,2022/2023,Celtic,cameron-carter-vickers97
+696,Pape Matar Sarr,19.0,0.0,Summer,2022/2023,Tottenham,pape-matar-sarr02
+702,Emirhan Ilkhan,18.0,4500000.0,Summer,2022/2023,Torino,emirhan-ilkhan04
+703,Brian Bayeye,22.0,750000.0,Summer,2022/2023,Torino,brian-bayeye00
+705,Yann Karamoh,24.0,0.0,Summer,2022/2023,Torino,yann-karamoh98
+711,Bremer,25.0,41000000.0,Summer,2022/2023,Juventus,gleison-bremer97
+716,Pietro Pellegri,21.0,5000000.0,Summer,2022/2023,Torino,pietro-pellegri01
+717,Samuele Ricci,20.0,8500000.0,Summer,2022/2023,Torino,samuele-ricci01
+718,Perr Schuurs,22.0,9000000.0,Summer,2022/2023,Torino,perr-schuurs99
+728,Ivor Pandur,22.0,0.0,Summer,2022/2023,Fortuna Sittard,ivor-pandur00
+736,Abdou Harroui,24.0,3000000.0,Summer,2022/2023,Sassuolo,abdou-harroui98
+739,Kristian Thorstvedt,23.0,10000000.0,Summer,2022/2023,Sassuolo,kristian-thorstvedt99
+741,Matheus Henrique,24.0,8000000.0,Summer,2022/2023,Sassuolo,matheus-henrique97
+742,Emil Konradsen Ceide,20.0,3000000.0,Summer,2022/2023,Sassuolo,emil-ceide01
+747,Luca D'Andrea,17.0,0.0,Summer,2022/2023,Sassuolo,luca-dandrea04
+750,Gianluca Scamacca,23.0,36000000.0,Summer,2022/2023,West Ham,gianluca-scamacca99
+751,Tommaso Pobega,22.0,0.0,Summer,2022/2023,Milan,tommaso-pobega99
+759,Marko Pjaca,27.0,0.0,Summer,2022/2023,Juventus,marko-pjaca95
+790,Nicolò Cambiaghi,21.0,0.0,Summer,2022/2023,Empoli,nicolo-cambiaghi00
+807,Alessandro Cortinovis,21.0,0.0,Summer,2022/2023,Hellas Verona,alessandro-cortinovis01
+808,Filippo Terracciano,19.0,0.0,Summer,2022/2023,Hellas Verona,filippo-terracciano03
+810,Nicolò Casale,24.0,7000000.0,Summer,2022/2023,Lazio,nicolo-casale98
+814,Giovanni Simeone,26.0,10500000.0,Summer,2022/2023,Hellas Verona,giovanni-simeone95
+824,Yayah Kallon,21.0,0.0,Summer,2022/2023,Hellas Verona,yayah-kallon01
+828,Simone Perilli,27.0,0.0,Summer,2022/2023,Hellas Verona,simone-perilli95
+831,Lorenzo Montipò,26.0,1000000.0,Summer,2022/2023,Hellas Verona,lorenzo-montipo96
+832,Isak Hien,23.0,3200000.0,Summer,2022/2023,Hellas Verona,isak-hien99
+833,Josh Doig,20.0,3600000.0,Summer,2022/2023,Hellas Verona,josh-doig02
+834,Martin Hongla,24.0,3700000.0,Summer,2022/2023,Hellas Verona,martin-hongla98
+835,Juan Cabal,21.0,4000000.0,Summer,2022/2023,Hellas Verona,juan-david-cabal01
+836,Gianluca Caprari,28.0,5000000.0,Summer,2022/2023,Hellas Verona,gianluca-caprari93
+837,Thomas Henry,27.0,5000000.0,Summer,2022/2023,Hellas Verona,thomas-henry94
+841,Mattias Svanberg,23.0,9000000.0,Summer,2022/2023,Wolfsburg,mattias-svanberg99
+845,Antonio Raimondo,18.0,0.0,Summer,2022/2023,Bologna,antonio-raimondo04
+858,Charalampos Lykogiannis,28.0,0.0,Summer,2022/2023,Bologna,charalambos-lykogiannis93
+861,Joaquín Sosa,20.0,1700000.0,Summer,2022/2023,Bologna,joaquin-sosa02
+862,Lewis Ferguson,22.0,3500000.0,Summer,2022/2023,Bologna,lewis-ferguson99
+863,Michel Aebischer,25.0,4000000.0,Summer,2022/2023,Bologna,michel-aebischer97
+865,Jhon Lucumí,24.0,8000000.0,Summer,2022/2023,Bologna,jhon-lucumi98
+866,Joshua Zirkzee,21.0,8500000.0,Summer,2022/2023,Bologna,joshua-zirkzee01
+876,Sebastian Walukiewicz,22.0,0.0,Summer,2022/2023,Empoli,sebastian-walukiewicz00
+878,Samuele Perisan,24.0,0.0,Summer,2022/2023,Empoli,samuele-perisan97
+879,Alberto Grassi,27.0,0.0,Summer,2022/2023,Empoli,alberto-grassi95
+886,Koni De Winter,20.0,0.0,Summer,2022/2023,Empoli,koni-de-winter02
+887,Jacopo Fazzini,19.0,0.0,Summer,2022/2023,Empoli,jacopo-fazzini03
+888,Duccio Degli Innocenti,19.0,0.0,Summer,2022/2023,Empoli,duccio-deglinnocenti03
+891,Mattia Destro,31.0,0.0,Summer,2022/2023,Empoli,mattia-destro91
+892,Tyronne Ebuehi,26.0,0.0,Summer,2022/2023,Empoli,tyronne-ebuehi95
+894,Razvan Marin,26.0,1000000.0,Summer,2022/2023,Empoli,razvan-marin96
+895,Petar Stojanovic,26.0,1200000.0,Summer,2022/2023,Empoli,petar-stojanovic95
+896,Liberato Cacace,21.0,3000000.0,Summer,2022/2023,Empoli,liberato-cacace00
+897,Guglielmo Vicario,25.0,8500000.0,Summer,2022/2023,Empoli,guglielmo-vicario96
+904,Andri Fannar Baldursson,20.0,0.0,Summer,2022/2023,NEC Nijmegen,andri-fannar-baldursson02
+959,Destiny Udogie,19.0,18000000.0,Summer,2022/2023,Tottenham,destiny-udogie02
+960,Nahuel Molina,24.0,20000000.0,Summer,2022/2023,Atlético Madrid,nahuel-molina98
+961,Simone Pafundi,16.0,0.0,Summer,2022/2023,Udinese,simone-pafundi06
+965,Sandi Lovric,24.0,0.0,Summer,2022/2023,Udinese,sandi-lovric98
+966,Festy Ebosele,19.0,0.0,Summer,2022/2023,Udinese,festy-ebosele02
+967,Axel Guessand,17.0,0.0,Summer,2022/2023,Udinese,axel-guessand04
+968,Kingsley Ehizibue,27.0,1500000.0,Summer,2022/2023,Udinese,kingsley-ehizibue95
+969,Leonardo Buta,20.0,2000000.0,Summer,2022/2023,Udinese,leonardo-buta02
+972,Enzo Ebosse,23.0,4000000.0,Summer,2022/2023,Udinese,enzo-ebosse99
+973,Adam Masina,28.0,5000000.0,Summer,2022/2023,Udinese,adam-masina94
+983,Andrea Petagna,27.0,2500000.0,Summer,2022/2023,Monza,andrea-petagna95
+984,Sebastiano Luperto,25.0,500000.0,Summer,2022/2023,Empoli,sebastiano-luperto96
+997,Kalidou Koulibaly,31.0,38000000.0,Summer,2022/2023,Chelsea,kalidou-koulibaly91
+1002,Giacomo Raspadori,22.0,5000000.0,Summer,2022/2023,Napoli,giacomo-raspadori00
+1003,Leo Östigard,22.0,5000000.0,Summer,2022/2023,Napoli,leo-skiri-ostigard99
+1004,Khvicha Kvaratskhelia,21.0,10000000.0,Summer,2022/2023,Napoli,khvicha-kvaratskhelia01
+1006,André Zambo Anguissa,26.0,15000000.0,Summer,2022/2023,Napoli,andre-frank-zambo-anguissa95
+1007,Min-jae Kim,25.0,18050000.0,Summer,2022/2023,Napoli,kim-min-jae96
+1016,Denis Zakaria,25.0,3000000.0,Summer,2022/2023,Chelsea,denis-zakaria96
+1033,Merih Demiral,24.0,20000000.0,Summer,2022/2023,Atalanta,merih-demiral98
+1035,Fabio Miretti,18.0,0.0,Summer,2022/2023,Juventus,fabio-miretti03
+1036,Matías Soulé,19.0,0.0,Summer,2022/2023,Juventus,matias-soule03
+1038,Paul Pogba,29.0,0.0,Summer,2022/2023,Juventus,paul-pogba93
+1041,Andrea Cambiaso,22.0,8500000.0,Summer,2022/2023,Juventus,andrea-cambiaso00
+1042,Filip Kostic,29.0,12000000.0,Summer,2022/2023,Juventus,filip-kostic92
+1047,Sebastiano Esposito,20.0,0.0,Summer,2022/2023,Anderlecht,sebastiano-esposito02
+1056,Mattia Caldara,28.0,0.0,Summer,2022/2023,Spezia,mattia-caldara94
+1057,Daniel Maldini,20.0,0.0,Summer,2022/2023,Spezia,daniel-maldini01
+1060,Lorenzo Colombo,20.0,0.0,Summer,2022/2023,Lecce,lorenzo-colombo02
+1064,Joaquín Correa,27.0,23600000.0,Summer,2022/2023,Inter,joaquin-correa94
+1065,Alessio Romagnoli,27.0,0.0,Summer,2022/2023,Lazio,alessio-romagnoli95
+1068,Leroy Abanda,22.0,0.0,Summer,2022/2023,R.F.C. Seraing,leroy-abanda00
+1076,Divock Origi,27.0,0.0,Summer,2022/2023,Milan,divock-origi95
+1077,Aster Vranckx,19.0,2000000.0,Summer,2022/2023,Milan,aster-vranckx02
+1078,Alessandro Florenzi,31.0,2700000.0,Summer,2022/2023,Milan,alessandro-florenzi91
+1079,Junior Messias,31.0,4500000.0,Summer,2022/2023,Milan,junior-messias91
+1080,Malick Thiaw,21.0,7000000.0,Summer,2022/2023,Milan,malick-thiaw01
+1081,Charles De Ketelaere,21.0,32000000.0,Summer,2022/2023,Milan,charles-de-ketelaere01
+1083,Kristjan Asllani,20.0,4000000.0,Summer,2022/2023,Inter,kristjan-asllani02
+1084,Raoul Bellanova,22.0,3000000.0,Summer,2022/2023,Inter,raoul-bellanova00
+1090,Zinho Vanheusden,22.0,0.0,Summer,2022/2023,AZ Alkmaar,zinho-vanheusden99
+1091,Valentino Lazaro,26.0,0.0,Summer,2022/2023,Torino,valentino-lazaro96
+1092,Andrea Pinamonti,23.0,0.0,Summer,2022/2023,Sassuolo,andrea-pinamonti99
+1101,Henrikh Mkhitaryan,33.0,0.0,Summer,2022/2023,Inter,henrikh-mkhitaryan89
+1103,Ivan Perisic,33.0,0.0,Summer,2022/2023,Tottenham,ivan-perisic89
+1104,Matías Vecino,30.0,0.0,Summer,2022/2023,Lazio,matias-vecino91
+1108,Lorenzo Pirola,20.0,900000.0,Summer,2022/2023,Salernitana,lorenzo-pirola02
+1110,Michele Di Gregorio,24.0,4000000.0,Summer,2022/2023,Monza,michele-di-gregorio97
+1111,Valentín Carboni,17.0,0.0,Summer,2022/2023,Inter,valentin-carboni05
+1113,Mattia Zanotti,19.0,0.0,Summer,2022/2023,Inter,mattia-zanotti03
+1114,Francesco Acerbi,34.0,0.0,Summer,2022/2023,Inter,francesco-acerbi88
+1115,André Onana,26.0,0.0,Summer,2022/2023,Inter,andre-onana96
+1117,Luís Maximiano,23.0,10100000.0,Summer,2022/2023,Lazio,luis-maximiano99
+1128,Jacob Rasmussen,25.0,0.0,Summer,2022/2023,Feyenoord,jacob-rasmussen97
+1141,Federico Chiesa,24.0,40000000.0,Summer,2022/2023,Juventus,federico-chiesa97
+1142,Alessandro Bianco,19.0,0.0,Summer,2022/2023,Fiorentina,alessandro-bianco02
+1146,Rolando Mandragora,25.0,8199999.999999999,Summer,2022/2023,Fiorentina,rolando-mandragora97
+1147,Dodô,23.0,14500000.0,Summer,2022/2023,Fiorentina,dodo98
+1149,Ainsley Maitland-Niles,24.0,0.0,Summer,2022/2023,Arsenal,ainsley-maitland-niles97
+1153,Marcos Antônio,22.0,7500000.0,Summer,2022/2023,Lazio,marcos-antonio00
+1162,Jérémie Boga,25.0,22000000.0,Summer,2022/2023,Atalanta,jeremie-boga97
+1172,Rodrigo Guth,21.0,1000000.0,Summer,2022/2023,Fortuna Sittard,rodrigo-guth00
+1179,Cristian Romero,24.0,50000000.0,Summer,2022/2023,Tottenham,cristian-romero98
+1182,Brandon Soppy,20.0,9000000.0,Summer,2022/2023,Atalanta,brandon-soppy02
+1183,Rasmus Höjlund,19.0,17000000.0,Summer,2022/2023,Atalanta,rasmus-hojlund03
+1190,Luiz Felipe,25.0,0.0,Summer,2022/2023,Betis,luiz-felipe97
+1193,Bobby Adekanye,23.0,0.0,Summer,2022/2023,Go Ahead Eag,bobby-adekanye99
+1199,Sofian Kiyine,24.0,0.0,Summer,2022/2023,OH Leuven,sofian-kiyine97
+1211,Vedat Muriqi,28.0,7700000.0,Summer,2022/2023,Mallorca,vedat-muriqi94
+1213,Marco Bertini,19.0,0.0,Summer,2022/2023,Lazio,marco-bertini02
+1214,Matteo Cancellieri,20.0,0.0,Summer,2022/2023,Lazio,matteo-cancellieri02
+1218,Mario Gila,21.0,6000000.0,Summer,2022/2023,Lazio,mario-gila00
+1220,Mattia Zaccagni,27.0,7100000.0,Summer,2022/2023,Lazio,mattia-zaccagni95
+1232,Tommaso Milanese,19.0,750000.0,Summer,2022/2023,Cremonese,tommaso-milanese02
+1235,Amadou Diawara,25.0,1500000.0,Summer,2022/2023,Anderlecht,amadou-diawara97
+1242,Pau López,27.0,12000000.0,Summer,2022/2023,Marseille,pau-lopez94
+1244,Mile Svilar,22.0,0.0,Summer,2022/2023,Roma,mile-svilar99
+1245,Nemanja Matić,33.0,0.0,Summer,2022/2023,Roma,nemanja-matic88
+1246,Paulo Dybala,28.0,0.0,Summer,2022/2023,Roma,paulo-dybala93
+1247,Andrea Belotti,28.0,0.0,Summer,2022/2023,Roma,andrea-belotti93
+1250,Jovane Cabral,24.0,0.0,Summer,2022/2023,Sporting CP,jovane-cabral98
+1254,Jean-Daniel Akpa Akpro,29.0,0.0,Summer,2022/2023,Empoli,jean-daniel-akpa-akpro92
+1259,Ola Solbakken,24.0,0.0,Winter,2022/2023,Roma,ola-solbakken98
+1260,Benjamin Tahirovic,19.0,0.0,Winter,2022/2023,Roma,benjamin-tahirovic03
+1262,Eldor Shomurodov,27.0,1500000.0,Winter,2022/2023,Spezia,eldor-shomurodov95
+1263,Matías Viña,25.0,0.0,Winter,2022/2023,Bournemouth,matias-vina97
+1265,Antonin Barak,28.0,8500000.0,Winter,2022/2023,Fiorentina,antonin-barak94
+1267,Abdelhamid Sabiri,26.0,2500000.0,Winter,2022/2023,Fiorentina,abdelhamid-sabiri96
+1273,Diego Llorente,29.0,0.0,Winter,2022/2023,Roma,diego-llorente93
+1278,Diego González,20.0,0.0,Winter,2022/2023,Lazio,diego-gonzalez95
+1283,Samuel Iling Junior,19.0,0.0,Winter,2022/2023,Juventus,samuel-iling-junior03
+1288,Alessandro Zanoli,22.0,0.0,Winter,2022/2023,Sampdoria,alessandro-zanoli00
+1294,Oliver Abildgaard,26.0,0.0,Winter,2022/2023,Hellas Verona,oliver-abildgaard96
+1295,Cyril Ngonge,22.0,0.0,Winter,2022/2023,Hellas Verona,cyril-ngonge00
+1297,Jayden Braaf,20.0,0.0,Winter,2022/2023,Hellas Verona,jayden-braaf02
+1302,Koray Günter,28.0,0.0,Winter,2022/2023,Sampdoria,koray-gunter94
+1308,Adolfo Gaich,23.0,0.0,Winter,2022/2023,Hellas Verona,adolfo-gaich99
+1313,Nadir Zortea,23.0,0.0,Winter,2022/2023,Sassuolo,nadir-zortea99
+1320,Lukas Vorlicky,20.0,0.0,Winter,2022/2023,Atalanta,lukas-vorlicky02
+1322,Pierluigi Gollini,27.0,0.0,Winter,2022/2023,Atalanta,pierluigi-gollini95
+1325,Salvatore Sirigu,36.0,0.0,Winter,2022/2023,Fiorentina,salvatore-sirigu87
+1327,Gianluca Gaetano,22.0,0.0,Summer,2022/2023,Napoli,gianluca-gaetano00
+1328,Nicolò Rovella,20.0,0.0,Summer,2022/2023,Monza,nicolo-rovella01
+1329,Andrea Ranocchia,34.0,0.0,Summer,2022/2023,Monza,andrea-ranocchia88
+1330,Mattia Valoti,28.0,0.0,Summer,2022/2023,Monza,mattia-valoti93
+1333,Armando Izzo,30.0,0.0,Summer,2022/2023,Monza,armando-izzo92
+1334,Pablo Marí,28.0,0.0,Summer,2022/2023,Monza,pablo-mari93
+1335,Filippo Ranocchia,21.0,0.0,Summer,2022/2023,Monza,filippo-ranocchia01
+1338,Matteo Pessina,25.0,0.0,Summer,2022/2023,Monza,matteo-pessina97
+1339,Stefano Sensi,26.0,0.0,Summer,2022/2023,Monza,stefano-sensi95
+1340,Marlon,26.0,0.0,Summer,2022/2023,Monza,marlon95
+1343,Warren Bondo,18.0,0.0,Summer,2022/2023,Monza,warren-bondo03
+1344,Alessio Cragno,28.0,400000.0,Summer,2022/2023,Monza,alessio-cragno94
+1346,Samuele Birindelli,22.0,1500000.0,Summer,2022/2023,Monza,samuele-birindelli99
+1347,Valentin Antov,21.0,2000000.0,Summer,2022/2023,Monza,valentin-antov00
+1352,Andrea Carboni,21.0,4000000.0,Summer,2022/2023,Monza,andrea-carboni01
+1355,Marco Carnesecchi,21.0,0.0,Summer,2022/2023,Atalanta,marco-carnesecchi00
+1357,Caleb Okoli,20.0,0.0,Summer,2022/2023,Atalanta,caleb-okoli01
+1358,Leonardo Sernicola,24.0,0.0,Summer,2022/2023,Sassuolo,leonardo-sernicola97
+1359,Nicolò Fagioli,21.0,0.0,Summer,2022/2023,Juventus,nicolo-fagioli01
+1372,Franco Carboni,19.0,0.0,Winter,2022/2023,Monza,franco-carboni03
+1385,Andrea Colpani,23.0,0.0,Summer,2022/2023,Atalanta,andrea-colpani99
+1395,Roberto Piccoli,22.0,0.0,Winter,2022/2023,Atalanta,roberto-piccoli01
+1397,Ivan Ilić,21.0,0.0,Winter,2022/2023,Torino,ivan-ilic01
+1398,Domen Crnigoj,27.0,0.0,Winter,2022/2023,Salernitana,domen-crnigoj95
+1401,Aimar Sher,20.0,0.0,Winter,2022/2023,Groningen,aimar-sher02
+1403,Leandro Sanca,23.0,0.0,Winter,2022/2023,Famalicão,leandro-sanca00
+1404,William Troost-Ekong,29.0,0.0,Winter,2022/2023,Salernitana,william-troost-ekong93
+1405,Guillermo Ochoa,37.0,0.0,Winter,2022/2023,Salernitana,guillermo-ochoa85
+1407,Hans Nicolussi Caviglia,22.0,0.0,Winter,2022/2023,Salernitana,hans-nicolussi-caviglia00
+1418,Federico Marchetti,39.0,0.0,Winter,2022/2023,Spezia,federico-marchetti83
+1419,Salvatore Esposito,22.0,0.0,Winter,2022/2023,Spezia,salvatore-esposito00
+1420,Szymon Zurkowski,25.0,0.0,Winter,2022/2023,Spezia,szymon-zurkowski97
+1421,João Moutinho,24.0,0.0,Winter,2022/2023,Spezia,joao-moutinho98
+1422,Tio Cipot,19.0,0.0,Winter,2022/2023,Spezia,tio-cipot03
+1424,Raimonds Krollis,21.0,1500000.0,Winter,2022/2023,Spezia,raimonds-krollis01
+1425,Przemyslaw Wisniewski,24.0,4000000.0,Winter,2022/2023,Spezia,przemyslaw-wisniewski98
+1428,Bartosz Bereszynski,30.0,0.0,Winter,2022/2023,Napoli,bartosz-bereszynski92
+1453,Marco Benassi,28.0,0.0,Winter,2022/2023,Cremonese,marco-benassi94
+1461,Pietro Ceccaroni,27.0,0.0,Winter,2022/2023,Lecce,pietro-ceccaroni95
+1462,Simone Romagnoli,32.0,0.0,Winter,2022/2023,Lecce,simone-romagnoli90
+1463,Tommaso Cassandro,23.0,0.0,Winter,2022/2023,Lecce,tommaso-cassandro00
+1464,Youssef Maleh,24.0,0.0,Winter,2022/2023,Lecce,youssef-maleh98
+1465,Ronaldo Vieira,24.0,0.0,Winter,2022/2023,Torino,ronaldo-vieira98
+1467,Alex Ferrari,28.0,0.0,Winter,2022/2023,Cremonese,alex-ferrari94
+1472,Florian Thauvin,30.0,0.0,Winter,2022/2023,Udinese,florian-thauvin93
+1473,Vivaldo,17.0,0.0,Winter,2022/2023,Udinese,vivaldo-semedo05
+1474,Jean-Victor Makengo,24.0,11000000.0,Winter,2022/2023,Lorient,jean-victor-makengo98
+1475,Bram Nuytinck,32.0,0.0,Winter,2022/2023,Sampdoria,bram-nuytinck90
+1480,Niklas Pyyhtiä,19.0,0.0,Winter,2022/2023,Bologna,niklas-pyyhtia03
+1482,Gianmarco Cangiano,21.0,0.0,Winter,2022/2023,Fortuna Sittard,gianmarco-cangiano01
+1483,Hamed Junior Traorè,22.0,0.0,Winter,2022/2023,Bournemouth,hamed-junior-traore00
+1490,Nedim Bajrami,23.0,0.0,Winter,2022/2023,Sassuolo,nedim-bajrami99
+1498,Sasa Lukic,26.0,9100000.0,Winter,2022/2023,Fulham,sasa-lukic96
+1499,Gvidas Gineitis,18.0,0.0,Winter,2022/2023,Torino,gvidas-gineitis04
+1502,Emanuel Vignato,22.0,0.0,Winter,2022/2023,Empoli,emanuel-vignato00
+1510,Flavio Paoletti,19.0,0.0,Winter,2022/2023,Sampdoria,flavio-paoletti03
+1511,Jesé,29.0,0.0,Winter,2022/2023,Sampdoria,jese93
+1512,Marios Oikonomou,30.0,0.0,Winter,2022/2023,Sampdoria,marios-oikonomou92
+1514,Martin Turk,19.0,0.0,Winter,2022/2023,Sampdoria,martin-turk03
+1538,Tomás Rincón,34.0,0.0,Summer,2022/2023,Torino,tomas-rincon88
+1539,Kevin Agudelo,23.0,2700000.0,Summer,2022/2023,Spezia,kevin-agudelo98
+1540,Bartlomiej Dragowski,24.0,2000000.0,Summer,2022/2023,Spezia,bartlomiej-drągowski97
+1541,Arkadiusz Reca,27.0,2000000.0,Summer,2022/2023,Spezia,arkadiusz-reca95
+1542,Mehdi Bourabia,30.0,1500000.0,Summer,2022/2023,Spezia,mehdi-bourabia91
+1543,Albin Ekdal,32.0,0.0,Summer,2022/2023,Spezia,albin-ekdal89
+1544,Ethan Ampadu,21.0,0.0,Summer,2022/2023,Spezia,ethan-ampadu00
+1550,Ivan Provedel,28.0,2000000.0,Summer,2022/2023,Lazio,ivan-provedel94
+1558,Giangiacomo Magnani,26.0,0.0,Summer,2022/2023,Hellas Verona,giangiacomo-magnani95
+1563,Kristoffer Askildsen,21.0,0.0,Summer,2022/2023,Lecce,kristoffer-askildsen01
+1564,Wladimiro Falcone,27.0,0.0,Summer,2022/2023,Lecce,wladimiro-falcone95
+1576,Giulio Maggiore,24.0,4500000.0,Summer,2022/2023,Salernitana,giulio-maggiore98
+1577,Emil Bohinen,23.0,3250000.0,Summer,2022/2023,Salernitana,emil-bohinen99
+1579,Diego Valencia,22.0,2500000.0,Summer,2022/2023,Salernitana,diego-valencia00
+1581,Dylan Bronn,27.0,1000000.0,Summer,2022/2023,Salernitana,dylan-bronn95
+1583,Pasquale Mazzocchi,26.0,1000000.0,Summer,2022/2023,Salernitana,pasquale-mazzocchi95
+1584,Boulaye Dia,25.0,1000000.0,Summer,2022/2023,Salernitana,boulaye-dia96
+1587,Matteo Lovato,22.0,7000000.0,Summer,2022/2023,Salernitana,matteo-lovato00
+1588,Viktor Kovalenko,26.0,0.0,Summer,2022/2023,Atalanta,viktor-kovalenko96
+1593,Martin Erlic,24.0,0.0,Summer,2022/2023,Sassuolo,martin-erlic98
+1600,Janis Antiste,20.0,0.0,Summer,2022/2023,Sassuolo,janis-antiste02
+1604,Fabio Depaoli,25.0,0.0,Summer,2022/2023,Hellas Verona,fabio-depaoli97
+1606,Antonio Candreva,35.0,0.0,Summer,2022/2023,Salernitana,antonio-candreva87
+1617,Riccardo Marchizza,24.0,0.0,Summer,2022/2023,Sassuolo,riccardo-marchizza98
+1640,Valerio Verre,28.0,0.0,Summer,2022/2023,Sampdoria,valerio-verre94
+1653,Federico Bonazzoli,25.0,5000000.0,Summer,2022/2023,Salernitana,federico-bonazzoli97
+1656,Lorenzo Malagrida,18.0,0.0,Summer,2022/2023,Sampdoria,lorenzo-malagrida03
+1657,Gerard Yepes,19.0,0.0,Summer,2022/2023,Sampdoria,gerard-yepes02
+1658,Francesco Caputo,34.0,3500000.0,Summer,2022/2023,Sampdoria,francesco-caputo87
+1660,Bruno Amione,20.0,0.0,Summer,2022/2023,Sampdoria,bruno-amione02
+1661,Ignacio Pussetto,26.0,0.0,Summer,2022/2023,Sampdoria,ignacio-pussetto95
+1662,Harry Winks,26.0,0.0,Summer,2022/2023,Sampdoria,harry-winks96
+1665,Telasco Segovia,19.0,0.0,Summer,2022/2023,Sampdoria,telasco-segovia03
+1670,Filip Djuricic,30.0,0.0,Summer,2022/2023,Sampdoria,filip-duricic92
+1673,Grigoris Kastanos,24.0,300000.0,Summer,2022/2023,Salernitana,grigoris-kastanos98
+1676,Felix Afena-Gyan,19.0,6000000.0,Summer,2022/2023,Cremonese,felix-afena-gyan03
+1682,Cyriel Dessers,27.0,6500000.0,Summer,2022/2023,Cremonese,cyriel-dessers94
+1683,Charles Pickel,25.0,3800000.0,Summer,2022/2023,Cremonese,charles-pickel97
+1684,Joan González,20.0,0.0,Summer,2022/2023,Lecce,joan-gonzalez02
+1685,Emanuel Aiwu,21.0,3500000.0,Summer,2022/2023,Cremonese,emanuel-aiwum00
+1686,Giacomo Quagliata,22.0,2000000.0,Summer,2022/2023,Cremonese,giacomo-quagliata00
+1687,Luka Lochoshvili,24.0,1600000.0,Summer,2022/2023,Cremonese,luka-lochoshvili98
+1688,Frank Tsadjout,22.0,850000.0,Summer,2022/2023,Cremonese,frank-tsadjout99
+1690,Jack Hendry,27.0,600000.0,Summer,2022/2023,Cremonese,jack-hendry95
+1708,Johan Vásquez,23.0,500000.0,Summer,2022/2023,Cremonese,johan-vasquez98
+1712,Erik Botheim,22.0,0.0,Summer,2022/2023,Salernitana,erik-botheim00
+1727,David Okereke,24.0,0.0,Summer,2022/2023,Cremonese,david-okereke97
+1735,Soualiho Meïté,28.0,0.0,Summer,2022/2023,Cremonese,soualiho-meite94
+1738,Maissa Ndiaye,20.0,0.0,Summer,2022/2023,Cremonese,moussa-ndiaye02
+1739,Vlad Chiriches,32.0,0.0,Summer,2022/2023,Cremonese,vlad-chiriches89
+1740,Paolo Ghiglione,25.0,0.0,Summer,2022/2023,Cremonese,paolo-ghiglione97
+1763,Milan Djuric,32.0,0.0,Summer,2022/2023,Hellas Verona,milan-duric90
+1772,Éderson,22.0,21000000.0,Summer,2022/2023,Atalanta,ederson99
+1776,Luigi Sepe,31.0,0.0,Summer,2022/2023,Salernitana,luigi-sepe91
+1780,Federico Di Francesco,28.0,500000.0,Summer,2022/2023,Lecce,federico-di-francesco94
+1782,Giuseppe Pezzella,24.0,0.0,Summer,2022/2023,Lecce,giuseppe-pezzella97
+1792,Assan Ceesay,28.0,0.0,Summer,2022/2023,Lecce,assan-ceesay94
+1793,Kristijan Bistrovic,24.0,300000.0,Summer,2022/2023,Lecce,kristijan-bistrovic98
+1794,Federico Baschirotto,25.0,350000.0,Summer,2022/2023,Lecce,federico-baschirotto96
+1795,Rémi Oudin,25.0,0.0,Summer,2022/2023,Lecce,remi-oudin96
+1796,Joel Voelkerling Persson,19.0,800000.0,Summer,2022/2023,Lecce,joel-voelkerling-persson03
+1798,Lameck Banda,21.0,2000000.0,Summer,2022/2023,Lecce,lameck-banda01
+1799,Matteo Ruggeri,19.0,0.0,Summer,2022/2023,Atalanta,matteo-ruggeri02
+1802,Luca Ranieri,23.0,0.0,Summer,2022/2023,Fiorentina,luca-ranieri99
+1807,Simone Verdi,29.0,0.0,Summer,2022/2023,Torino,simone-verdi92
+1825,Danila Prokhin,21.0,0.0,Summer,2022/2023,Rostov,danila-prokhin01
+1829,Kirill Shchetinin,20.0,250000.0,Summer,2022/2023,Rostov,kirill-shchetinin02
+1834,Anton Zinkovskiy,26.0,3200000.0,Summer,2022/2023,Spartak Moscow,anton-zinkovskiy96
+1835,Christopher Martins Pereira,25.0,6400000.0,Summer,2022/2023,Spartak Moscow,christopher-martins97
+1845,Kirill Folmer,22.0,0.0,Summer,2022/2023,Akhmat Grozny,kirill-folmer00
+1851,Aleksey Mironov,22.0,250000.0,Summer,2022/2023,Rostov,aleksey-mironov00
+1852,Daniil Utkin,22.0,3000000.0,Summer,2022/2023,Rostov,daniil-utkin99
+1854,Vladislav Shitov,19.0,0.0,Summer,2022/2023,Samara,vladislav-shitov03
+1855,Roman Evgenjev,23.0,25000.0,Summer,2022/2023,Samara,roman-yevgenyev99
+1857,Georgiy Zotov,32.0,0.0,Summer,2022/2023,Samara,georgi-zotov90
+1858,Ilya Gaponov,24.0,281000.0,Summer,2022/2023,Samara,ilya-gaponov97
+1859,Vladimir Khubulov,21.0,430000.0,Summer,2022/2023,Samara,vladimir-khubulov01
+1860,Mateo Barac,27.0,500000.0,Summer,2022/2023,Samara,mateo-barac94
+1861,Aleksandar Cirkovic,20.0,550000.0,Summer,2022/2023,Samara,aleksandar-cirkovic01
+1862,Amar Rahmanovic,28.0,750000.0,Summer,2022/2023,Samara,amar-rahmanovic94
+1868,Vladislav Karapuzov,22.0,0.0,Summer,2022/2023,Dynamo Mosc,vladislav-karapuzov00
+1872,Sergey Babkin,19.0,0.0,Summer,2022/2023,Samara,sergey-babkin02
+1884,Sergey Bozhin,27.0,0.0,Summer,2022/2023,Fakel Voronezh,sergei-bozhin94
+1893,Miha Mevlja,32.0,0.0,Summer,2022/2023,Spartak Moscow,miha-mevlja90
+1895,Keita Baldé,27.0,0.0,Summer,2022/2023,Spartak Moscow,keita-balde95
+1897,Momo Yansane,25.0,0.0,Summer,2022/2023,Nizhny Novgorod,momo-yansane97
+1899,Ilya Zhigulev,26.0,0.0,Summer,2022/2023,Nizhny Novgorod,ilya-zhigulyov96
+1900,Daniil Kornyushin,20.0,0.0,Summer,2022/2023,Nizhny Novgorod,daniil-kornyushin01
+1902,Edgar Sevikyan,20.0,0.0,Summer,2022/2023,Nizhny Novgorod,edgar-sevikyan01
+1903,Vyacheslav Krotov,29.0,0.0,Summer,2022/2023,Nizhny Novgorod,vyacheslav-krotov93
+1904,Elmir Nabiullin,27.0,0.0,Summer,2022/2023,Nizhny Novgorod,elmir-nabiullin95
+1905,Mamadou Maiga,27.0,250000.0,Summer,2022/2023,Nizhny Novgorod,mamadou-maiga95
+1906,David Kobesov,22.0,300000.0,Summer,2022/2023,Nizhny Novgorod,david-kobesov00
+1910,Stepan Oganesyan,20.0,0.0,Summer,2022/2023,Orenburg,stepan-oganesyan01
+1911,Fanil Sungatulin,20.0,0.0,Summer,2022/2023,Ural,fanil-sungatulin01
+1914,Konstantin Shiltsov,20.0,0.0,Summer,2022/2023,Nizhny Novgorod,konstantin-shiltsov02
+1924,Ivan Miladinovic,27.0,0.0,Summer,2022/2023,Sochi,ivan-miladinovic94
+1940,Reziuan Mirzov,29.0,0.0,Summer,2022/2023,Spartak Moscow,reziuan-mirzov93
+1942,Oston Urunov,21.0,0.0,Summer,2022/2023,Spartak Moscow,oston-urunov00
+1947,Daniil Denisov,19.0,0.0,Summer,2022/2023,Spartak Moscow,daniil-denisov02
+1952,Vitaliy Shitov,19.0,0.0,Summer,2022/2023,Spartak Moscow,vitaly-shitov03
+1969,Ilya Kutepov,28.0,0.0,Summer,2022/2023,Torpedo Moscow,ilya-kutepov93
+1974,Guus Til,24.0,3000000.0,Summer,2022/2023,PSV Eindhoven,guus-til97
+1975,Ezequiel Ponce,25.0,4000000.0,Summer,2022/2023,Elche,ezequiel-ponce97
+1977,Vitaliy Gudiev,27.0,0.0,Summer,2022/2023,FC Khimki,vitali-gudiyev95
+1984,Nikola Moro,24.0,1500000.0,Summer,2022/2023,Bologna,nikola-moro98
+1985,Nikolay Komlichenko,27.0,1500000.0,Summer,2022/2023,Rostov,nikolay-komlichenko95
+1990,Luka Gagnidze,19.0,0.0,Summer,2022/2023,Dynamo Mosc,luka-gagnidze03
+1993,Yaroslav Gladyshev,19.0,0.0,Summer,2022/2023,Dynamo Mosc,yaroslav-gladyshev03
+1994,Eli Dasa,29.0,0.0,Summer,2022/2023,Dynamo Mosc,eli-dasa92
+1995,Mathias Normann,26.0,1000000.0,Summer,2022/2023,Dynamo Mosc,mathias-normann96
+1996,Nicolas Moumi Ngamaleu,28.0,2000000.0,Summer,2022/2023,Dynamo Mosc,moumi-ngamaleu94
+2001,Tonny Vilhena,27.0,2500000.0,Summer,2022/2023,Espanyol,tonny-vilhena95
+2007,Younes Namli,28.0,0.0,Summer,2022/2023,Krasnodar,younes-namli94
+2009,Ilzat Akhmetov,24.0,0.0,Summer,2022/2023,Krasnodar,ilzat-akhmetov97
+2011,Ifeanyi David Nduka,18.0,200000.0,Summer,2022/2023,Krasnodar,ifeanyi-nduka03
+2012,Jonathan Okoronkwo,18.0,400000.0,Summer,2022/2023,Krasnodar,jonathan-okoronkwo03
+2014,Olakunle Olusegun,20.0,1200000.0,Summer,2022/2023,Krasnodar,olakunle-olusegun02
+2016,Mihajlo Banjac,22.0,1600000.0,Summer,2022/2023,Krasnodar,mihajlo-banjac99
+2018,Roberto Fernández,22.0,3000000.0,Summer,2022/2023,Dynamo Mosc,roberto-fernandez00
+2019,Nicolás Marichal,21.0,4200000.0,Summer,2022/2023,Dynamo Mosc,nicolas-marichal01
+2022,Artem Meshchaninov,26.0,500000.0,Summer,2022/2023,Sochi,artyom-meshchaninov96
+2023,Aleksandr Kovalenko,18.0,600000.0,Summer,2022/2023,Sochi,aleksandr-kovalenko03
+2024,Kirill Kravtsov,20.0,835000.0,Summer,2022/2023,Sochi,kirill-kravtsov02
+2025,Vladislav Sarveli,24.0,1200000.0,Summer,2022/2023,Sochi,vladislav-sarveli97
+2028,Stanislav Kritsyuk,31.0,0.0,Summer,2022/2023,Gil Vicente FC,stanislav-kritsyuk90
+2035,Gustavo Mantuan,21.0,0.0,Summer,2022/2023,Zenit,gustavo-mantuan01
+2036,Zelimkhan Bakaev,26.0,0.0,Summer,2022/2023,Zenit,zelimkhan-bakayev96
+2038,Mateo Cassierra,25.0,4500000.0,Summer,2022/2023,Zenit,mateo-cassierra97
+2039,Moussa Sissako,21.0,300000.0,Summer,2022/2023,Sochi,moussa-sissako00
+2040,Kirill Ushatov,22.0,0.0,Summer,2022/2023,Sochi,kirill-ushatov00
+2041,Amir Batyrev,20.0,0.0,Summer,2022/2023,Sochi,amir-batyrev02
+2042,Rodrigão,26.0,3500000.0,Summer,2022/2023,Zenit,rodrigao95
+2051,Daniil Martovoy,19.0,0.0,Summer,2022/2023,Sochi,daniil-martovoy03
+2058,Timofey Shipunov,18.0,0.0,Summer,2022/2023,Sochi,timofey-shipunov03
+2059,Leo Goglichidze,25.0,210000.0,Summer,2022/2023,Ural,leo-goglichidze97
+2060,Yuriy Gazinskiy,33.0,0.0,Summer,2022/2023,Ural,yuri-gazinskiy89
+2064,Artur Chernyi,21.0,0.0,Summer,2022/2023,FC Khimki,artur-chyorny00
+2065,Maciej Rybus,32.0,0.0,Summer,2022/2023,Spartak Moscow,maciej-rybus89
+2067,Alexis Beka Beka,21.0,12000000.0,Summer,2022/2023,Nice,alexis-beka-beka01
+2071,Ivan Ignatjev,23.0,0.0,Summer,2022/2023,Loko Moscow,ivan-ignatyev99
+2073,Marko Rakonjac,22.0,2500000.0,Summer,2022/2023,Loko Moscow,marko-rakonjac00
+2074,Mario Mitaj,19.0,3000000.0,Summer,2022/2023,Loko Moscow,mario-mitaj03
+2075,Lucas Fasson,21.0,3000000.0,Summer,2022/2023,Loko Moscow,lucas-fasson01
+2076,Pedrinho,22.0,3500000.0,Summer,2022/2023,Loko Moscow,pedrinho99
+2092,Vladimir Iljin,30.0,0.0,Summer,2022/2023,Akhmat Grozny,vladimir-ilyin92
+2093,Ivan Oleynikov,23.0,0.0,Summer,2022/2023,Akhmat Grozny,ivan-oleinikov98
+2094,Mikhail Oparin,29.0,200000.0,Summer,2022/2023,Akhmat Grozny,mikhail-oparin93
+2095,Darko Todorovic,25.0,400000.0,Summer,2022/2023,Akhmat Grozny,darko-todorovic97
+2096,Vladislav Kamilov,27.0,750000.0,Summer,2022/2023,Akhmat Grozny,vladislav-kamilov95
+2097,Yuri Zhuravlev,26.0,800000.0,Summer,2022/2023,Akhmat Grozny,yuri-zhuravlyov96
+2098,Gamid Agalarov,21.0,3500000.0,Summer,2022/2023,Akhmat Grozny,gamid-agalarov00
+2105,Nikita Ermakov,19.0,0.0,Summer,2022/2023,CSKA Moscow,nikita-ermakov03
+2110,Milan Gajić,26.0,0.0,Summer,2022/2023,CSKA Moscow,milan-gajic96
+2111,Sasa Zdjelar,27.0,500000.0,Summer,2022/2023,CSKA Moscow,sasa-zdjelar95
+2112,Moisés,27.0,1000000.0,Summer,2022/2023,CSKA Moscow,moises95
+2115,Jorge Carrascal,24.0,6000000.0,Summer,2022/2023,CSKA Moscow,jorge-carrascal98
+2135,Jaka Bijol,23.0,4000000.0,Summer,2022/2023,Udinese,jaka-bijol99
+2156,Maksim Glushenkov,23.0,2600000.0,Winter,2022/2023,Loko Moscow,maksim-glushenkov99
+2163,Kirill Bozhenov,22.0,0.0,Winter,2022/2023,Rostov,kirill-bozhenov00
+2174,Alexis Duarte,22.0,4000000.0,Winter,2022/2023,Spartak Moscow,alexis-duarte00
+2185,Nikolay Rasskazov,25.0,0.0,Winter,2022/2023,Samara,nikolai-rasskazov98
+2188,Germán Conti,28.0,0.0,Winter,2022/2023,Loko Moscow,german-conti94
+2190,Ilya Lantratov,27.0,0.0,Winter,2022/2023,Loko Moscow,ilya-lantratov95
+2192,Sergey Pinyaev,18.0,2600000.0,Winter,2022/2023,Loko Moscow,sergey-pinyaev04
+2205,Artem Dzyuba,34.0,0.0,Winter,2022/2023,Loko Moscow,artem-dzyuba88
+2207,Gyrano Kerk,27.0,0.0,Winter,2022/2023,Antwerp,gyrano-kerk95
+2208,Minkail Matsuev,23.0,0.0,Winter,2022/2023,Akhmat Grozny,minkail-matsuev00
+2209,Benjamín Garré,22.0,1700000.0,Winter,2022/2023,Samara,benjamin-garre00
+2218,Bi Nene Junior Gbamble,20.0,0.0,Winter,2022/2023,Akhmat Grozny,nene-gbamble02
+2219,Zaim Divanovic,22.0,0.0,Winter,2022/2023,Akhmat Grozny,zaim-divanovic00
+2220,Milos Satara,27.0,0.0,Winter,2022/2023,Akhmat Grozny,milos-satara95
+2231,Jajá,21.0,0.0,Winter,2022/2023,Torpedo Moscow,jaja01
+2232,Yordy Reyna,29.0,0.0,Winter,2022/2023,Torpedo Moscow,yordy-reyna93
+2233,Ilya Kukharchuk,32.0,0.0,Winter,2022/2023,Torpedo Moscow,ilya-kukharchuk90
+2235,Roman Yuzepchuk,25.0,0.0,Winter,2022/2023,Torpedo Moscow,roman-yuzepchuk97
+2236,Ilya Stefanovich,26.0,0.0,Winter,2022/2023,Torpedo Moscow,ilya-stefanovich96
+2248,Viktor Aleksandrov,20.0,0.0,Winter,2022/2023,Nizhny Novgorod,viktor-aleksandrov02
+2254,Vladimir Pisarskiy,26.0,1350000.0,Winter,2022/2023,Samara,vladimir-pisarskiy96
+2255,Vladimir Obukhov,30.0,0.0,Winter,2022/2023,Orenburg,vladimir-obukhov92
+2256,Danila Khotulev,20.0,0.0,Winter,2022/2023,Orenburg,danila-khotulev02
+2257,Matías Pérez,23.0,1000000.0,Winter,2022/2023,Orenburg,matias-perez99
+2263,Réda Rabeï,28.0,0.0,Winter,2022/2023,Fakel Voronezh,reda-rabei94
+2280,Ilya Agapov,21.0,1300000.0,Winter,2022/2023,CSKA Moscow,ilya-agapov01
+2282,Vladislav Yakovlev,20.0,0.0,Winter,2022/2023,Nizhny Novgorod,vladislav-yakovlev02
+2283,Artem Sokolov,19.0,0.0,Winter,2022/2023,Nizhny Novgorod,artem-sokolov03
+2286,Denis Glushakov,36.0,0.0,Winter,2022/2023,Nizhny Novgorod,denis-glushakov87
+2291,Petar Golubovic,28.0,0.0,Winter,2022/2023,FC Khimki,petar-golubovic94
+2296,Marcos Guilherme,27.0,0.0,Winter,2022/2023,FC Khimki,marcos-guilherme95
+2297,Janio Bikel,27.0,0.0,Winter,2022/2023,FC Khimki,janio-bikel95
+2298,Nikola Antic,29.0,0.0,Winter,2022/2023,FC Khimki,nikola-antic94
+2299,Lev Skvortsov,23.0,0.0,Winter,2022/2023,FC Khimki,lev-skvortsov00
+2301,Stefan Melentijevic,18.0,0.0,Winter,2022/2023,FC Khimki,stefan-melentijevic04
+2302,Lachezar Kotev,25.0,0.0,Winter,2022/2023,FC Khimki,lachezar-kotev98
+2308,Vyacheslav Yakimov,24.0,0.0,Winter,2022/2023,Fakel Voronezh,vyacheslav-yakimov98
+2327,Kemal Ademi,26.0,0.0,Summer,2022/2023,FC Khimki,kemal-ademi96
+2336,Mihail Caimacov,24.0,0.0,Summer,2022/2023,Torpedo Moscow,mihail-caimacov98
+2338,Márk Koszta,25.0,0.0,Summer,2022/2023,Torpedo Moscow,mark-koszta96
+2339,Dzambolat Tsallagov,22.0,0.0,Summer,2022/2023,Torpedo Moscow,dzambolat-tsallagov00
+2341,Artem Simonyan,27.0,0.0,Summer,2022/2023,Torpedo Moscow,artem-simonyan95
+2342,Damien Le Tallec,32.0,0.0,Summer,2022/2023,Torpedo Moscow,damien-le-tallec90
+2343,Igor Smolnikov,33.0,0.0,Summer,2022/2023,Torpedo Moscow,igor-smolnikov88
+2346,Stefan Sapic,25.0,300000.0,Summer,2022/2023,Torpedo Moscow,stefan-sapic97
+2347,Bojan Roganovic,21.0,300000.0,Summer,2022/2023,Torpedo Moscow,bojan-roganovic00
+2348,Mario Curic,23.0,400000.0,Summer,2022/2023,Torpedo Moscow,mario-curic98
+2349,Igor Savic,21.0,500000.0,Summer,2022/2023,Torpedo Moscow,igor-savic00
+2351,Mory Gbane,21.0,0.0,Summer,2022/2023,FC Khimki,mory-gbane00
+2357,Ivan Kuzmichev,21.0,1200000.0,Summer,2022/2023,Loko Moscow,ivan-kuzmichev00
+2369,Júnior Alonso,29.0,0.0,Winter,2022/2023,Krasnodar,junior-alonso93
+2373,Aleksandr Lomovitskiy,24.0,0.0,Summer,2022/2023,FC Khimki,aleksandr-lomovitskiy98
+2375,Zakhar Volkov,24.0,0.0,Summer,2022/2023,FC Khimki,zakhar-volkov97
+2378,Anton Mitryushkin,26.0,0.0,Summer,2022/2023,FC Khimki,anton-mitryushkin96
+2380,Aleksandr Zuev,26.0,0.0,Summer,2022/2023,FC Khimki,aleksandr-zuyev96
+2410,Diego Acosta,19.0,0.0,Summer,2022/2023,Orenburg,diego-acosta02
+2411,Aleksandr Pavlovets,25.0,150000.0,Summer,2022/2023,Orenburg,aleksandr-pavlovets96
+2412,Kirill Kaplenko,23.0,200000.0,Summer,2022/2023,Orenburg,kirill-kaplenko99
+2415,Jimmy Marín,24.0,490000.0,Summer,2022/2023,Orenburg,jimmy-marin97
+2416,Nuraly Alip,23.0,2000000.0,Winter,2022/2023,Zenit,nuraly-alip99
+2419,Moses David Cobnan,20.0,1000000.0,Winter,2022/2023,Krasnodar,moses-david-cobnan02
+2420,Kady Borges,26.0,2000000.0,Winter,2022/2023,Krasnodar,kady-borges96
+2422,Guillermo Varela,29.0,0.0,Winter,2022/2023,Dynamo Mosc,guillermo-varela93
+2423,Milan Majstorovic,18.0,1200000.0,Winter,2022/2023,Dynamo Mosc,milan-majstorovic05
+2430,Dejan Lovren,33.0,2000000.0,Winter,2022/2023,Lyon,dejan-lovren89
+2432,Aleksandr Vasyutin,27.0,0.0,Winter,2022/2023,Zenit,aleksandr-vasyutin95
+2433,Robert Renan,19.0,0.0,Winter,2022/2023,Zenit,robert-renan03
+2437,Daniil Chernyakov,21.0,0.0,Summer,2022/2023,Fakel Voronezh,daniil-chernyakov01
+2438,Ilnur Alshin,28.0,120000.0,Summer,2022/2023,Fakel Voronezh,ilnur-alshin93
+2443,Ivan Basic,20.0,550000.0,Summer,2022/2023,Orenburg,ivan-basic02
+2455,Georgi Gongadze,26.0,0.0,Summer,2022/2023,Fakel Voronezh,georgi-gongadze96
+2457,Irakli Kvekveskiri,32.0,0.0,Summer,2022/2023,Fakel Voronezh,irakli-kvekveskiri90
+2459,Gabriel Florentín,23.0,2200000.0,Summer,2022/2023,Orenburg,gabriel-florentin99
+2468,Evgeni Morozov,21.0,0.0,Summer,2022/2023,Fakel Voronezh,evgeni-morozov01
+2472,Evgeniy Shlyakov,30.0,0.0,Summer,2022/2023,Fakel Voronezh,yevgeni-shlyakov91
+2481,Gustavo Sá,17.0,0.0,Summer,2022/2023,Famalicão,gustavo-sa04
+2483,Santiago Colombatto,25.0,0.0,Summer,2022/2023,Famalicão,santiago-colombatto97
+2489,André Simões,32.0,0.0,Summer,2022/2023,Famalicão,andre-simoes89
+2490,Rui Fonte,32.0,0.0,Summer,2022/2023,Famalicão,rui-fonte90
+2491,Martín Aguirregabiria,26.0,0.0,Summer,2022/2023,Famalicão,martin-agirregabiria96
+2492,Théo Fonseca,22.0,0.0,Summer,2022/2023,Famalicão,theo-fonseca00
+2493,Enea Mihaj,24.0,200000.0,Summer,2022/2023,Famalicão,enea-mihaj98
+2495,Zaydou Youssouf,23.0,1000000.0,Summer,2022/2023,Famalicão,zaydou-youssouf99
+2527,Pedro Álvaro,22.0,0.0,Summer,2022/2023,Estoril,pedro-alvaro00
+2529,Victor Bobsin,22.0,0.0,Summer,2022/2023,Santa Clara,victor-bobsin00
+2530,Gabriel Batista,24.0,0.0,Summer,2022/2023,Santa Clara,gabriel-batista98
+2531,Adriano,22.0,0.0,Summer,2022/2023,Santa Clara,adriano99
+2532,João Marcos,22.0,0.0,Summer,2022/2023,Santa Clara,joao-marcos00
+2533,Diogo Calila,23.0,250000.0,Summer,2022/2023,Santa Clara,diogo-calila98
+2535,Rildo,22.0,1250000.0,Summer,2022/2023,Santa Clara,rildo00
+2545,Falaye Sacko,27.0,500000.0,Summer,2022/2023,Montpellier,falaye-sacko95
+2547,Jhonatan,31.0,600000.0,Summer,2022/2023,Rio Ave,jhonatan91
+2551,Abdul Mumin,24.0,1500000.0,Summer,2022/2023,Rayo Vallecano,abdul-mumin98
+2552,Andrezinho,25.0,0.0,Summer,2022/2023,Santa Clara,andrezinho96
+2568,Filip Stevanovic,19.0,0.0,Summer,2022/2023,Santa Clara,filip-stevanovic02
+2569,Pedro Bicalho,21.0,0.0,Summer,2022/2023,Santa Clara,pedro-bicalho01
+2571,Matheus Babi,25.0,0.0,Summer,2022/2023,Santa Clara,matheus-babi97
+2573,MT,21.0,0.0,Summer,2022/2023,Santa Clara,mt01
+2575,Ítalo,20.0,0.0,Summer,2022/2023,Santa Clara,italo02
+2578,Rodrigo Martins,23.0,0.0,Summer,2022/2023,Estoril,rodrigo-martins98
+2579,Tiago Araújo,21.0,0.0,Summer,2022/2023,Estoril,tiago-araujo01
+2581,Rafael Brito,20.0,0.0,Summer,2022/2023,Marítimo,rafael-brito02
+2600,Ali Alipour,26.0,0.0,Summer,2022/2023,Gil Vicente FC,ali-alipour95
+2602,André Teles,25.0,0.0,Summer,2022/2023,Marítimo,andre-teles97
+2603,Percy Liza,22.0,0.0,Summer,2022/2023,Marítimo,percy-liza00
+2604,Geny Catamo,21.0,0.0,Summer,2022/2023,Marítimo,geny-catamo01
+2623,Stephen Eustaquio,25.0,3500000.0,Summer,2022/2023,Porto,stephen-eustaquio96
+2634,Lucho Vega,23.0,0.0,Summer,2022/2023,Marítimo,luciano-vega99
+2635,Rodrigo Valente,21.0,0.0,Summer,2022/2023,Santa Clara,rodrigo-valente01
+2637,André Franco,24.0,4000000.0,Summer,2022/2023,Porto,andre-franco98
+2639,João Carlos,27.0,0.0,Summer,2022/2023,Estoril,joao-carlos95
+2640,Elias Achouri,23.0,0.0,Summer,2022/2023,Estoril,elias-achouri99
+2641,Benchimol,20.0,0.0,Summer,2022/2023,Estoril,gilson-benchimol01
+2643,Volnei,22.0,0.0,Summer,2022/2023,Estoril,volnei-feltes00
+2644,Sérginho,21.0,0.0,Summer,2022/2023,Estoril,serginho01
+2645,Tiago Santos,20.0,0.0,Summer,2022/2023,Estoril,tiago-santos02
+2646,Alejandro Marqués,21.0,0.0,Summer,2022/2023,Estoril,alejandro-marques00
+2647,Tiago Gouveia,21.0,0.0,Summer,2022/2023,Estoril,tiago-gouveia01
+2648,Erison,23.0,0.0,Summer,2022/2023,Estoril,erison99
+2649,João Carvalho,25.0,0.0,Summer,2022/2023,Estoril,joao-carvalho97
+2650,Gonçalo Esteves,18.0,0.0,Summer,2022/2023,Estoril,goncalo-esteves04
+2652,Mabrouk Rouaï,21.0,0.0,Summer,2022/2023,Estoril,mabrouk-rouai00
+2653,Shaquil Delos,23.0,0.0,Summer,2022/2023,Estoril,shaquil-delos99
+2655,Mor Ndiaye,21.0,0.0,Summer,2022/2023,Estoril,mor-ndiaye00
+2656,Mexer,33.0,0.0,Summer,2022/2023,Estoril,mexer88
+2663,Pablo Moreno,20.0,0.0,Summer,2022/2023,Marítimo,pablo-moreno02
+2664,Joel Soñora,25.0,0.0,Summer,2022/2023,Marítimo,joel-sonora96
+2665,João Afonso,27.0,0.0,Summer,2022/2023,Marítimo,joao-afonso-crispim95
+2666,Matous Trmal,23.0,50000.0,Summer,2022/2023,Marítimo,matous-trmal98
+2700,Gonzalo Plata,21.0,3000000.0,Summer,2022/2023,Valladolid,gonzalo-plata00
+2723,António Silva,18.0,0.0,Summer,2022/2023,Benfica,antonio-silva03
+2724,Samuel Soares,20.0,0.0,Summer,2022/2023,Benfica,samuel-soares02
+2725,Henrique Araújo,20.0,0.0,Summer,2022/2023,Benfica,henrique-araujo02
+2731,Alexander Bah,24.0,8000000.0,Summer,2022/2023,Benfica,alexander-bah97
+2732,João Victor,23.0,9500000.0,Summer,2022/2023,Benfica,joao-victor98
+2734,Fredrik Aursnes,26.0,13000000.0,Summer,2022/2023,Benfica,fredrik-aursnes95
+2735,David Neres,25.0,15300000.0,Summer,2022/2023,Benfica,david-neres97
+2742,Carraça,29.0,0.0,Summer,2022/2023,Gil Vicente FC,carraca93
+2748,Francisco Conceição,19.0,5000000.0,Summer,2022/2023,Ajax,francisco-conceicao02
+2761,Marko Grujic,26.0,9000000.0,Summer,2022/2023,Porto,marko-grujic96
+2762,Gabriel Veron,19.0,10500000.0,Summer,2022/2023,Porto,gabriel-veron02
+2763,David Carmo,22.0,20000000.0,Summer,2022/2023,Porto,david-carmo99
+2776,José Marsà,20.0,0.0,Summer,2022/2023,Sporting CP,jose-marsa02
+2777,Flávio Nazinho,18.0,0.0,Summer,2022/2023,Sporting CP,flavio-nazinho03
+2778,Rodrigo Ribeiro,17.0,0.0,Summer,2022/2023,Sporting CP,rodrigo-ribeiro05
+2780,Mateus Fernandes,17.0,0.0,Summer,2022/2023,Sporting CP,mateus-fernandes04
+2781,Franco Israel,22.0,650000.0,Summer,2022/2023,Sporting CP,franco-israel00
+2782,Rochinha,27.0,2000000.0,Summer,2022/2023,Sporting CP,rochinha95
+2783,Francisco Trincão,22.0,3000000.0,Summer,2022/2023,Sporting CP,francisco-trincao99
+2784,Hidemasa Morita,27.0,3800000.0,Summer,2022/2023,Sporting CP,hidemasa-morita95
+2786,Sotiris Alexandropoulos,20.0,4500000.0,Summer,2022/2023,Sporting CP,sotiris-alexandropoulos01
+2787,Pedro Porro,22.0,8500000.0,Summer,2022/2023,Sporting CP,pedro-porro99
+2789,Rúben Vinagre,23.0,10000000.0,Summer,2022/2023,Sporting CP,ruben-vinagre99
+2791,Chiquinho,26.0,0.0,Summer,2022/2023,Benfica,chiquinho95
+2801,Né Lopes,22.0,0.0,Summer,2022/2023,Gil Vicente FC,ne-lopes00
+2804,Mizuki Arai,25.0,0.0,Summer,2022/2023,Gil Vicente FC,mizuki-arai97
+2806,Tomás Araújo,20.0,0.0,Summer,2022/2023,Gil Vicente FC,tomas-araujo02
+2810,Danilo Veiga,19.0,0.0,Summer,2022/2023,Gil Vicente FC,danilo-veiga02
+2812,Pedro Tiba,33.0,0.0,Summer,2022/2023,Gil Vicente FC,pedro-tiba88
+2814,Adrián Marín,25.0,0.0,Summer,2022/2023,Gil Vicente FC,adrian-marin97
+2815,Juan Manuel Boselli,22.0,50000.0,Summer,2022/2023,Gil Vicente FC,juan-manuel-boselli99
+2825,André André,32.0,0.0,Summer,2022/2023,Vitória,andre-andre89
+2828,Celton Biai,21.0,0.0,Summer,2022/2023,Vitória,celton-biai00
+2829,Afonso Freitas,22.0,0.0,Summer,2022/2023,Vitória,afonso-freitas00
+2830,Mamadou Tounkara,20.0,0.0,Summer,2022/2023,Vitória,mamadou-tounkara01
+2833,Ryoya Ogawa,25.0,0.0,Summer,2022/2023,Vitória,ryoya-ogawa96
+2835,Mikel Villanueva,29.0,0.0,Summer,2022/2023,Vitória,mikel-villanueva93
+2836,Jota Silva,22.0,190000.0,Summer,2022/2023,Vitória,jota-silva99
+2838,Zé Carlos,20.0,300000.0,Summer,2022/2023,Vitória,ze-carlos01
+2840,André Silva,25.0,1000000.0,Summer,2022/2023,Vitória,andre-silva95
+2843,Kanya Fujimoto,23.0,600000.0,Summer,2022/2023,Gil Vicente FC,kanya-fujimoto99
+2857,Jan Vertonghen,35.0,0.0,Summer,2022/2023,Anderlecht,jan-vertonghen87
+2865,Jota,23.0,7300000.0,Summer,2022/2023,Celtic,jota99
+2867,Roman Yaremchuk,26.0,16000000.0,Summer,2022/2023,Club Brugge,roman-yaremchuk95
+2868,Darwin Núñez,23.0,75000000.0,Summer,2022/2023,Liverpool,darwin-nunez99
+2870,Simon Banza,25.0,3000000.0,Summer,2022/2023,Braga,simon-banza96
+2871,Serdar Saatci,19.0,1500000.0,Summer,2022/2023,Braga,serdar-saatci03
+2877,Mario González,26.0,0.0,Summer,2022/2023,OH Leuven,mario-gonzalez96
+2887,Cristián Borja,29.0,0.0,Summer,2022/2023,Braga,cristian-borja93
+2893,Álvaro Djaló,22.0,0.0,Summer,2022/2023,Braga,alvaro-djalo99
+2894,Sikou Niakaté,22.0,0.0,Summer,2022/2023,Braga,sikou-niakate99
+2906,Pizzi,33.0,0.0,Winter,2022/2023,Braga,pizzi89
+2907,Joe Mendes,20.0,1500000.0,Winter,2022/2023,Braga,joe-mendes02
+2908,Paulo Bernardo,21.0,0.0,Winter,2022/2023,Paços,paulo-bernardo02
+2915,Yony González,28.0,0.0,Winter,2022/2023,Portimonense,yony-gonzalez94
+2920,Tomás Tavares,21.0,2000000.0,Winter,2022/2023,Spartak Moscow,tomas-tavares01
+2922,Enzo Fernández,22.0,121000000.0,Winter,2022/2023,Chelsea,enzo-fernandez01
+2927,Patrick,24.0,0.0,Winter,2022/2023,Santa Clara,patrick93
+2931,Ygor Nogueira,27.0,0.0,Winter,2022/2023,Santa Clara,ygor-nogueira95
+2932,Kento Misao,26.0,0.0,Winter,2022/2023,Santa Clara,kento-misao96
+2933,Walter González,27.0,0.0,Winter,2022/2023,Santa Clara,walter-gonzalez95
+2935,Gonçalo Nogueira,19.0,0.0,Winter,2022/2023,Vitória,goncalo-nogueira03
+2938,Gabriel Pereira,22.0,0.0,Winter,2022/2023,Gil Vicente FC,gabriel-pereira00
+2946,Roan Wilson,20.0,0.0,Winter,2022/2023,Gil Vicente FC,roan-wilson02
+2948,Depú,23.0,0.0,Winter,2022/2023,Gil Vicente FC,depu00
+2965,Sandro Cruz,21.0,0.0,Summer,2022/2023,Chaves,sandro-cruz01
+2968,Luther Singh,25.0,0.0,Summer,2022/2023,Chaves,luther-singh97
+2969,Ponck,27.0,0.0,Summer,2022/2023,Chaves,carlos-ponck95
+2970,Nélson Monte,26.0,0.0,Summer,2022/2023,Chaves,nelson-monte95
+2971,Eduardo Borges,20.0,0.0,Summer,2022/2023,Chaves,eduardo-borges00
+2973,Habib Sylla,23.0,0.0,Summer,2022/2023,Chaves,habib-sylla99
+2975,Euller,27.0,0.0,Summer,2022/2023,Chaves,euller95
+2979,Mateo Tanlongo,19.0,0.0,Winter,2022/2023,Sporting CP,mateo-tanlongo03
+2980,João Neves,18.0,0.0,Winter,2022/2023,Benfica,joao-neves04
+2982,Casper Tengstedt,22.0,7000000.0,Winter,2022/2023,Benfica,casper-tengstedt00
+2983,Andreas Schjelderup,18.0,9000000.0,Winter,2022/2023,Benfica,andreas-schjelderup04
+2989,Chermiti,18.0,0.0,Winter,2022/2023,Sporting CP,youssef-chermiti04
+2992,Ousmane Diomande,19.0,7500000.0,Winter,2022/2023,Sporting CP,ousmane-diomande03
+2996,Bernardo Folha,20.0,0.0,Winter,2022/2023,Porto,bernardo-folha02
+3008,Pedro Ortiz,22.0,0.0,Winter,2022/2023,Vizela,pedro-ortiz00
+3009,Matías Lacava,20.0,0.0,Winter,2022/2023,Vizela,matias-lacava02
+3022,Wagner,23.0,0.0,Winter,2022/2023,Portimonense,wagner99
+3023,Maurício,34.0,0.0,Winter,2022/2023,Portimonense,mauricio88
+3025,Sérgio Conceição,26.0,0.0,Winter,2022/2023,Portimonense,sergio-conceicao96
+3031,Benji Michel,25.0,0.0,Winter,2022/2023,Arouca,benji-michel97
+3032,Felippe Cardoso,24.0,0.0,Winter,2022/2023,Casa Pia,felippe-cardoso98
+3034,João Pedro,29.0,0.0,Winter,2022/2023,Chaves,joao-pedro93
+3042,Beni,20.0,0.0,Winter,2022/2023,Casa Pia,beni02
+3044,Weverson,22.0,0.0,Winter,2022/2023,Arouca,weverson00
+3049,Bruno Ventura,21.0,0.0,Winter,2022/2023,Rio Ave,bruno-ventura01
+3053,Thiago Silva,26.0,0.0,Winter,2022/2023,Arouca,thiago-silva84
+3054,Yusuf Lawal,24.0,0.0,Winter,2022/2023,Arouca,yusuf-lawal98
+3059,Renê Santos,30.0,0.0,Winter,2022/2023,Marítimo,rene-santos92
+3060,Val Soares,25.0,0.0,Winter,2022/2023,Marítimo,val-soares97
+3061,Giorgi Makaridze,32.0,0.0,Winter,2022/2023,Marítimo,giorgi-makaridze90
+3070,Carlos Eduardo,26.0,0.0,Winter,2022/2023,Estoril,carlos-eduardo96
+3071,João Gamboa,26.0,0.0,Winter,2022/2023,Estoril,joao-gamboa96
+3072,Cassiano,33.0,0.0,Winter,2022/2023,Estoril,cassiano89
+3076,Pablo,18.0,0.0,Winter,2022/2023,Famalicão,pablo04
+3082,Marcelo Carné,32.0,0.0,Winter,2022/2023,Marítimo,marcelo-carne90
+3083,Félix Correia,22.0,0.0,Winter,2022/2023,Marítimo,felix-correia01
+3084,Paulinho,31.0,0.0,Winter,2022/2023,Marítimo,paulinho00
+3097,Brayan Riascos,28.0,0.0,Winter,2022/2023,Marítimo,brayan-riascos94
+3107,Léo Andrade,24.0,0.0,Winter,2022/2023,FC Khimki,leo-andrade98
+3108,Steven Vitória,35.0,0.0,Summer,2022/2023,Chaves,steven-vitoria87
+3109,Yuki Soma,25.0,0.0,Winter,2022/2023,Casa Pia,yuki-soma97
+3110,Hélder Morim,21.0,0.0,Summer,2022/2023,Chaves,helder-morim01
+3111,Rui Gomes,24.0,0.0,Summer,2022/2023,Portimonense,rui-gomes97
+3121,Beto,24.0,7000000.0,Summer,2022/2023,Udinese,beto98
+3123,Henrique,27.0,0.0,Summer,2022/2023,Portimonense,henrique94
+3127,Bruno Reis,22.0,0.0,Summer,2022/2023,Portimonense,bruno-reis99
+3128,Paulo Estrela,23.0,0.0,Summer,2022/2023,Portimonense,paulo-estrela-moreira99
+3133,Bryan Róchez,27.0,0.0,Summer,2022/2023,Portimonense,bryan-rochez95
+3134,Gonçalo Costa,22.0,0.0,Summer,2022/2023,Portimonense,goncalo-costa00
+3140,Pedro Silva,25.0,0.0,Summer,2022/2023,Estoril,joao-pedro-silva99
+3147,Monsuru Opeyemi,18.0,0.0,Summer,2022/2023,Vizela,monsuru-opeyemi03
+3148,Hugo Oliveira,20.0,0.0,Summer,2022/2023,Vizela,hugo-oliveira02
+3153,Alexander Schmidt,24.0,0.0,Summer,2022/2023,Vizela,alexander-schmidt98
+3154,Matheus Pereira,21.0,0.0,Summer,2022/2023,Vizela,matheus-pereira00
+3155,Fabijan Buntic,25.0,0.0,Summer,2022/2023,Vizela,fabijan-buntic97
+3156,Carlos Isaac,24.0,0.0,Summer,2022/2023,Vizela,carlos-isaac98
+3161,Moustapha Seck,26.0,0.0,Summer,2022/2023,Portimonense,moustapha-seck96
+3162,Zié Ouattara,22.0,0.0,Summer,2022/2023,Portimonense,aziz-ouattara01
+3164,Yago Cariello,22.0,0.0,Summer,2022/2023,Portimonense,yago-cariello99
+3165,Martim Tavares,18.0,0.0,Summer,2022/2023,Boavista,martim-tavares03
+3166,Joel Silva,19.0,0.0,Summer,2022/2023,Boavista,joel-silva03
+3171,Bruno Onyemaechi,23.0,0.0,Summer,2022/2023,Boavista,bruno-onyemaechi99
+3172,Robert Bozenik,22.0,0.0,Summer,2022/2023,Boavista,robert-bozenik99
+3173,Ilija Vukotic,23.0,0.0,Summer,2022/2023,Boavista,ilija-vukotic99
+3174,Vincent Sasso,31.0,0.0,Summer,2022/2023,Boavista,vincent-sasso91
+3175,Salvador Agra,30.0,0.0,Summer,2022/2023,Boavista,salvador-agra91
+3176,Bruno Lourenço,24.0,0.0,Summer,2022/2023,Boavista,bruno-lourenco98
+3177,César,30.0,0.0,Summer,2022/2023,Boavista,cesar92
+3189,Ricardo Mangas,24.0,0.0,Summer,2022/2023,Boavista,ricardo-mangas98
+3190,Alberth Elis,26.0,0.0,Summer,2022/2023,Boavista,alberth-elis96
+3196,Tiago Ilori,29.0,0.0,Summer,2022/2023,Sporting CP,tiago-ilori93
+3210,Jackson Porozo,21.0,3500000.0,Summer,2022/2023,Troyes,jackson-porozo00
+3211,Petar Musa,24.0,5500000.0,Summer,2022/2023,Benfica,petar-musa98
+3215,Nuno Santos,23.0,0.0,Summer,2022/2023,Benfica,nuno-santos95
+3218,Diogo Pinto,23.0,0.0,Summer,2022/2023,Casa Pia,diogo-pinto99
+3219,Yan Eteki,24.0,0.0,Summer,2022/2023,Casa Pia,yan-brice-eteki97
+3220,João Nunes,26.0,0.0,Summer,2022/2023,Casa Pia,joao-nunes95
+3221,Eduardo Fereira,21.0,0.0,Summer,2022/2023,Casa Pia,eduardo-fereira00
+3222,Clayton,23.0,0.0,Summer,2022/2023,Casa Pia,clayton99
+3223,Rafael Martins,33.0,0.0,Summer,2022/2023,Casa Pia,rafael-martins89
+3226,Pedro Mendes,22.0,0.0,Summer,2022/2023,Sporting CP,pedro-mendes90
+3241,Anderson,23.0,0.0,Summer,2022/2023,Casa Pia,anderson97
+3242,Fernando Varela,34.0,0.0,Summer,2022/2023,Casa Pia,fernando-varela87
+3243,Léo Bolgado,23.0,0.0,Summer,2022/2023,Casa Pia,bolgado98
+3247,Guilherme,21.0,0.0,Summer,2022/2023,Chaves,guilherme-silva00
+3256,Lucas Soares,24.0,0.0,Summer,2022/2023,Casa Pia,lucas-soares98
+3263,Duplexe Tchamba,24.0,0.0,Summer,2022/2023,Casa Pia,duplexe-tchamba98
+3264,Léo Natel,25.0,0.0,Summer,2022/2023,Casa Pia,leo-natel97
+3265,Romário Baró,22.0,0.0,Summer,2022/2023,Casa Pia,romario-baro00
+3270,Ignacio de Arruabarrena,25.0,0.0,Summer,2022/2023,Arouca,ignacio-de-arruabarrena97
+3280,Jerome Opoku,23.0,0.0,Summer,2022/2023,Arouca,jerome-opoku98
+3281,Vitinho,22.0,0.0,Summer,2022/2023,Arouca,vitinho00
+3283,Rafael Fernandes,20.0,0.0,Summer,2022/2023,Arouca,rafael-fernandes02
+3284,Rafa Mújica,23.0,0.0,Summer,2022/2023,Arouca,rafa-mujica98
+3285,Morlaye Sylla,23.0,0.0,Summer,2022/2023,Arouca,morlaye-sylla98
+3287,João Valido,22.0,0.0,Summer,2022/2023,Arouca,joao-valido00
+3288,Bogdan Milovanov,24.0,0.0,Summer,2022/2023,Arouca,bogdan-milovanov98
+3292,Emmanuel Boateng,26.0,0.0,Summer,2022/2023,Rio Ave,emmanuel-boateng96
+3303,Leonardo Ruiz,26.0,0.0,Summer,2022/2023,Rio Ave,leonardo-ruiz96
+3304,Hernâni,30.0,0.0,Summer,2022/2023,Rio Ave,hernani-fortes91
+3305,Miguel Nóbrega,22.0,0.0,Summer,2022/2023,Rio Ave,miguel-nobrega00
+3306,Josué Sá,30.0,200000.0,Summer,2022/2023,Rio Ave,josue-sa92
+3307,João Ferreira,21.0,0.0,Summer,2022/2023,Rio Ave,joao-ferreira01
+3317,Ismaila Soro,25.0,0.0,Summer,2022/2023,Celtic,ismaila-soro98
+3329,Finn Stokkers,26.0,0.0,Summer,2022/2023,Go Ahead Eag,finn-stokkers96
+3336,Andreas Samaris,33.0,0.0,Summer,2022/2023,Rio Ave,andreas-samaris89
+3338,Jamal Amofa,23.0,0.0,Summer,2022/2023,Go Ahead Eag,jamal-amofa98
+3340,Federico Mattiello,27.0,0.0,Summer,2022/2023,Go Ahead Eag,federico-mattiello95
+3343,Andries Noppert,28.0,0.0,Summer,2022/2023,Heerenveen,andries-noppert94
+3345,Luuk Brouwers,24.0,750000.0,Summer,2022/2023,Utrecht,luuk-brouwers98
+3346,Jahnoah Markelo,19.0,0.0,Summer,2022/2023,Go Ahead Eag,jahnoah-markelo03
+3347,Tesfaldet Tekie,25.0,0.0,Summer,2022/2023,Go Ahead Eag,tesfaldet-tekie97
+3349,Rashaan Fernandes,23.0,0.0,Summer,2022/2023,Go Ahead Eag,rashaan-fernandes98
+3350,Willum Thór Willumsson,23.0,0.0,Summer,2022/2023,Go Ahead Eag,willum-bor-willumsson98
+3351,Sylla Sow,26.0,0.0,Summer,2022/2023,Go Ahead Eag,sylla-sow96
+3352,Enric Llansana,21.0,0.0,Summer,2022/2023,Go Ahead Eag,enric-llansana01
+3354,Oliver Valaker Edvardsen,23.0,0.0,Summer,2022/2023,Go Ahead Eag,oliver-edvardsen99
+3356,Xander Blomme,20.0,0.0,Summer,2022/2023,Go Ahead Eag,xander-blomme02
+3359,Mark Diemers,28.0,0.0,Summer,2022/2023,Emmen,mark-diemers93
+3362,Dogan Erdogan,25.0,0.0,Summer,2022/2023,Fortuna Sittard,dogan-erdogan96
+3365,Úmaro Embaló,21.0,1000000.0,Summer,2022/2023,Fortuna Sittard,umaro-embalo01
+3377,Ivo Pinto,32.0,0.0,Summer,2022/2023,Fortuna Sittard,ivo-pinto90
+3378,Rémy Vita,21.0,0.0,Summer,2022/2023,Fortuna Sittard,remy-vita01
+3389,Michael Verrips,25.0,0.0,Summer,2022/2023,Fortuna Sittard,michael-verrips96
+3390,Mike van Beijnen,23.0,0.0,Summer,2022/2023,Fortuna Sittard,mike-van-beijnen99
+3391,Tunahan Tasci,20.0,0.0,Summer,2022/2023,Fortuna Sittard,muhammet-tunahan-tasci02
+3392,Oguzhan Özyakup,29.0,0.0,Summer,2022/2023,Fortuna Sittard,oguzhan-ozyakup92
+3394,Cole Bassett,21.0,0.0,Summer,2022/2023,Fortuna Sittard,cole-bassett01
+3398,Ragnar Oratmangoen,24.0,0.0,Summer,2022/2023,Groningen,ragnar-oratmangoen98
+3401,Calvin Verdonk,25.0,0.0,Summer,2022/2023,NEC Nijmegen,calvin-verdonk97
+3402,Terry Lartey Sanniez,26.0,0.0,Summer,2022/2023,NEC Nijmegen,terry-lartey-sanniez96
+3416,Antoine Colassin,21.0,0.0,Summer,2022/2023,Heerenveen,antoine-colassin01
+3417,Oussama Tannane,28.0,0.0,Summer,2022/2023,NEC Nijmegen,oussama-tannane94
+3418,Philippe Sandler,25.0,0.0,Summer,2022/2023,NEC Nijmegen,philippe-sandler97
+3429,Joris Kramer,25.0,0.0,Summer,2022/2023,NEC Nijmegen,joris-kramer96
+3434,Ibrahim Cissoko,19.0,0.0,Summer,2022/2023,NEC Nijmegen,ibrahim-cissoko03
+3437,Hussein Ali,20.0,0.0,Summer,2022/2023,Heerenveen,hussein-ali02
+3438,Mats Köhlert,24.0,0.0,Summer,2022/2023,Heerenveen,mats-kohlert98
+3440,Florian Krüger,23.0,1300000.0,Summer,2022/2023,Groningen,florian-kruger99
+3443,Joey Pelupessy,29.0,0.0,Summer,2022/2023,Groningen,joey-pelupessy93
+3444,Nordin Musampa,20.0,0.0,Summer,2022/2023,Groningen,nordin-musampa01
+3445,Liam van Gelderen,21.0,450000.0,Summer,2022/2023,Groningen,liam-van-gelderen01
+3447,Isak Dybvik Määttä,20.0,1200000.0,Summer,2022/2023,Groningen,isak-maatta01
+3449,Alex Timossi Andersson,21.0,550000.0,Summer,2022/2023,Heerenveen,alex-timossi-andersson01
+3457,Luciano Valente,18.0,0.0,Summer,2022/2023,Groningen,luciano-valente03
+3461,Simon Olsson,24.0,1300000.0,Summer,2022/2023,Heerenveen,simon-olsson97
+3472,Bjorn Meijer,19.0,6000000.0,Summer,2022/2023,Club Brugge,bjorn-meijer03
+3473,Jörgen Strand Larsen,22.0,11000000.0,Summer,2022/2023,Celta Vigo,jorgen-strand-larsen00
+3479,Mohamed Taabouni,20.0,0.0,Summer,2022/2023,Feyenoord,mohamed-taabouni02
+3488,Silvester van der Water,25.0,550000.0,Summer,2022/2023,Cambuur,silvester-van-der-water96
+3492,Owen Wijndal,22.0,10000000.0,Summer,2022/2023,Ajax,owen-wijndal99
+3496,Kamal Sowah,22.0,0.0,Summer,2022/2023,Club Brugge,kamal-sowah00
+3497,Sai van Wermeskerken,28.0,0.0,Summer,2022/2023,Cambuur,sai-van-wermeskerken94
+3500,Ahmed El Messaoudi,27.0,0.0,Summer,2022/2023,Emmen,ahmed-el-messaoudi95
+3501,Patrick Joosten,26.0,0.0,Summer,2022/2023,Groningen,patrick-joosten96
+3507,Sam Hendriks,27.0,0.0,Summer,2022/2023,Cambuur,sam-hendriks95
+3508,Daniël van Kaam,22.0,0.0,Summer,2022/2023,Cambuur,daniel-van-kaam00
+3509,Milan Smit,19.0,0.0,Summer,2022/2023,Cambuur,milan-smit03
+3510,Floris Smand,19.0,0.0,Summer,2022/2023,Cambuur,floris-smand03
+3511,Robbin Ruiter,35.0,0.0,Summer,2022/2023,Cambuur,robbin-ruiter87
+3514,Felix Mambimbi,21.0,0.0,Summer,2022/2023,Cambuur,felix-mambimbi01
+3515,Leon Bergsma,25.0,0.0,Summer,2022/2023,Cambuur,leon-bergsma97
+3516,Maxim Dekker,18.0,0.0,Summer,2022/2023,AZ Alkmaar,maxim-dekker04
+3517,Zico Buurmeester,20.0,0.0,Summer,2022/2023,AZ Alkmaar,zico-buurmeester02
+3528,Sébastien Haller,28.0,31000000.0,Summer,2022/2023,Dortmund,sebastien-haller94
+3538,Myron van Brederode,19.0,0.0,Summer,2022/2023,AZ Alkmaar,myron-van-brederode03
+3541,Riechedly Bazoer,25.0,0.0,Summer,2022/2023,AZ Alkmaar,riechedly-bazoer96
+3542,Mayckel Lahdo,19.0,600000.0,Summer,2022/2023,AZ Alkmaar,mayckel-lahdo02
+3543,Mees de Wit,24.0,2300000.0,Summer,2022/2023,AZ Alkmaar,mees-de-wit98
+3544,Jens Odgaard,23.0,4099999.9999999995,Summer,2022/2023,AZ Alkmaar,jens-odgaard99
+3558,Maikel Kieftenbeld,32.0,0.0,Summer,2022/2023,Emmen,maikel-kieftenbeld90
+3559,Ezequiel Bullaude,21.0,2000000.0,Summer,2022/2023,Feyenoord,ezequiel-bullaude00
+3564,Mats Wieffer,22.0,575000.0,Summer,2022/2023,Feyenoord,mats-wieffer99
+3565,Marcos López,22.0,1200000.0,Summer,2022/2023,Feyenoord,marcos-lopez99
+3566,Sebastian Szymanski,23.0,2000000.0,Summer,2022/2023,Feyenoord,sebastian-szymanski99
+3568,Timon Wellenreuther,26.0,0.0,Summer,2022/2023,Feyenoord,timon-wellenreuther95
+3569,Santiago Giménez,21.0,4000000.0,Summer,2022/2023,Feyenoord,santiago-gimenez01
+3570,Igor Paixão,22.0,5000000.0,Summer,2022/2023,Feyenoord,igor-paixao00
+3571,David Hancko,24.0,6000000.0,Summer,2022/2023,Feyenoord,david-hancko97
+3572,Quinten Timber,21.0,7400000.0,Summer,2022/2023,Feyenoord,quinten-timber01
+3577,Mimeirhel Benita,18.0,0.0,Summer,2022/2023,Feyenoord,mimeirhel-benita03
+3578,Mickey van der Hart,28.0,0.0,Summer,2022/2023,Emmen,mickey-van-der-hart94
+3588,Quilindschy Hartman,20.0,0.0,Summer,2022/2023,Feyenoord,quilindschy-hartman01
+3595,Noah Naujoks,20.0,0.0,Summer,2022/2023,Feyenoord,noah-naujoks02
+3603,Oussama El Azzouzi,21.0,0.0,Summer,2022/2023,Union SG,oussama-el-azzouzi01
+3611,Mohamed Bouchouari,21.0,0.0,Summer,2022/2023,Emmen,mohamed-bouchouari00
+3614,Richairo Živković,25.0,0.0,Summer,2022/2023,Emmen,richairo-zivkovic96
+3638,Sven Mijnans,22.0,2500000.0,Winter,2022/2023,AZ Alkmaar,sven-mijnans00
+3639,Björn Johnsen,31.0,0.0,Winter,2022/2023,Cambuur,bjorn-johnsen91
+3640,Navarone Foor,30.0,0.0,Winter,2022/2023,Cambuur,navarone-foor92
+3641,Peer Koopmeiners,22.0,0.0,Winter,2022/2023,Excelsior,peer-koopmeiners00
+3644,Wouter Goes,18.0,0.0,Winter,2022/2023,AZ Alkmaar,wouter-goes04
+3645,Mathew Ryan,30.0,0.0,Winter,2022/2023,AZ Alkmaar,mathew-ryan92
+3646,Djordje Mihailovic,24.0,6000000.0,Winter,2022/2023,AZ Alkmaar,djordje-mihailovic98
+3647,Ben Rienstra,32.0,0.0,Winter,2022/2023,Cambuur,ben-rienstra90
+3661,Neraysho Kasanwirjo,20.0,2000000.0,Winter,2022/2023,Feyenoord,neraysho-kasanwirjo02
+3670,Danny Hoesen,32.0,0.0,Winter,2022/2023,Emmen,danny-hoesen91
+3671,Jeremy Antonisse,20.0,0.0,Winter,2022/2023,Emmen,jeremy-antonisse02
+3672,Dennis Vos,21.0,0.0,Winter,2022/2023,Emmen,dennis-vos01
+3682,Xavier Mbuyamba,20.0,0.0,Summer,2022/2023,Volendam,xavier-mbuyamba01
+3683,Carel Eiting,24.0,0.0,Summer,2022/2023,Volendam,carel-eiting98
+3695,Imran Nazih,16.0,0.0,Summer,2022/2023,Volendam,imran-nazih06
+3696,Billy van Duijl,16.0,0.0,Summer,2022/2023,Volendam,billy-van-duijl05
+3707,Givairo Read,,0.0,Summer,2022/2023,Volendam,givairo-readan
+3717,Stipe Radic,22.0,0.0,Winter,2022/2023,Fortuna Sittard,stipe-radic00
+3718,Chris Lokesa,18.0,0.0,Winter,2022/2023,RKC Waalwijk,chris-lokesa04
+3719,Alfons Sampsted,24.0,0.0,Winter,2022/2023,Twente,alfons-sampsted98
+3723,Elias Hoff Melkersen,20.0,0.0,Winter,2022/2023,Sparta R'dam,elias-hoff-melkersen02
+3724,Rick Meissen,20.0,0.0,Winter,2022/2023,Sparta R'dam,rick-meijssen02
+3725,Pedro Alemañ,20.0,0.0,Winter,2022/2023,Sparta R'dam,pedro-aleman02
+3731,Yorbe Vertessen,22.0,0.0,Winter,2022/2023,Union SG,yorbe-vertessen01
+3739,Flip Klomp,21.0,0.0,Winter,2022/2023,Volendam,flip-klomp01
+3742,Thomas Buitink,22.0,0.0,Winter,2022/2023,Fortuna Sittard,thomas-buitink00
+3744,Davy Pröpper,31.0,0.0,Winter,2022/2023,Vitesse,davy-propper91
+3745,Marco van Ginkel,30.0,0.0,Winter,2022/2023,Vitesse,marco-van-ginkel92
+3750,Mimoun Mahi,28.0,0.0,Winter,2022/2023,Cambuur,mimoun-mahi94
+3752,Zakaria Labyad,29.0,0.0,Winter,2022/2023,Utrecht,zakaria-labyad93
+3753,Anthony Descotte,19.0,0.0,Winter,2022/2023,Utrecht,anthony-descotte03
+3754,Victor Jensen,22.0,0.0,Winter,2022/2023,Utrecht,victor-jensen00
+3756,Bruma,28.0,0.0,Winter,2022/2023,PSV Eindhoven,bruma94
+3757,Patrick van Aanholt,32.0,0.0,Winter,2022/2023,PSV Eindhoven,patrick-van-aanholt90
+3758,Johan Hove,22.0,1030000.0,Winter,2022/2023,Groningen,johan-hove00
+3759,Thom van Bergen,18.0,0.0,Winter,2022/2023,Groningen,thom-van-bergen04
+3760,Thijmen Blokzijl,17.0,0.0,Winter,2022/2023,Groningen,thijmen-blokzijl05
+3763,Matej Chalus,24.0,0.0,Winter,2022/2023,Groningen,matej-chalus98
+3764,Oliver Antman,21.0,0.0,Winter,2022/2023,Groningen,oliver-antman01
+3765,Elvis Manu,29.0,0.0,Winter,2022/2023,Groningen,elvis-manu93
+3770,Fredrik Oppegard,20.0,0.0,Winter,2022/2023,Go Ahead Eag,fredrik-oppegard02
+3771,Darío Serra,20.0,0.0,Winter,2022/2023,Go Ahead Eag,dario-serra03
+3774,Mats Seuntjens,30.0,0.0,Winter,2022/2023,RKC Waalwijk,mats-seuntjens92
+3775,Jorg Schreuders,18.0,0.0,Winter,2022/2023,Groningen,jorg-schreuders04
+3776,Jetro Willems,28.0,0.0,Winter,2022/2023,Groningen,jetro-willems94
+3778,Mike te Wierik,30.0,0.0,Winter,2022/2023,Emmen,mike-te-wierik92
+3783,Amin Sarr,21.0,11000000.0,Winter,2022/2023,Lyon,amin-sarr01
+3784,Joaquín Fernández,23.0,0.0,Winter,2022/2023,Heerenveen,joaquin-fernandez96
+3785,Ché Nunnely,23.0,0.0,Winter,2022/2023,Heerenveen,che-nunnely99
+3786,Pelle van Amersfoort,26.0,0.0,Winter,2022/2023,Heerenveen,pelle-van-amersfoort96
+3787,Jeffrey Bruma,31.0,0.0,Winter,2022/2023,Heerenveen,jeffrey-bruma91
+3788,Osame Sahraoui,21.0,1700000.0,Winter,2022/2023,Heerenveen,osame-sahraoui01
+3789,Daniel Karlsbakk,19.0,2500000.0,Winter,2022/2023,Heerenveen,daniel-karlsbakk03
+3795,Nicolas Isimat-Mirin,31.0,0.0,Winter,2022/2023,Vitesse,nicolas-isimat-mirin91
+3799,Mike Eerdhuijzen,21.0,0.0,Summer,2022/2023,Sparta R'dam,mike-eerdhuijzen00
+3800,Youri Schoonderwaldt,22.0,0.0,Summer,2022/2023,Sparta R'dam,youri-schoonderwaldt00
+3801,Charles-Andreas Brym,23.0,250000.0,Summer,2022/2023,Sparta R'dam,charles-andreas-brym98
+3802,Tobias Lauritsen,24.0,450000.0,Summer,2022/2023,Sparta R'dam,tobias-lauritsen97
+3803,Joshua Kitolano,20.0,610000.0,Summer,2022/2023,Sparta R'dam,joshua-kitolano01
+3806,Arno Verschueren,25.0,0.0,Summer,2022/2023,Sparta R'dam,arno-verschueren97
+3814,Jonathan de Guzmán,34.0,0.0,Summer,2022/2023,Sparta R'dam,jonathan-de-guzman87
+3815,Nick Olij,26.0,0.0,Summer,2022/2023,Sparta R'dam,nick-olij95
+3822,Reda Kharchouch,26.0,0.0,Summer,2022/2023,Excelsior,reda-kharchouch95
+3825,Michaël Heylen,28.0,0.0,Summer,2022/2023,Emmen,michael-heylen94
+3826,Jason Lokilo,23.0,0.0,Summer,2022/2023,Sparta R'dam,jason-lokilo98
+3830,Patrick Brouwer,21.0,0.0,Summer,2022/2023,Sparta R'dam,patrick-brouwer01
+3831,Omar Rekik,20.0,0.0,Summer,2022/2023,Sparta R'dam,omar-rekik01
+3832,Shurandy Sambo,20.0,0.0,Summer,2022/2023,Sparta R'dam,shurandy-sambo01
+3833,Koki Saito,20.0,0.0,Summer,2022/2023,Sparta R'dam,koki-saito01
+3834,Melle Meulensteen,22.0,1000000.0,Summer,2022/2023,Vitesse,melle-meulensteen99
+3841,Ismael Saibari,21.0,0.0,Summer,2022/2023,PSV Eindhoven,ismael-saibari01
+3842,Johan Bakayoko,19.0,0.0,Summer,2022/2023,PSV Eindhoven,johan-bakayoko03
+3846,Ritsu Doan,24.0,8500000.0,Summer,2022/2023,Freiburg,ritsu-doan98
+3849,Anwar El Ghazi,27.0,2500000.0,Summer,2022/2023,PSV Eindhoven,anwar-el-ghazi95
+3853,Oussama Darfalou,28.0,0.0,Summer,2022/2023,Vitesse,oussama-darfalou93
+3857,Julian Lelieveld,24.0,0.0,Summer,2022/2023,RKC Waalwijk,julian-lelieveld97
+3858,Mika Biereth,19.0,0.0,Summer,2022/2023,RKC Waalwijk,mika-biereth03
+3859,Kevin Felida,22.0,0.0,Summer,2022/2023,RKC Waalwijk,kevin-felida99
+3860,Pelle Clement,26.0,0.0,Summer,2022/2023,RKC Waalwijk,pelle-clement96
+3862,Florian Jozefzoon,31.0,0.0,Summer,2022/2023,RKC Waalwijk,florian-jozefzoon91
+3863,Patrick Vroegh,22.0,0.0,Summer,2022/2023,RKC Waalwijk,patrick-vroegh99
+3864,Zakaria Bakkali,26.0,0.0,Summer,2022/2023,RKC Waalwijk,zakaria-bakkali96
+3866,Michal Sadilek,23.0,1500000.0,Summer,2022/2023,Twente,michal-sadilek99
+3875,Luuk de Jong,31.0,3000000.0,Summer,2022/2023,PSV Eindhoven,luuk-de-jong90
+3879,Remco Balk,21.0,0.0,Summer,2022/2023,Cambuur,remco-balk01
+3880,Henk Veerman,31.0,0.0,Summer,2022/2023,Volendam,henk-veerman93
+3884,Eric Oelschlägel,26.0,0.0,Summer,2022/2023,Emmen,eric-oelschlagel95
+3890,Benaissa Benamar,25.0,0.0,Summer,2022/2023,Utrecht,benaissa-benamar97
+3893,Djevencio van der Kust,21.0,0.0,Summer,2022/2023,Utrecht,djevencio-van-der-kust01
+3900,Simon van Duivenbooden,20.0,0.0,Summer,2022/2023,Vitesse,simon-van-duivenbooden02
+3901,Mitchell Dijks,29.0,0.0,Summer,2022/2023,Vitesse,mitchell-dijks93
+3904,Ryan Flamingo,19.0,0.0,Summer,2022/2023,Vitesse,ryan-flamingo02
+3906,Kacper Kozlowski,18.0,0.0,Summer,2022/2023,Vitesse,kacper-kozlowski03
+3907,Kjell Scherpen,22.0,0.0,Summer,2022/2023,Vitesse,kjell-scherpen00
+3908,Carlens Arcus,26.0,0.0,Summer,2022/2023,Vitesse,carlens-arcus96
+3913,Ruben Kluivert,21.0,0.0,Summer,2022/2023,Utrecht,ruben-kluivert01
+3914,Miliano Jonathans,18.0,0.0,Summer,2022/2023,Vitesse,miliano-jonathans04
+3915,Ramon Hendriks,20.0,0.0,Summer,2022/2023,Utrecht,ramon-hendriks01
+3916,Christos Tzolis,20.0,0.0,Summer,2022/2023,Twente,christos-tzolis02
+3924,Anass Salah-Eddine,20.0,0.0,Summer,2022/2023,Twente,anass-salah-eddine02
+3925,Jeffrey de Lange,24.0,0.0,Summer,2022/2023,Go Ahead Eag,jeffrey-de-lange98
+3927,Mathias Kjölö,21.0,0.0,Summer,2022/2023,Twente,mathias-kjolo01
+3928,Przemyslaw Tyton,35.0,0.0,Summer,2022/2023,Twente,przemyslaw-tyton87
+3929,Sem Steijn,20.0,0.0,Summer,2022/2023,Twente,sem-steijn01
+3934,Michel Vlap,25.0,2000000.0,Summer,2022/2023,Twente,michel-vlap97
+3936,Bas Dost,33.0,0.0,Summer,2022/2023,Utrecht,bas-dost89
+3938,Modibo Sagnan,23.0,0.0,Summer,2022/2023,Utrecht,modibo-sagnan99
+3939,Rocco Robert Shein,18.0,0.0,Summer,2022/2023,Utrecht,rocco-robert-shein03
+3940,Jens Toornstra,33.0,0.0,Summer,2022/2023,Utrecht,jens-toornstra89
+3941,Taylor Booth,21.0,0.0,Summer,2022/2023,Utrecht,taylor-booth01
+3942,Nick Viergever,32.0,0.0,Summer,2022/2023,Utrecht,nick-viergever89
+3944,Amin Younes,29.0,0.0,Summer,2022/2023,Utrecht,amin-younes93
+3945,Sean Klaiber,28.0,0.0,Summer,2022/2023,Utrecht,sean-klaiber94
+3946,Can Bozdogan,21.0,500000.0,Summer,2022/2023,Utrecht,can-bozdogan01
+3948,Kik Pierie,21.0,0.0,Summer,2022/2023,Ajax,kik-pierie00
+3950,Mike van der Hoorn,29.0,150000.0,Summer,2022/2023,Utrecht,mike-van-der-hoorn92
+3958,Eduardo Quaresma,20.0,0.0,Summer,2022/2023,Hoffenheim,eduardo-quaresma02
+3961,Finn Ole Becker,22.0,0.0,Summer,2022/2023,Hoffenheim,finn-ole-becker00
+3962,Muhammed Damar,18.0,500000.0,Summer,2022/2023,Hoffenheim,muhammed-damar04
+3964,Stanley Nsoki,23.0,12000000.0,Summer,2022/2023,Hoffenheim,stanley-nsoki99
+3972,David Raum,24.0,26000000.0,Summer,2022/2023,RB Leipzig,david-raum98
+3975,Yvandro Borges Sanches,18.0,0.0,Summer,2022/2023,M'Gladbach,yvandro-borges-sanches04
+3976,Julian Weigl,26.0,0.0,Summer,2022/2023,M'Gladbach,julian-weigl95
+3977,Oscar Fraulo,18.0,2000000.0,Summer,2022/2023,M'Gladbach,oscar-fraulo03
+3978,Ko Itakura,25.0,5000000.0,Summer,2022/2023,M'Gladbach,ko-itakura97
+3984,Stefan Posch,25.0,0.0,Summer,2022/2023,Bologna,stefan-posch97
+3988,Konstantinos Stafylidis,28.0,250000.0,Summer,2022/2023,Bochum,kostas-stafylidis93
+3994,Florian Dietz,23.0,0.0,Summer,2022/2023,Köln,florian-dietz98
+3995,Danny da Costa,28.0,0.0,Summer,2022/2023,Mainz 05,danny-da-costa93
+3997,Delano Burgzorg,23.0,2000000.0,Summer,2022/2023,Mainz 05,delano-burgzorg98
+3999,Angelo Fulgini,25.0,6000000.0,Summer,2022/2023,Mainz 05,angelo-fulgini96
+4004,Jannes Horn,25.0,0.0,Summer,2022/2023,Bochum,jannes-horn97
+4009,Salih Özcan,24.0,5000000.0,Summer,2022/2023,Dortmund,salih-ozcan98
+4010,Anthony Modeste,34.0,5100000.0,Summer,2022/2023,Dortmund,anthony-modeste88
+4013,Aymen Barkok,24.0,0.0,Summer,2022/2023,Mainz 05,aymen-barkok98
+4014,Anthony Caci,25.0,0.0,Summer,2022/2023,Mainz 05,anthony-caci97
+4015,Jean-Paul Boëtius,28.0,0.0,Summer,2022/2023,Hertha BSC,jean-paul-boetius94
+4017,Kevin Stöger,28.0,0.0,Summer,2022/2023,Bochum,kevin-stoger93
+4019,Dimitri Lavalée,25.0,750000.0,Summer,2022/2023,Mechelen,dimitri-lavalee97
+4021,Luca Kilian,22.0,2000000.0,Summer,2022/2023,Köln,luca-kilian99
+4022,Jeremiah St. Juste,25.0,9500000.0,Summer,2022/2023,Sporting CP,jerry-st.-juste96
+4024,Edimilson Fernandes,26.0,0.0,Summer,2022/2023,Mainz 05,edimilson-fernandes96
+4028,Marlon Mustapha,21.0,0.0,Summer,2022/2023,Mainz 05,marlon-mustapha01
+4032,Eniss Shabani,19.0,0.0,Summer,2022/2023,Mainz 05,eniss-shabani03
+4033,Nelson Weiper,17.0,0.0,Summer,2022/2023,Mainz 05,nelson-weiper05
+4034,Hannes Wolf,23.0,0.0,Summer,2022/2023,M'Gladbach,hannes-wolf99
+4037,Kilian Fischer,21.0,2500000.0,Summer,2022/2023,Wolfsburg,kilian-fischer00
+4038,Bartol Franjic,22.0,7500000.0,Summer,2022/2023,Wolfsburg,bartol-franjic00
+4040,Jakub Kaminski,20.0,10000000.0,Summer,2022/2023,Wolfsburg,jakub-kaminski02
+4042,Sam Lammers,25.0,0.0,Summer,2022/2023,Atalanta,sam-lammers97
+4050,Gonçalo Paciência,28.0,0.0,Summer,2022/2023,Celta Vigo,goncalo-paciencia94
+4055,Patrick Wimmer,21.0,5000000.0,Summer,2022/2023,Wolfsburg,patrick-wimmer01
+4056,Dzenan Pejcinovic,17.0,1250000.0,Summer,2022/2023,Wolfsburg,dzenan-pejcinovic05
+4063,Bartosz Bialek,20.0,200000.0,Summer,2022/2023,Vitesse,bartosz-bialek01
+4067,Kevin Mbabu,27.0,5500000.0,Summer,2022/2023,Fulham,kevin-mbabu95
+4068,Xaver Schlager,24.0,12000000.0,Summer,2022/2023,RB Leipzig,xaver-schlager97
+4072,Omar Marmoush,23.0,0.0,Summer,2022/2023,Wolfsburg,omar-marmoush99
+4075,Josuha Guilavogui,31.0,0.0,Summer,2022/2023,Wolfsburg,josuha-guilavogui90
+4080,Aurélio Buta,25.0,0.0,Summer,2022/2023,Eint Frankfurt,aurelio-buta97
+4081,Hrvoje Smolcic,21.0,2500000.0,Summer,2022/2023,Eint Frankfurt,hrvoje-smolcic00
+4082,Kristijan Jakic,25.0,3500000.0,Summer,2022/2023,Eint Frankfurt,kristijan-jakic97
+4083,Mario Götze,30.0,4000000.0,Summer,2022/2023,Eint Frankfurt,mario-gotze92
+4085,Jens Petter Hauge,22.0,10000000.0,Summer,2022/2023,Eint Frankfurt,jens-petter-hauge99
+4094,Breel Embolo,25.0,12500000.0,Summer,2022/2023,Monaco,breel-embolo97
+4098,Faride Alidou,20.0,0.0,Summer,2022/2023,Eint Frankfurt,faride-alidou01
+4099,Randal Kolo Muani,23.0,0.0,Summer,2022/2023,Eint Frankfurt,randal-kolo-muani98
+4101,Ajdin Hrustic,26.0,500000.0,Summer,2022/2023,Hellas Verona,ajdin-hrustic96
+4102,Rodrigo Zalazar,22.0,1500000.0,Summer,2022/2023,Schalke 04,rodrigo-zalazar99
+4103,Dominik Kohr,28.0,1500000.0,Summer,2022/2023,Mainz 05,dominik-kohr94
+4109,Marcel Wenig,18.0,0.0,Summer,2022/2023,Eint Frankfurt,marcel-wenig04
+4115,Junior Dina Ebimbe,21.0,0.0,Summer,2022/2023,Eint Frankfurt,junior-dina-ebimbe00
+4118,Kristian Pedersen,27.0,0.0,Summer,2022/2023,Köln,kristian-pedersen94
+4121,Lucas Alario,29.0,6000000.0,Summer,2022/2023,Eint Frankfurt,lucas-alario92
+4122,Nadiem Amiri,25.0,0.0,Summer,2022/2023,Leverkusen,nadiem-amiri96
+4123,Joel Pohjanpalo,27.0,0.0,Summer,2022/2023,Leverkusen,joel-pohjanpalo94
+4126,Ayman Azhil,21.0,0.0,Summer,2022/2023,Leverkusen,ayman-azhil01
+4129,Callum Hudson-Odoi,21.0,0.0,Summer,2022/2023,Leverkusen,callum-hudson-odoi00
+4130,Adam Hlozek,19.0,13000000.0,Summer,2022/2023,Leverkusen,adam-hlozek02
+4132,Reinier,20.0,0.0,Summer,2022/2023,Real Madrid,reinier02
+4135,Axel Witsel,33.0,0.0,Summer,2022/2023,Atlético Madrid,axel-witsel89
+4140,Manuel Akanji,27.0,17500000.0,Summer,2022/2023,Manchester City,manuel-akanji95
+4141,Julian Baumgartlinger,34.0,0.0,Summer,2022/2023,Augsburg,julian-baumgartlinger88
+4148,Sanoussy Ba,18.0,0.0,Summer,2022/2023,RB Leipzig,sanoussy-ba04
+4152,Janis Blaswich,31.0,0.0,Summer,2022/2023,RB Leipzig,janis-blaswich91
+4153,Abdou Diallo,26.0,1500000.0,Summer,2022/2023,RB Leipzig,abdou-diallo96
+4159,Steffen Tigges,23.0,1200000.0,Summer,2022/2023,Köln,steffen-tigges98
+4161,Linton Maina,23.0,0.0,Summer,2022/2023,Köln,linton-maina99
+4163,Marc Roca,25.0,12000000.0,Summer,2022/2023,Leeds United,marc-roca96
+4164,Tanguy Nianzou,20.0,16000000.0,Summer,2022/2023,Sevilla,tanguy-nianzou02
+4170,Adrian Fein,23.0,0.0,Summer,2022/2023,Bayern Munich,adrian-fein99
+4172,Malik Tillman,21.0,0.0,Summer,2022/2023,Bayern Munich,malik-tillman02
+4174,Gabriel Vidovic,18.0,0.0,Summer,2022/2023,Bayern Munich,gabriel-vidovic03
+4175,Noussair Mazraoui,24.0,0.0,Summer,2022/2023,Bayern Munich,noussair-mazraoui97
+4176,Ryan Gravenberch,20.0,18500000.0,Summer,2022/2023,Bayern Munich,ryan-gravenberch02
+4177,Mathys Tel,17.0,20000000.0,Summer,2022/2023,Bayern Munich,mathys-tel05
+4179,Matthijs de Ligt,22.0,67000000.0,Summer,2022/2023,Bayern Munich,matthijs-de-ligt99
+4180,Chris Richards,22.0,12000000.0,Summer,2022/2023,Crystal Palace,chris-richards00
+4182,Jamie Bynoe-Gittens,17.0,0.0,Summer,2022/2023,Dortmund,jamie-bynoe-gittens04
+4184,Tom Rothe,17.0,0.0,Summer,2022/2023,Dortmund,tom-rothe04
+4185,Alexander Meyer,31.0,0.0,Summer,2022/2023,Dortmund,alexander-meyer91
+4187,Niklas Süle,26.0,0.0,Summer,2022/2023,Dortmund,niklas-sule95
+4191,Karim Adeyemi,20.0,30000000.0,Summer,2022/2023,Dortmund,karim-adeyemi02
+4197,Corentin Tolisso,27.0,0.0,Summer,2022/2023,Lyon,corentin-tolisso94
+4209,Grischa Prömel,27.0,0.0,Summer,2022/2023,Hoffenheim,grischa-promel95
+4214,Lennart Moser,22.0,150000.0,Summer,2022/2023,Eupen,lennart-moser99
+4215,Dominique Heintz,28.0,600000.0,Summer,2022/2023,Bochum,dominique-heintz93
+4217,Marcus Ingvartsen,26.0,2300000.0,Summer,2022/2023,Mainz 05,marcus-ingvartsen96
+4218,Taiwo Awoniyi,24.0,20500000.0,Summer,2022/2023,Nott'ham Forest,taiwo-awoniyi97
+4223,Daniel-Kofi Kyereh,26.0,4500000.0,Summer,2022/2023,Freiburg,daniel-kyereh96
+4225,Merlin Röhl,20.0,2900000.0,Summer,2022/2023,Freiburg,merlin-rohl02
+4226,Denis Huseinbasic,20.0,50000.0,Summer,2022/2023,Köln,denis-huseinbasic01
+4227,Nikola Soldo,21.0,500000.0,Summer,2022/2023,Köln,nikola-soldo01
+4229,Eric Martel,20.0,1200000.0,Summer,2022/2023,Köln,eric-martel02
+4230,Sargis Adamyan,29.0,1500000.0,Summer,2022/2023,Köln,sargis-adamyan93
+4233,Ermedin Demirovic,24.0,0.0,Summer,2022/2023,Augsburg,ermedin-demirovic98
+4235,Janik Haberer,28.0,0.0,Summer,2022/2023,Union Berlin,janik-haberer94
+4237,Nico Schlotterbeck,22.0,20000000.0,Summer,2022/2023,Dortmund,nico-schlotterbeck99
+4240,Robert Wagner,18.0,0.0,Summer,2022/2023,Freiburg,robert-wagner03
+4241,Michael Gregoritsch,28.0,0.0,Summer,2022/2023,Freiburg,michael-gregoritsch94
+4242,Matthias Ginter,28.0,0.0,Summer,2022/2023,Freiburg,matthias-ginter94
+4244,Tymoteusz Puchacz,23.0,0.0,Summer,2022/2023,Union Berlin,tymoteusz-puchacz99
+4249,Yvon Mvogo,28.0,0.0,Summer,2022/2023,Lorient,yvon-mvogo94
+4253,Noah Ohio,19.0,1190000.0,Summer,2022/2023,Standard Liège,noah-ohio03
+4256,Ademola Lookman,24.0,9000000.0,Summer,2022/2023,Atalanta,ademola-lookman97
+4257,Nordi Mukiele,24.0,12000000.0,Summer,2022/2023,Paris S-G,nordi-mukiele97
+4258,Brian Brobbey,20.0,16350000.000000002,Summer,2022/2023,Ajax,brian-brobbey02
+4259,Hee-chan Hwang,26.0,16700000.0,Summer,2022/2023,Wolves,hwang-hee-chan96
+4260,Tyler Adams,23.0,17000000.0,Summer,2022/2023,Leeds United,tyler-adams99
+4267,Diogo Leite,23.0,500000.0,Summer,2022/2023,Union Berlin,diogo-leite99
+4269,Lennart Grill,23.0,0.0,Summer,2022/2023,Union Berlin,lennart-grill99
+4270,Paul Seguin,27.0,0.0,Summer,2022/2023,Union Berlin,paul-seguin95
+4272,Danilho Doekhi,24.0,0.0,Summer,2022/2023,Union Berlin,danilho-doekhi98
+4273,Tim Skarke,25.0,0.0,Summer,2022/2023,Union Berlin,tim-skarke96
+4274,Milos Pantovic,25.0,0.0,Summer,2022/2023,Union Berlin,milos-pantovic96
+4275,Morten Thorsby,26.0,3000000.0,Summer,2022/2023,Union Berlin,morten-thorsby96
+4277,Jamie Leweling,21.0,4000000.0,Summer,2022/2023,Union Berlin,jamie-leweling01
+4282,Angeliño,25.0,0.0,Summer,2022/2023,Hoffenheim,angelino97
+4283,Ilaix Moriba,19.0,0.0,Summer,2022/2023,Valencia,ilaix-moriba03
+4284,Marin Pongracic,24.0,0.0,Summer,2022/2023,Lecce,marin-pongracic97
+4287,Julian Ryerson,25.0,5000000.0,Winter,2022/2023,Dortmund,julian-ryerson97
+4288,Jérôme Roussillon,30.0,0.0,Winter,2022/2023,Union Berlin,jerome-roussillon93
+4289,Aïssa Laïdouni,26.0,2600000.0,Winter,2022/2023,Union Berlin,aissa-laidouni96
+4290,Josip Juranovic,27.0,8550000.0,Winter,2022/2023,Union Berlin,josip-juranovic95
+4298,Patrick Pentz,26.0,0.0,Winter,2022/2023,Leverkusen,patrick-pentz97
+4299,Noah Mbamba,18.0,0.0,Winter,2022/2023,Leverkusen,noah-mbamba05
+4301,Thorgan Hazard,29.0,0.0,Winter,2022/2023,PSV Eindhoven,thorgan-hazard93
+4303,Julien Duranville,16.0,8500000.0,Winter,2022/2023,Dortmund,julien-duranville06
+4304,Marcel Sabitzer,28.0,0.0,Winter,2022/2023,Manchester Utd,marcel-sabitzer94
+4307,João Cancelo,28.0,0.0,Winter,2022/2023,Bayern Munich,joao-cancelo94
+4311,Brajan Gruda,18.0,0.0,Winter,2022/2023,Mainz 05,brajan-gruda04
+4312,Andreas Hanche-Olsen,25.0,2500000.0,Winter,2022/2023,Mainz 05,andreas-hanche-olsen97
+4314,Ondrej Duda,28.0,0.0,Winter,2022/2023,Hellas Verona,ondrej-duda94
+4318,Davie Selke,27.0,0.0,Winter,2022/2023,Köln,davie-selke95
+4319,Hugo Siquet,20.0,0.0,Winter,2022/2023,Cercle Brugge,hugo-siquet02
+4322,Kenneth Schmidt,20.0,0.0,Winter,2022/2023,Freiburg,kenneth-schmidt02
+4326,Arijon Ibrahimovic,17.0,0.0,Winter,2022/2023,Bayern Munich,arijon-ibrahimovic05
+4327,Daley Blind,32.0,0.0,Winter,2022/2023,Bayern Munich,daley-blind90
+4329,Dikeni Salifou,19.0,0.0,Summer,2022/2023,Werder Bremen,dikeni-rafid-salifou03
+4330,Oliver Burke,25.0,0.0,Summer,2022/2023,Werder Bremen,oliver-burke97
+4331,Lee Buchanan,21.0,0.0,Summer,2022/2023,Werder Bremen,lee-buchanan01
+4332,Mitchell Weiser,28.0,0.0,Summer,2022/2023,Werder Bremen,mitchell-weiser94
+4333,Jens Stage,25.0,4000000.0,Summer,2022/2023,Werder Bremen,jens-stage96
+4334,Darko Churlinov,21.0,0.0,Summer,2022/2023,Stuttgart,darko-churlinov00
+4347,Niklas Stark,27.0,0.0,Summer,2022/2023,Werder Bremen,niklas-stark95
+4348,Amos Pieper,24.0,0.0,Summer,2022/2023,Werder Bremen,amos-pieper98
+4376,Santiago Ascacíbar,25.0,0.0,Winter,2022/2023,Hertha BSC,santiago-ascacibar97
+4377,Daishawn Redan,21.0,0.0,Winter,2022/2023,Hertha BSC,daishawn-redan01
+4378,Tolga Cigerci,30.0,0.0,Winter,2022/2023,Hertha BSC,tolga-cigerci92
+4381,Alexis Tibidi,19.0,2600000.0,Winter,2022/2023,Troyes,alexis-tibidi03
+4386,Genki Haraguchi,31.0,1000000.0,Winter,2022/2023,Stuttgart,genki-haraguchi91
+4387,Gil Dias,26.0,1000000.0,Winter,2022/2023,Stuttgart,gil-bastiao-dias96
+4391,John Anthony Brooks,29.0,0.0,Winter,2022/2023,Hoffenheim,john-brooks93
+4392,Deyovaisio Zeefuik,24.0,0.0,Winter,2022/2023,Hellas Verona,deyovaisio-zeefuik98
+4399,Florent Mollet,31.0,1500000.0,Winter,2022/2023,Nantes,florent-mollet91
+4401,Soichiro Kozuki,22.0,0.0,Winter,2022/2023,Schalke 04,soichiro-kozuki00
+4403,Michael Frey,28.0,0.0,Winter,2022/2023,Schalke 04,michael-frey94
+4404,Jere Uronen,28.0,0.0,Winter,2022/2023,Schalke 04,jere-uronen94
+4405,Niklas Tauer,21.0,0.0,Winter,2022/2023,Schalke 04,niklas-tauer01
+4408,Dodi Lukébakio,24.0,0.0,Summer,2022/2023,Hertha BSC,dodi-lukebakio97
+4412,Florian Niederlechner,32.0,0.0,Winter,2022/2023,Hertha BSC,florian-niederlechner90
+4414,Nicolas Cozza,24.0,0.0,Winter,2022/2023,Wolfsburg,nicolas-cozza99
+4415,Luca Pellegrini,23.0,0.0,Winter,2022/2023,Juventus,luca-pellegrini99
+4417,Philipp Max,29.0,0.0,Winter,2022/2023,Eint Frankfurt,philipp-max93
+4419,Paxten Aaronson,19.0,4000000.0,Winter,2022/2023,Eint Frankfurt,paxten-aaronson03
+4420,Rocco Reitz,20.0,0.0,Winter,2022/2023,Sint-Truiden,rocco-reitz02
+4422,Yann Sommer,34.0,8000000.0,Winter,2022/2023,Bayern Munich,yann-sommer88
+4428,Umut Tohumcu,18.0,0.0,Winter,2022/2023,Hoffenheim,umut-tohumcu04
+4429,Thomas Delaney,31.0,0.0,Winter,2022/2023,Hoffenheim,thomas-delaney91
+4431,Josip Brekalo,24.0,1500000.0,Winter,2022/2023,Fiorentina,josip-brekalo98
+4434,David Colina,22.0,0.0,Winter,2022/2023,Augsburg,david-colina00
+4437,Kelvin Yeboah,22.0,0.0,Winter,2022/2023,Augsburg,kelvin-yeboah00
+4438,Nathanaël Mbuku,20.0,0.0,Winter,2022/2023,Augsburg,nathanael-mbuku02
+4439,Arne Engels,19.0,0.0,Winter,2022/2023,Augsburg,arne-engels03
+4440,Renato Veiga,19.0,0.0,Winter,2022/2023,Augsburg,renato-veiga03
+4441,Irvin Cardona,25.0,0.0,Winter,2022/2023,Augsburg,irvin-cardona97
+4442,Dion Beljo,20.0,3000000.0,Winter,2022/2023,Augsburg,dion-drena-beljo02
+4443,Maximilian Philipp,28.0,0.0,Winter,2022/2023,Werder Bremen,maximilian-philipp94
+4448,Pierre Kunde,27.0,0.0,Winter,2022/2023,Bochum,pierre-kunde95
+4449,Keven Schlotterbeck,25.0,0.0,Winter,2022/2023,Bochum,keven-schlotterbeck97
+4450,Moritz Broschinski,22.0,0.0,Winter,2022/2023,Bochum,moritz-broschinski00
+4451,Amine Harit,25.0,0.0,Summer,2022/2023,Marseille,amine-harit97
+4452,Myziane Maolida,23.0,0.0,Winter,2022/2023,Reims,myziane-maolida99
+4455,Juan José Perea,22.0,2400000.0,Summer,2022/2023,Stuttgart,juan-perea00
+4456,Luca Pfeiffer,25.0,2850000.0,Summer,2022/2023,Stuttgart,luca-pfeiffer96
+4458,Josha Vagnoman,21.0,3500000.0,Summer,2022/2023,Stuttgart,josha-vagnoman00
+4470,Ricardo Pepi,19.0,500000.0,Summer,2022/2023,Groningen,ricardo-pepi03
+4472,Hiroki Ito,23.0,400000.0,Summer,2022/2023,Stuttgart,hiroki-ito99
+4473,Alou Kuol,20.0,0.0,Summer,2022/2023,Stuttgart,alou-kuol00
+4475,Laurin Ulrich,17.0,0.0,Summer,2022/2023,Stuttgart,lauren-ulrich05
+4477,Mohamed Sankoh,18.0,0.0,Summer,2022/2023,Vitesse,mohamed-sankoh03
+4481,Maxime Awoudja,24.0,0.0,Summer,2022/2023,Excelsior,maxime-awoudja98
+4482,Philipp Förster,27.0,500000.0,Summer,2022/2023,Bochum,philipp-forster95
+4486,Sasa Kalajdzic,25.0,18000000.0,Summer,2022/2023,Wolves,sasa-kalajdzic97
+4492,Thomas Kastanaras,19.0,0.0,Summer,2022/2023,Stuttgart,thomas-kastanaras03
+4497,Maxim Leitsch,24.0,3500000.0,Summer,2022/2023,Mainz 05,maxim-leitsch98
+4498,Armel Bella-Kotchap,20.0,10000000.0,Summer,2022/2023,Southampton,armel-bella-kotchap01
+4500,Ivan Ordets,30.0,0.0,Summer,2022/2023,Bochum,ivan-ordets92
+4501,Tim Oermann,18.0,0.0,Summer,2022/2023,Bochum,tim-oermann03
+4507,Jacek Goralski,29.0,0.0,Summer,2022/2023,Bochum,jacek-goralski92
+4508,Jordi Osei-Tutu,23.0,0.0,Summer,2022/2023,Bochum,jordi-osei-tutu98
+4514,Sebastian Polter,31.0,1500000.0,Summer,2022/2023,Schalke 04,sebastian-polter91
+4516,Lukas Petkov,21.0,0.0,Summer,2022/2023,Augsburg,lukas-petkov00
+4518,Aaron Zehnter,17.0,0.0,Summer,2022/2023,Augsburg,aaron-zehnter04
+4522,Maximilian Bauer,22.0,0.0,Summer,2022/2023,Augsburg,maximilian-bauer00
+4523,Mergim Berisha,24.0,300000.0,Summer,2022/2023,Augsburg,mergim-berisha98
+4524,Elvis Rexhbecaj,24.0,1700000.0,Summer,2022/2023,Augsburg,elvis-rexhbecaj97
+4536,Philipp Hofmann,29.0,0.0,Summer,2022/2023,Bochum,philipp-hofmann93
+4539,Cédric Brunner,28.0,0.0,Summer,2022/2023,Schalke 04,cedric-brunner94
+4540,Maya Yoshida,33.0,0.0,Summer,2022/2023,Schalke 04,maya-yoshida88
+4541,Jordan Larsson,25.0,0.0,Summer,2022/2023,Schalke 04,jordan-larsson97
+4542,Ibrahima Cissé,21.0,0.0,Summer,2022/2023,Schalke 04,ibrahima-cisse94
+4547,Tom Krauß,21.0,600000.0,Summer,2022/2023,Schalke 04,tom-kraus01
+4548,Tobias Mohr,26.0,1100000.0,Summer,2022/2023,Schalke 04,tobias-mohr95
+4551,Thomas Ouwejan,25.0,2000000.0,Summer,2022/2023,Schalke 04,thomas-ouwejan96
+4556,Kenan Karaman,28.0,0.0,Summer,2022/2023,Schalke 04,kenan-karaman94
+4557,Leo Greiml,20.0,0.0,Summer,2022/2023,Schalke 04,leo-greiml01
+4558,Sepp van den Berg,20.0,0.0,Summer,2022/2023,Schalke 04,sepp-van-den-berg01
+4565,Rabbi Matondo,21.0,3000000.0,Summer,2022/2023,Rangers,rabbi-matondo00
+4566,Ozan Kabak,22.0,5000000.0,Summer,2022/2023,Hoffenheim,ozan-kabak00
+4568,Alex Kral,24.0,0.0,Summer,2022/2023,Schalke 04,alex-kral98
+4571,Hamza Mendyl,24.0,0.0,Summer,2022/2023,Schalke 04,hamza-mendyl97
+4579,Jonjoe Kenny,25.0,0.0,Summer,2022/2023,Hertha BSC,jonjoe-kenny97
+4582,Chidera Ejuke,24.0,0.0,Summer,2022/2023,Hertha BSC,chidera-ejuke98
+4583,Derry Scherhant,19.0,0.0,Summer,2022/2023,Hertha BSC,derry-scherhant02
+4585,Julian Eitschberger,18.0,0.0,Summer,2022/2023,Hertha BSC,julian-eitschberger04
+4586,Ivan Sunjic,25.0,0.0,Summer,2022/2023,Hertha BSC,ivan-sunjic96
+4587,Filip Uremovic,25.0,0.0,Summer,2022/2023,Hertha BSC,filip-uremovic97
+4590,Agustín Rogel,24.0,400000.0,Summer,2022/2023,Hertha BSC,agustin-rogel97
+4591,Jessic Ngankam,21.0,2000000.0,Summer,2022/2023,Hertha BSC,jessic-ngankam00
+4597,Wilfried Kanga,24.0,4000000.0,Summer,2022/2023,Hertha BSC,wilfried-kanga98
+4599,Dedryck Boyata,31.0,2000000.0,Summer,2022/2023,Club Brugge,dedryck-boyata90
+4603,Alexander Schwolow,30.0,300000.0,Summer,2022/2023,Schalke 04,alexander-schwolow92
+4609,Jordan Torunarigha,24.0,3500000.0,Summer,2022/2023,Gent,jordan-torunarigha97
+4611,Javairô Dilrosun,24.0,4000000.0,Summer,2022/2023,Feyenoord,javairo-dilrosun98
+4612,Jurgen Ekkelenkamp,22.0,5000000.0,Summer,2022/2023,Antwerp,jurgen-ekkelenkamp00
+4613,Arne Maier,23.0,5000000.0,Summer,2022/2023,Augsburg,arne-maier99
+4622,Aimar Oroz,20.0,0.0,Summer,2022/2023,Osasuna,aimar-oroz01
+4623,Pablo Ibáñez,23.0,0.0,Summer,2022/2023,Osasuna,pablo-ibanez98
+4625,Aitor Fernández,31.0,0.0,Summer,2022/2023,Osasuna,aitor-fernandez91
+4627,Manu Sánchez,21.0,200000.0,Summer,2022/2023,Osasuna,manu-sanchez00
+4635,Uroš Račić,24.0,0.0,Summer,2022/2023,Braga,uros-racic98
+4643,Axel Werner,26.0,0.0,Summer,2022/2023,Elche,axel-werner96
+4647,Domingos Quina,22.0,0.0,Summer,2022/2023,Elche,domingos-quina99
+4648,Carlos Clerc,30.0,0.0,Summer,2022/2023,Elche,carlos-clerc92
+4649,Federico Fernández,33.0,0.0,Summer,2022/2023,Elche,federico-fernandez89
+4650,Lautaro Blanco,23.0,1960000.0,Summer,2022/2023,Elche,lautaro-blanco99
+4651,Roger Martí,31.0,3000000.0,Summer,2022/2023,Elche,roger-marti91
+4653,Nicolás Fernández Mercau,22.0,4000000.0,Summer,2022/2023,Elche,nicolas-ezequiel-fernandez00
+4662,Jasper Cillessen,33.0,1000000.0,Summer,2022/2023,NEC Nijmegen,jasper-cillessen89
+4674,Julen Agirrezabala,21.0,0.0,Summer,2022/2023,Athletic Club,julen-agirrezabala00
+4677,Gorka Guruzeta,25.0,0.0,Summer,2022/2023,Athletic Club,gorka-guruzeta96
+4685,Iñigo Córdoba,25.0,0.0,Summer,2022/2023,Fortuna Sittard,inigo-cordoba97
+4697,Edinson Cavani,35.0,0.0,Summer,2022/2023,Valencia,edinson-cavani87
+4698,Samu Castillejo,27.0,0.0,Summer,2022/2023,Valencia,samu-castillejo95
+4700,Hugo Duro,22.0,4000000.0,Summer,2022/2023,Valencia,hugo-duro99
+4711,Diego López,40.0,0.0,Summer,2022/2023,Rayo Vallecano,diego-lopez81
+4734,Andrés Martín,22.0,0.0,Summer,2022/2023,Rayo Vallecano,andres-martin99
+4736,Florian Lejeune,31.0,0.0,Summer,2022/2023,Rayo Vallecano,florian-lejeune91
+4742,Pep Chavarría,24.0,1800000.0,Summer,2022/2023,Rayo Vallecano,pep-chavarria98
+4743,Loren Morón,28.0,0.0,Summer,2022/2023,Betis,loren-moron93
+4748,Víctor Gómez,22.0,0.0,Summer,2022/2023,Braga,victor-gomez00
+4750,Landry Dimata,24.0,0.0,Summer,2022/2023,NEC Nijmegen,landry-dimata97
+4755,Johan Mojica,30.0,5500000.0,Summer,2022/2023,Villarreal,johan-mojica92
+4758,Carles Pérez,24.0,1000000.0,Summer,2022/2023,Celta Vigo,carles-perez98
+4759,Agustín Marchesín,34.0,1000000.0,Summer,2022/2023,Celta Vigo,agustin-marchesin88
+4760,Julen Lobete,21.0,1000000.0,Summer,2022/2023,Celta Vigo,julen-lobete00
+4761,Luca de la Torre,24.0,2000000.0,Summer,2022/2023,Celta Vigo,luca-de-la-torre98
+4762,Williot Swedberg,18.0,5000000.0,Summer,2022/2023,Celta Vigo,williot-swedberg04
+4765,Lucas Olaza,27.0,0.0,Summer,2022/2023,Valladolid,lucas-olaza94
+4766,Kike Pérez,25.0,0.0,Summer,2022/2023,Valladolid,kike-perez97
+4777,Unai Núñez,25.0,0.0,Summer,2022/2023,Celta Vigo,unai-nunez97
+4780,Jeison Murillo,30.0,0.0,Summer,2022/2023,Sampdoria,jeison-murillo92
+4783,Rubén Blanco,26.0,0.0,Summer,2022/2023,Marseille,ruben-blanco95
+4785,Miguel Baeza,22.0,0.0,Summer,2022/2023,Rio Ave,miguel-baeza00
+4788,José Fontán,22.0,0.0,Summer,2022/2023,Go Ahead Eag,jose-fontan00
+4795,Iván Villar,24.0,0.0,Summer,2022/2023,Celta Vigo,ivan-villar97
+4799,Rubén Peña,30.0,0.0,Summer,2022/2023,Osasuna,ruben-pena91
+4800,Sergio Asenjo,33.0,0.0,Summer,2022/2023,Valladolid,sergio-asenjo89
+4801,José Pozo,26.0,0.0,Summer,2022/2023,Rayo Vallecano,jose-pozo96
+4806,Iván Romero,21.0,0.0,Summer,2022/2023,Sevilla,ivan-romero01
+4808,Alex Telles,29.0,0.0,Summer,2022/2023,Sevilla,alex-telles92
+4810,Adnan Januzaj,27.0,0.0,Summer,2022/2023,Sevilla,adnan-januzaj95
+4811,Marcão,26.0,12000000.0,Summer,2022/2023,Sevilla,marcao96
+4814,Adama Traoré,26.0,0.0,Summer,2022/2023,Wolves,adama-traore96
+4817,Samuel Umtiti,28.0,0.0,Summer,2022/2023,Lecce,samuel-umtiti93
+4818,Sergiño Dest,21.0,0.0,Summer,2022/2023,Milan,sergino-dest00
+4820,Clément Lenglet,27.0,0.0,Summer,2022/2023,Tottenham,clement-lenglet95
+4824,Óscar Mingueza,23.0,0.0,Summer,2022/2023,Celta Vigo,oscar-mingueza99
+4827,Nehuén Pérez,22.0,0.0,Summer,2022/2023,Atlético Madrid,nehuen-perez00
+4828,Sergio Reguilón,25.0,0.0,Summer,2022/2023,Atlético Madrid,sergio-reguilon96
+4830,Samuel Lino,22.0,6500000.0,Summer,2022/2023,Atlético Madrid,samuel-lino99
+4832,Anthony Martial,26.0,0.0,Summer,2022/2023,Manchester Utd,anthony-martial95
+4834,Oussama Idrissi,26.0,0.0,Summer,2022/2023,Feyenoord,oussama-idrissi96
+4840,Ludwig Augustinsson,28.0,500000.0,Summer,2022/2023,Aston Villa,ludwig-augustinsson94
+4843,Lucas Ocampos,28.0,4000000.0,Summer,2022/2023,Ajax,lucas-ocampos94
+4850,Luka Jović,24.0,0.0,Summer,2022/2023,Fiorentina,luka-jovic97
+4851,Isco,30.0,0.0,Summer,2022/2023,Sevilla,isco92
+4853,Víctor Chust,22.0,1000000.0,Summer,2022/2023,Cádiz,victor-chust00
+4854,Miguel Gutiérrez,21.0,4000000.0,Summer,2022/2023,Girona,miguel-gutierrez01
+4855,Takefusa Kubo,21.0,6500000.0,Summer,2022/2023,Real Sociedad,takefusa-kubo01
+4862,Álvaro Odriozola,26.0,0.0,Summer,2022/2023,Real Madrid,alvaro-odriozola95
+4866,Antonio Rüdiger,29.0,0.0,Summer,2022/2023,Real Madrid,antonio-rudiger93
+4869,Raphinha,25.0,58000000.0,Summer,2022/2023,Barcelona,raphinha96
+4870,Neto,33.0,0.0,Summer,2022/2023,Bournemouth,neto89
+4871,Jules Koundé,23.0,50000000.0,Summer,2022/2023,Barcelona,jules-kounde98
+4872,Martin Braithwaite,31.0,0.0,Summer,2022/2023,Espanyol,martin-braithwaite91
+4876,Pierre-Emerick Aubameyang,33.0,12000000.0,Summer,2022/2023,Chelsea,pierre-emerick-aubameyang89
+4880,Álex Collado,23.0,0.0,Summer,2022/2023,Barcelona,alex-collado99
+4883,Iñaki Peña,23.0,0.0,Summer,2022/2023,Barcelona,inaki-pena99
+4886,Franck Kessié,25.0,0.0,Summer,2022/2023,Barcelona,franck-kessie96
+4887,Andreas Christensen,26.0,0.0,Summer,2022/2023,Barcelona,andreas-christensen96
+4889,Marcos Alonso,31.0,0.0,Summer,2022/2023,Barcelona,marcos-alonso90
+4890,Robert Lewandowski,33.0,45000000.0,Summer,2022/2023,Barcelona,robert-lewandowski88
+4895,Joel Robles,32.0,0.0,Summer,2022/2023,Leeds United,joel-robles90
+4915,Diego Lainez,22.0,0.0,Summer,2022/2023,Braga,diego-lainez00
+4920,Moi Gómez,28.0,1800000.0,Summer,2022/2023,Osasuna,moi-gomez94
+4923,Xavi Quintillà,25.0,0.0,Summer,2022/2023,Villarreal,xavi-quintilla96
+4924,Jorge Cuenca,22.0,0.0,Summer,2022/2023,Villarreal,jorge-cuenca99
+4928,Álex Millán,22.0,0.0,Summer,2022/2023,Villarreal,alex-millan99
+4929,Nicolas Jackson,21.0,0.0,Summer,2022/2023,Villarreal,nicolas-jackson01
+4930,Giovani Lo Celso,26.0,0.0,Summer,2022/2023,Villarreal,giovani-lo-celso96
+4931,José Luis Morales,34.0,0.0,Summer,2022/2023,Villarreal,jose-luis-morales87
+4932,Pepe Reina,39.0,0.0,Summer,2022/2023,Villarreal,pepe-reina82
+4933,Kiko Femenía,31.0,980000.0,Summer,2022/2023,Villarreal,kiko-femenia91
+4939,Ivo Grbic,26.0,0.0,Summer,2022/2023,Atlético Madrid,ivo-grbic96
+4953,Álvaro Morata,29.0,0.0,Summer,2022/2023,Atlético Madrid,alvaro-morata92
+4954,Saúl Ñíguez,27.0,0.0,Summer,2022/2023,Atlético Madrid,saul-niguez94
+4956,Sergio Camello,21.0,0.0,Summer,2022/2023,Atlético Madrid,sergio-camello01
+4962,Willian José,30.0,10000000.0,Summer,2022/2023,Betis,willian-jose91
+4964,Alexander Isak,22.0,70000000.0,Summer,2022/2023,Newcastle Utd,alexander-isak99
+4972,Álex Sola,23.0,0.0,Summer,2022/2023,Real Sociedad,alex-sola99
+4974,Beñat Turrientes,20.0,0.0,Summer,2022/2023,Real Sociedad,benat-turrientes02
+4975,Robert Navarro,20.0,0.0,Summer,2022/2023,Real Sociedad,roberto-navarro02
+4976,Jon Pacheco,21.0,0.0,Summer,2022/2023,Real Sociedad,jon-pacheco01
+4977,Alexander Sörloth,26.0,1500000.0,Summer,2022/2023,Real Sociedad,alexander-sorloth95
+4980,Brais Méndez,25.0,14000000.0,Summer,2022/2023,Real Sociedad,brais-mendez97
+4981,Umar Sadiq,25.0,20000000.0,Summer,2022/2023,Real Sociedad,umar-sadiq97
+4988,Bryan Gil,21.0,0.0,Winter,2022/2023,Sevilla,bryan-gil01
+4992,Héctor Bellerín,27.0,1000000.0,Winter,2022/2023,Sporting CP,hector-bellerin95
+4993,Memphis Depay,28.0,3000000.0,Winter,2022/2023,Atlético Madrid,memphis94
+4997,Pol Lozano,22.0,0.0,Summer,2022/2023,Espanyol,pol-lozano99
+4998,Álex Baena,20.0,0.0,Summer,2022/2023,Villarreal,alex-baena01
+5006,Kike Salas,20.0,0.0,Winter,2022/2023,Sevilla,kike-salas02
+5015,Matheus Cunha,23.0,0.0,Winter,2022/2023,Wolves,matheus-cunha99
+5016,Felipe,33.0,2300000.0,Winter,2022/2023,Nott'ham Forest,felipe89
+5019,Pablo Barrios,19.0,0.0,Winter,2022/2023,Atlético Madrid,pablo-barrios03
+5020,Matt Doherty,31.0,0.0,Winter,2022/2023,Atlético Madrid,matt-doherty92
+5038,Saidy Janko,26.0,0.0,Summer,2022/2023,Bochum,saidy-janko95
+5052,Jon Morcillo,23.0,0.0,Summer,2022/2023,Athletic Club,jon-morcillo98
+5063,Yan Couto,20.0,0.0,Summer,2022/2023,Girona,yan-couto02
+5064,Rodrigo Riquelme,22.0,0.0,Summer,2022/2023,Girona,rodrigo-riquelme00
+5065,Yangel Herrera,24.0,0.0,Summer,2022/2023,Girona,yangel-herrera98
+5066,Paulo Gazzaniga,30.0,0.0,Summer,2022/2023,Girona,paulo-gazzaniga92
+5067,Oriol Romeu,30.0,0.0,Summer,2022/2023,Girona,oriol-romeu91
+5069,Manu Vallejo,25.0,0.0,Summer,2022/2023,Girona,manu-vallejo97
+5071,Toni Villa,27.0,0.0,Summer,2022/2023,Girona,toni-villa95
+5072,David López,32.0,0.0,Summer,2022/2023,Girona,david-lopez89
+5073,Javi Hernández,24.0,500000.0,Summer,2022/2023,Girona,javi-hernandez98
+5079,Diego Mariño,32.0,0.0,Winter,2022/2023,Almería,diego-marino90
+5087,Jorge Meré,25.0,0.0,Winter,2022/2023,Cádiz,jorge-mere97
+5089,Gonzalo Escalante,29.0,0.0,Winter,2022/2023,Cádiz,gonzalo-escalante93
+5090,Youba Diarra,24.0,1100000.0,Winter,2022/2023,Cádiz,youba-diarra98
+5091,Chris Ramos,26.0,1500000.0,Winter,2022/2023,Cádiz,chris-ramos97
+5101,Fernando Pacheco,30.0,2200000.0,Winter,2022/2023,Espanyol,fernando-pacheco92
+5105,Alexander Callens,30.0,0.0,Winter,2022/2023,Girona,alexander-callens92
+5106,Viktor Tsygankov,25.0,5000000.0,Winter,2022/2023,Girona,viktor-tsyhankov97
+5113,Cyle Larin,27.0,0.0,Winter,2022/2023,Valladolid,cyle-larin95
+5114,Darwin Machís,29.0,0.0,Winter,2022/2023,Valladolid,darwin-machis93
+5115,Selim Amallah,26.0,1000000.0,Winter,2022/2023,Valladolid,selim-amallah96
+5121,Dennis Hadzikadunic,24.0,0.0,Winter,2022/2023,Mallorca,dennis-hadzikadunic98
+5122,Manu Morlanes,24.0,0.0,Winter,2022/2023,Mallorca,manu-morlanes99
+5126,Pape Cheikh,25.0,0.0,Winter,2022/2023,Elche,pape-cheikh-diop97
+5128,Lisandro Magallán,29.0,0.0,Winter,2022/2023,Elche,lisandro-magallan93
+5141,Gerónimo Rulli,30.0,8000000.0,Winter,2022/2023,Ajax,geronimo-rulli92
+5143,Filip Jörgensen,20.0,0.0,Winter,2022/2023,Villarreal,filip-jorgensen02
+5163,Denis Suárez,29.0,0.0,Winter,2022/2023,Espanyol,denis-suarez94
+5166,Haris Seferovic,30.0,0.0,Winter,2022/2023,Celta Vigo,haris-seferovic92
+5174,Leo Román,21.0,0.0,Summer,2022/2023,Mallorca,leonardo-roman00
+5175,Matija Nastasić,29.0,0.0,Summer,2022/2023,Mallorca,matija-nastasic93
+5179,Predrag Rajković,26.0,2000000.0,Summer,2022/2023,Mallorca,predrag-rajkovic95
+5180,Pablo Maffeo,24.0,3000000.0,Summer,2022/2023,Mallorca,pablo-maffeo97
+5185,Gonzalo Villar,24.0,0.0,Summer,2022/2023,Roma,gonzalo-villar98
+5190,Lago Júnior,31.0,0.0,Summer,2022/2023,Mallorca,lago-junior90
+5191,Braian Cufré,25.0,0.0,Summer,2022/2023,Mallorca,braian-cufre96
+5194,Awer Mabil,26.0,0.0,Summer,2022/2023,Cádiz,awer-mabil95
+5196,Rubén Alcaraz,31.0,1000000.0,Summer,2022/2023,Cádiz,ruben-alcaraz91
+5197,Brian Ocampo,23.0,1900000.0,Summer,2022/2023,Cádiz,brian-ocampo99
+5198,Théo Bongonda,26.0,3000000.0,Summer,2022/2023,Cádiz,theo-bongonda95
+5201,Rodrigo Battaglia,30.0,0.0,Summer,2022/2023,Sporting CP,rodrigo-battaglia91
+5207,Brian Oliván,28.0,0.0,Summer,2022/2023,Espanyol,brian-olivan94
+5217,Jaime Seoane,25.0,0.0,Summer,2022/2023,Getafe,jaime-seoane97
+5218,Domingos Duarte,27.0,750000.0,Summer,2022/2023,Getafe,domingos-duarte95
+5219,Luis Milla,27.0,5000000.0,Summer,2022/2023,Getafe,luis-milla94
+5220,Borja Mayoral,25.0,10000000.0,Summer,2022/2023,Getafe,borja-mayoral97
+5236,Fabrizio Angileri,28.0,0.0,Summer,2022/2023,Getafe,fabrizio-angileri94
+5237,Munir El Haddadi,26.0,0.0,Summer,2022/2023,Getafe,munir-el-haddadi95
+5239,Portu,30.0,0.0,Summer,2022/2023,Getafe,portu92
+5247,Mathías Olivera,24.0,11000000.0,Summer,2022/2023,Napoli,mathias-olivera97
+5254,Omar Alderete,25.0,0.0,Summer,2022/2023,Getafe,omar-alderete96
+5255,Ángel Algobia,23.0,0.0,Summer,2022/2023,Getafe,angel-algobia99
+5258,Juanmi Latasa,21.0,0.0,Summer,2022/2023,Getafe,juanmi-latasa01
+5259,Joseba Zaldua,30.0,0.0,Summer,2022/2023,Cádiz,joseba-zaldua92
+5260,Unai López,26.0,0.0,Summer,2022/2023,Athletic Club,unai-lopez95
+5274,José Carlos Lazo,26.0,0.0,Summer,2022/2023,Espanyol,jose-carlos-lazo96
+5286,Fede San Emeterio,25.0,0.0,Summer,2022/2023,Valladolid,fede-san-emeterio97
+5288,Sergi Guardiola,31.0,0.0,Summer,2022/2023,Valladolid,sergi-guardiola91
+5289,Sekou Gassama,27.0,0.0,Summer,2022/2023,Valladolid,sekou-gassama95
+5294,Paulo Vitor,23.0,0.0,Summer,2022/2023,Valladolid,paulo-vitor99
+5296,Juanjo Narváez,27.0,0.0,Summer,2022/2023,Valladolid,juanjo-narvaez95
+5297,Zouhair Feddal,32.0,0.0,Summer,2022/2023,Valladolid,zouhair-feddal89
+5299,Sergio Escudero,32.0,0.0,Summer,2022/2023,Valladolid,sergio-escudero89
+5300,Iván Sánchez,29.0,100000.0,Summer,2022/2023,Valladolid,ivan-sanchez92
+5301,Mickaël Malsa,25.0,500000.0,Summer,2022/2023,Valladolid,mickael-malsa95
+5302,Kenedy,26.0,500000.0,Summer,2022/2023,Valladolid,kenedy96
+5303,Monchu,22.0,1200000.0,Summer,2022/2023,Valladolid,monchu99
+5306,Iván Fresneda,17.0,0.0,Summer,2022/2023,Valladolid,ivan-fresneda04
+5311,Milutin Osmajic,23.0,0.0,Summer,2022/2023,Vizela,milutin-osmajic99
+5323,Raúl Parra,22.0,0.0,Summer,2022/2023,Cádiz,raul-parra99
+5325,Momo Mbaye,24.0,0.0,Summer,2022/2023,Cádiz,mamadou-mbaye98
+5329,Álvaro Giménez,31.0,0.0,Summer,2022/2023,Cádiz,alvaro-gimenez91
+5333,Srdjan Babic,26.0,1100000.0,Summer,2022/2023,Almería,srdan-babic96
+5334,Léo Baptistão,29.0,1500000.0,Summer,2022/2023,Almería,leo-baptistao92
+5336,Alejandro Pozo,23.0,3000000.0,Summer,2022/2023,Almería,alejandro-pozo-pozo99
+5337,Marko Milovanovic,18.0,3500000.0,Summer,2022/2023,Almería,marko-milovanovic03
+5339,Kaiky,18.0,7000000.0,Summer,2022/2023,Almería,kaiky04
+5340,Lázaro,20.0,7000000.0,Summer,2022/2023,Almería,lazaro02
+5341,Gonzalo Melero,28.0,1900000.0,Summer,2022/2023,Almería,gonzalo-melero94
+5347,Adrián Embarba,30.0,1000000.0,Summer,2022/2023,Almería,adri-embarba92
+5353,Mohamed Achi,20.0,0.0,Summer,2022/2023,Nantes,mohamed-achi02
+5356,Mostafa Mohamed,24.0,250000.0,Summer,2022/2023,Nantes,mostafa-mohamed97
+5357,Moussa Sissoko,32.0,2000000.0,Summer,2022/2023,Nantes,moussa-sissoko89
+5358,Ignatius Ganago,23.0,4400000.0,Summer,2022/2023,Nantes,ignatius-ganago99
+5368,Tino Kadewere,26.0,400000.0,Summer,2022/2023,Mallorca,tino-kadewere96
+5369,Cenk Özkacar,21.0,500000.0,Summer,2022/2023,Valencia,cenk-ozkacar00
+5374,Lohann Doucet,19.0,0.0,Summer,2022/2023,Nantes,lohann-doucet02
+5377,Abdoul Kader Bamba,28.0,0.0,Summer,2022/2023,Nantes,abdoul-kader-bamba94
+5378,Sven Botman,22.0,37000000.0,Summer,2022/2023,Newcastle Utd,sven-botman00
+5379,Lucas Chevalier,20.0,0.0,Summer,2022/2023,Lille,lucas-chevalier01
+5381,Yusuf Yazici,25.0,0.0,Summer,2022/2023,Lille,yusuf-yazici97
+5382,André Gomes,29.0,0.0,Summer,2022/2023,Lille,andre-gomes93
+5385,Rémy Cabella,32.0,0.0,Summer,2022/2023,Lille,remy-cabella90
+5386,Ismaily,32.0,0.0,Summer,2022/2023,Lille,ismaily90
+5387,Alexsandro,22.0,2000000.0,Summer,2022/2023,Lille,alex-sandro91
+5389,Adam Ounas,25.0,3000000.0,Summer,2022/2023,Lille,adam-ounas96
+5390,Alan Virginius,19.0,4000000.0,Summer,2022/2023,Lille,alan-virginius03
+5400,Mohamed El Arouch,18.0,0.0,Summer,2022/2023,Lyon,mohamed-el-arouch04
+5401,Renato Sanches,24.0,15000000.0,Summer,2022/2023,Paris S-G,renato-sanches97
+5402,Brice Samba,28.0,5000000.0,Summer,2022/2023,Lens,brice-samba94
+5409,Lukasz Poreba,22.0,350000.0,Summer,2022/2023,Lens,lukasz-poreba00
+5411,Jean Onana,22.0,4000000.0,Summer,2022/2023,Lens,jean-onana00
+5413,Adam Buksa,25.0,6000000.0,Summer,2022/2023,Lens,adam-buksa96
+5415,Loïs Openda,22.0,9800000.0,Summer,2022/2023,Lens,lois-openda00
+5429,Rémy Riou,34.0,0.0,Summer,2022/2023,Lyon,remy-riou87
+5430,Alexandre Lacazette,31.0,0.0,Summer,2022/2023,Lyon,alexandre-lacazette91
+5432,Saël Kumbedi,17.0,1000000.0,Summer,2022/2023,Lyon,sael-kumbedi05
+5433,Nicolás Tagliafico,29.0,4200000.0,Summer,2022/2023,Lyon,nicolas-tagliafico92
+5434,Johann Lepenant,19.0,4250000.0,Summer,2022/2023,Lyon,johann-lepenant02
+5447,Jonathan Clauss,29.0,7500000.0,Summer,2022/2023,Marseille,jonathan-clauss92
+5449,Cheick Doucouré,22.0,22600000.0,Summer,2022/2023,Crystal Palace,cheick-doucoure00
+5451,Zeki Celik,25.0,7000000.0,Summer,2022/2023,Roma,zeki-celik97
+5452,Ibrahim Amadou,29.0,0.0,Summer,2022/2023,Angers,ibrahim-amadou93
+5454,Théo Sainte-Luce,23.0,0.0,Summer,2022/2023,Montpellier,theo-sainte-luce98
+5457,Christopher Jullien,29.0,1000000.0,Summer,2022/2023,Montpellier,christopher-jullien93
+5472,Sambou Sissoko,23.0,0.0,Summer,2022/2023,R.F.C. Seraing,sambou-sissoko00
+5476,Arnaud Nordin,24.0,0.0,Summer,2022/2023,Montpellier,arnaud-nordin98
+5477,Wahbi Khazri,31.0,0.0,Summer,2022/2023,Montpellier,wahbi-khazri91
+5478,Faitout Maouassa,23.0,0.0,Summer,2022/2023,Montpellier,faitout-maouassa98
+5479,Khalil Fayad,18.0,0.0,Summer,2022/2023,Montpellier,khalil-fayad04
+5480,Amine Salama,21.0,0.0,Summer,2022/2023,Angers,amine-salama00
+5481,Himad Abdelli,22.0,0.0,Summer,2022/2023,Angers,himad-abdelli99
+5482,Ilyes Chetti,27.0,0.0,Summer,2022/2023,Angers,ilyes-cheti95
+5484,Miha Blazic,29.0,0.0,Summer,2022/2023,Angers,miha-blazic93
+5485,Halid Sabanovic,22.0,300000.0,Summer,2022/2023,Angers,halid-sabanovic99
+5486,Adrien Hunou,28.0,1500000.0,Summer,2022/2023,Angers,adrien-hunou94
+5488,Ousmane Camara,19.0,2200000.0,Summer,2022/2023,Angers,ousmane-camara01
+5496,Junior Sambia,25.0,0.0,Summer,2022/2023,Salernitana,junior-sambia96
+5497,Mihailo Ristić,26.0,0.0,Summer,2022/2023,Benfica,mihailo-ristic95
+5500,Enzo Tchato,19.0,0.0,Summer,2022/2023,Montpellier,enzo-tchato02
+5501,El Bilal Touré,20.0,8000000.0,Summer,2022/2023,Almería,el-bilal-toure01
+5503,Domagoj Bradaric,22.0,5000000.0,Summer,2022/2023,Salernitana,domagoj-bradaric99
+5526,Burak Yilmaz,36.0,0.0,Summer,2022/2023,Fortuna Sittard,burak-yilmaz85
+5533,Kaj Sierhuis,24.0,0.0,Summer,2022/2023,Reims,kaj-sierhuis98
+5536,Moustapha Mbow,22.0,0.0,Summer,2022/2023,Reims,moustapha-mbow00
+5537,Thibault De Smet,24.0,0.0,Summer,2022/2023,Reims,thibault-de-smet98
+5538,Kamory Doumbia,19.0,0.0,Summer,2022/2023,Reims,kamory-doumbia03
+5539,Martin Adeline,18.0,0.0,Summer,2022/2023,Reims,martin-adeline03
+5540,Folarin Balogun,21.0,0.0,Summer,2022/2023,Reims,folarin-balogun01
+5541,Maxime Busi,22.0,0.0,Summer,2022/2023,Reims,maxime-busi99
+5545,Emmanuel Agbadou,25.0,2600000.0,Summer,2022/2023,Reims,emmanuel-agbadou97
+5546,Andreaw Gravillon,24.0,3500000.0,Summer,2022/2023,Reims,andrew-gravillon98
+5547,Junya Ito,29.0,10000000.0,Summer,2022/2023,Reims,junya-ito93
+5549,Martín Satriano,21.0,0.0,Summer,2022/2023,Inter,martin-satriano01
+5561,Samuel Gigot,28.0,0.0,Summer,2022/2023,Marseille,samuel-gigot93
+5563,Nemanja Radonjić,26.0,0.0,Summer,2022/2023,Marseille,nemanja-radonjic96
+5566,Nuno Tavares,22.0,0.0,Summer,2022/2023,Marseille,nuno-tavares00
+5570,Alexis Sánchez,33.0,0.0,Summer,2022/2023,Marseille,alexis-sanchez88
+5571,Chancel Mbemba,27.0,0.0,Summer,2022/2023,Marseille,chancel-mbemba94
+5572,Eric Bailly,28.0,2000000.0,Summer,2022/2023,Marseille,eric-bailly94
+5575,Arkadiusz Milik,28.0,8000000.0,Summer,2022/2023,Marseille,arkadiusz-milik94
+5576,Cengiz Ünder,24.0,8400000.0,Summer,2022/2023,Marseille,cengiz-under97
+5579,Boubacar Kamara,22.0,0.0,Summer,2022/2023,Aston Villa,boubacar-kamara99
+5585,Maghnes Akliouche,20.0,0.0,Summer,2022/2023,Monaco,maghnes-akliouche02
+5586,Félix Lemaréchal,18.0,0.0,Summer,2022/2023,Monaco,felix-lemarechal03
+5588,Malang Sarr,23.0,1000000.0,Summer,2022/2023,Monaco,malang-sarr99
+5591,Mohamed Camara,22.0,15000000.0,Summer,2022/2023,Monaco,mohamed-camara97
+5597,William Saliba,21.0,0.0,Summer,2022/2023,Arsenal,william-saliba01
+5599,Pol Lirola,24.0,0.0,Summer,2022/2023,Elche,pol-lirola97
+5603,Jordan Veretout,29.0,11000000.0,Summer,2022/2023,Marseille,jordan-veretout93
+5606,Timothée Pembélé,19.0,0.0,Summer,2022/2023,Paris S-G,timothee-pembele02
+5607,Alphonse Areola,29.0,9300000.0,Summer,2022/2023,West Ham,alphonse-areola93
+5609,Arnaud Kalimuendo,20.0,20000000.0,Summer,2022/2023,Rennes,arnaud-kalimuendo02
+5621,Djeidi Gassama,18.0,0.0,Summer,2022/2023,Paris S-G,djeidi-gassama03
+5622,Hugo Ekitiké,20.0,0.0,Summer,2022/2023,Paris S-G,hugo-ekitike02
+5625,Carlos Soler,25.0,18000000.0,Summer,2022/2023,Paris S-G,carlos-soler97
+5627,Nuno Mendes,20.0,38000000.0,Summer,2022/2023,Paris S-G,nuno-mendes02
+5628,Vitinha,22.0,41500000.0,Summer,2022/2023,Paris S-G,vitinha00
+5629,Idrissa Gueye,32.0,4000000.0,Summer,2022/2023,Everton,idrissa-gana-gueye89
+5631,Julian Draxler,28.0,2500000.0,Summer,2022/2023,Benfica,julian-draxler93
+5632,Marcin Bulka,22.0,2000000.0,Summer,2022/2023,Nice,marcin-bulka99
+5636,Layvin Kurzawa,29.0,0.0,Summer,2022/2023,Fulham,layvin-kurzawa92
+5641,Georginio Wijnaldum,31.0,0.0,Summer,2022/2023,Roma,georginio-wijnaldum90
+5644,Nathan Bitumazala,19.0,0.0,Summer,2022/2023,Eupen,nathan-bitu-mazala02
+5646,Leandro Paredes,28.0,0.0,Summer,2022/2023,Juventus,leandro-paredes94
+5648,Teddy Alloh,20.0,0.0,Summer,2022/2023,Eupen,teddy-alloh02
+5649,Ángel Di María,34.0,0.0,Summer,2022/2023,Juventus,angel-di-maria88
+5651,Xavi Simons,19.0,0.0,Summer,2022/2023,PSV Eindhoven,xavi-simons03
+5660,Flavius Daniliuc,21.0,5000000.0,Summer,2022/2023,Salernitana,flavius-daniliuc01
+5661,Amine Gouiri,22.0,28000000.0,Summer,2022/2023,Rennes,amine-gouiri00
+5670,Ross Barkley,28.0,0.0,Summer,2022/2023,Nice,ross-barkley93
+5671,Nicolas Pépé,27.0,0.0,Summer,2022/2023,Nice,nicolas-pepe95
+5673,Joe Bryan,28.0,0.0,Summer,2022/2023,Nice,joe-bryan93
+5674,Badredine Bouanani,17.0,0.0,Summer,2022/2023,Nice,badredine-bouanani04
+5675,Aaron Ramsey,31.0,0.0,Summer,2022/2023,Nice,aaron-ramsey90
+5676,Kasper Schmeichel,35.0,1000000.0,Summer,2022/2023,Nice,kasper-schmeichel86
+5678,Rares Ilie,19.0,5000000.0,Summer,2022/2023,Nice,rares-ilie03
+5681,Walter Benítez,29.0,0.0,Summer,2022/2023,PSV Eindhoven,walter-benitez93
+5685,Marvin Senaya,21.0,0.0,Summer,2022/2023,Strasbourg,marvin-senaya01
+5687,Bingourou Kamara,25.0,0.0,Summer,2022/2023,Strasbourg,bingourou-kamara96
+5688,Habib Diarra,18.0,0.0,Summer,2022/2023,Strasbourg,habib-diarra04
+5691,Colin Dagba,23.0,0.0,Summer,2022/2023,Strasbourg,colin-dagba98
+5693,Thomas Delaine,30.0,0.0,Summer,2022/2023,Strasbourg,thomas-delaine92
+5694,Lucas Perrin,23.0,1500000.0,Summer,2022/2023,Strasbourg,lucas-perrin98
+5695,Jean-Eudes Aholou,28.0,3000000.0,Summer,2022/2023,Strasbourg,jean-eudes-aholou94
+5696,Justin Kluivert,23.0,0.0,Summer,2022/2023,Roma,justin-kluivert99
+5698,Jordan Amavi,28.0,0.0,Summer,2022/2023,Marseille,jordan-amavi94
+5701,Alexis Claude-Maurice,24.0,0.0,Summer,2022/2023,Lens,alexis-claude-maurice98
+5702,Calvin Stengs,23.0,0.0,Summer,2022/2023,Antwerp,calvin-stengs98
+5703,Evann Guessand,21.0,0.0,Summer,2022/2023,Nantes,evann-guessand01
+5705,Mattia Viti,20.0,13000000.0,Summer,2022/2023,Nice,mattia-viti02
+5707,Sofiane Diop,22.0,22000000.0,Summer,2022/2023,Nice,sofiane-diop00
+5709,Jeanuël Belocian,17.0,0.0,Summer,2022/2023,Rennes,jeanuel-belocian05
+5710,Steve Mandanda,37.0,0.0,Summer,2022/2023,Rennes,steve-mandanda85
+5711,Christopher Wooh,20.0,9000000.0,Summer,2022/2023,Rennes,christopher-wooh01
+5712,Arthur Theate,22.0,19000000.0,Summer,2022/2023,Rennes,arthur-theate00
+5716,Radoslaw Majecki,22.0,0.0,Summer,2022/2023,Cercle Brugge,radoslaw-majecki99
+5718,Pelé,30.0,0.0,Summer,2022/2023,Famalicão,pele91
+5720,Jean Marcelin,22.0,0.0,Summer,2022/2023,Cercle Brugge,jean-marcelin00
+5722,Vito Mannone,34.0,0.0,Summer,2022/2023,Lorient,vito-mannone88
+5729,Aurélien Tchouameni,22.0,80000000.0,Summer,2022/2023,Real Madrid,aurelien-tchouameni00
+5730,Guéla Doué,19.0,0.0,Summer,2022/2023,Rennes,guela-doue02
+5731,Désiré Doué,17.0,0.0,Summer,2022/2023,Rennes,desire-doue05
+5735,Junior Kadile,19.0,0.0,Summer,2022/2023,Famalicão,junior-kadile02
+5737,Serhou Guirassy,26.0,0.0,Summer,2022/2023,Stuttgart,serhou-guirassy96
+5738,Loïc Badé,22.0,0.0,Summer,2022/2023,Nott'ham Forest,loic-bade00
+5739,Metehan Güçlü,23.0,0.0,Summer,2022/2023,Emmen,metehan-guclu99
+5740,James Léa Siliki,26.0,0.0,Summer,2022/2023,Estoril,james-lea-siliki96
+5743,Jonas Martin,32.0,0.0,Summer,2022/2023,Lille,jonas-martin90
+5744,Yann Gboho,21.0,0.0,Summer,2022/2023,Cercle Brugge,yann-gboho01
+5745,Gaëtan Laborde,28.0,15000000.0,Summer,2022/2023,Nice,gaetan-laborde94
+5751,Matthis Abline,19.0,0.0,Summer,2022/2023,Rennes,matthis-abline03
+5753,Joe Rodon,24.0,0.0,Summer,2022/2023,Rennes,joe-rodon97
+5755,Yahia Fofana,21.0,0.0,Summer,2022/2023,Angers,yahia-fofana00
+5756,Steven Fortes,30.0,0.0,Summer,2022/2023,Lens,steven-fortes92
+5757,Yan Valery,23.0,0.0,Summer,2022/2023,Angers,yan-valery99
+5758,Morgan Sanson,28.0,0.0,Winter,2022/2023,Strasbourg,morgan-sanson94
+5760,Rémy Labeau Lascary,19.0,0.0,Winter,2022/2023,Lens,remy-labeau-lascary03
+5762,Julien Le Cardinal,25.0,2300000.0,Winter,2022/2023,Lens,julien-le-cardinal97
+5764,Ronaël Pierre-Gabriel,24.0,0.0,Winter,2022/2023,Mainz 05,ronael-pierre-gabriel98
+5765,Karol Fila,24.0,0.0,Winter,2022/2023,Zulte Waregem,karol-fila98
+5766,Adrien Thomasson,29.0,3900000.0,Winter,2022/2023,Lens,adrien-thomasson93
+5767,Ludovic Ajorque,28.0,6000000.0,Winter,2022/2023,Mainz 05,ludovic-ajorque94
+5768,Yuito Suzuki,21.0,0.0,Winter,2022/2023,Strasbourg,yuito-suzuki01
+5769,Frédéric Guilbert,28.0,0.0,Winter,2022/2023,Strasbourg,frederic-guilbert94
+5771,Eduard Sobol,27.0,2500000.0,Winter,2022/2023,Strasbourg,eduard-sobol95
+5772,Mads Bech Sörensen,23.0,0.0,Winter,2022/2023,Brentford,mads-bech-sorensen99
+5773,Andy Delort,31.0,0.0,Winter,2022/2023,Nantes,andy-delort91
+5777,Kasper Dolberg,25.0,0.0,Winter,2022/2023,Hoffenheim,kasper-dolberg97
+5780,Mario Lemina,29.0,11000000.0,Winter,2022/2023,Wolves,mario-lemina93
+5782,Jeffinho,23.0,10000000.0,Winter,2022/2023,Lyon,jeffinho99
+5785,Leny Yoro,16.0,0.0,Winter,2022/2023,Lille,leny-yoro05
+5786,Benoît Costil,35.0,0.0,Winter,2022/2023,Lille,benoit-costil87
+5794,Jaouen Hadjam,19.0,0.0,Winter,2022/2023,Nantes,jaouen-hadjam03
+5798,Jeff Reine-Adélaïde,25.0,0.0,Winter,2022/2023,Troyes,jeff-reine-adelaide98
+5802,Romain Faivre,24.0,1000000.0,Winter,2022/2023,Lorient,romain-faivre98
+5803,Karl Toko Ekambi,30.0,1500000.0,Winter,2022/2023,Rennes,karl-toko-ekambi92
+5809,Ander Herrera,33.0,0.0,Winter,2022/2023,Athletic Club,ander-herrera89
+5814,Ruslan Malinovskyi,29.0,0.0,Winter,2022/2023,Marseille,ruslan-malinovskyi93
+5817,Keylor Navas,36.0,0.0,Winter,2022/2023,Nott'ham Forest,keylor-navas86
+5821,Terem Moffi,23.0,2500000.0,Winter,2022/2023,Nice,terem-moffi99
+5835,Pape Gueye,24.0,0.0,Winter,2022/2023,Sevilla,pape-gueye99
+5836,Youssouf Ndayishimiye,24.0,11500000.0,Winter,2022/2023,Nice,youssouf-ndayishimiye98
+5841,Kamaldeen Sulemana,20.0,25000000.0,Winter,2022/2023,Southampton,kamaldeen-sulemana02
+5845,Ibrahim Salah,21.0,3000000.0,Winter,2022/2023,Rennes,ibrahim-salah01
+5848,Anthony Musaba,22.0,0.0,Winter,2022/2023,NEC Nijmegen,anthony-musaba00
+5851,Benoît Badiashile,21.0,38000000.0,Winter,2022/2023,Chelsea,benoit-badiashile01
+5853,Chrislain Matsima,20.0,0.0,Winter,2022/2023,Monaco,chrislain-matsima02
+5855,Arthur Zagré,21.0,0.0,Winter,2022/2023,Monaco,arthur-zagre01
+5856,Eliesse Ben Seghir,17.0,0.0,Winter,2022/2023,Monaco,eliesse-ben-seghir05
+5858,Akim Zedadka,27.0,0.0,Winter,2022/2023,Auxerre,akim-zedadka95
+5861,Saïd Hamulic,22.0,2500000.0,Winter,2022/2023,Toulouse,said-hamulic00
+5864,Brandon Baiye,22.0,0.0,Winter,2022/2023,Eupen,brandon-baiye00
+5867,Aïman Maurer,18.0,0.0,Winter,2022/2023,Clermont Foot,aiman-maurer04
+5871,Quentin Boisgard,25.0,0.0,Winter,2022/2023,Paris S-G,quentin-boisgard97
+5872,Ayman Kari,18.0,0.0,Winter,2022/2023,Lorient,ayman-kari04
+5877,Moritz Jenz,23.0,0.0,Winter,2022/2023,Schalke 04,moritz-jenz99
+5879,Dango Ouattara,20.0,22500000.0,Winter,2022/2023,Bournemouth,dango-ouattara02
+5882,Sambou Soumano,22.0,0.0,Winter,2022/2023,Lorient,sambou-soumano01
+5883,Warren Kamanzi,22.0,0.0,Winter,2022/2023,Toulouse,waren-kamanzi00
+5884,Gabriel Suazo,25.0,0.0,Winter,2022/2023,Toulouse,gabriel-suazo97
+5885,Abdallah Sima,21.0,0.0,Summer,2022/2023,Angers,abdallah-sima01
+5886,Naatan Skyttä,20.0,0.0,Winter,2022/2023,Toulouse,naatan-skytta02
+5892,Han-Noah Massengo,21.0,0.0,Winter,2022/2023,Auxerre,han-noah-massengo01
+5894,Siriki Dembélé,26.0,0.0,Winter,2022/2023,Auxerre,siriki-dembele96
+5899,Elisha Owusu,25.0,0.0,Winter,2022/2023,Auxerre,elisha-owusu97
+5902,Moussa Djitté,23.0,0.0,Winter,2022/2023,Ajaccio,moussa-djitte99
+5905,Yanis Begraoui,21.0,0.0,Winter,2022/2023,Paris S-G,yanis-begraoui01
+5914,Rafik Guitane,23.0,0.0,Winter,2022/2023,Estoril,rafik-guitane99
+5925,Islam Slimani,34.0,0.0,Winter,2022/2023,Anderlecht,islam-slimani88
+5934,Ibrahim Diakité,19.0,0.0,Winter,2022/2023,Eupen,ibrahim-diakite03
+5936,Benjamin Lecomte,31.0,2000000.0,Winter,2022/2023,Montpellier,benjamin-lecomte91
+5937,Issiaga Sylla,29.0,0.0,Winter,2022/2023,Montpellier,issiaga-sylla94
+5938,Bamba Dieng,22.0,7000000.0,Winter,2022/2023,Lorient,bamba-dieng00
+5951,Azzedine Ounahi,22.0,8000000.0,Winter,2022/2023,Marseille,azzedine-ounahi00
+5952,Faouzi Ghoulam,31.0,0.0,Winter,2022/2023,Angers,faouzi-ghoulam91
+5953,Ibrahima Niane,23.0,0.0,Winter,2022/2023,Angers,ibrahima-niane99
+5957,Jonas Omlin,29.0,9000000.0,Winter,2022/2023,M'Gladbach,jonas-omlin94
+5960,Vincent Sierro,27.0,0.0,Winter,2022/2023,Toulouse,vincent-sierro95
+5965,Adil Aouchiche,20.0,0.0,Summer,2022/2023,Lorient,adil-aouchiche02
+5966,Darlin Yongwa,21.0,1500000.0,Summer,2022/2023,Lorient,darlin-yongwa00
+5967,Montassar Talbi,24.0,1500000.0,Summer,2022/2023,Lorient,montassar-talbi98
+5968,Yoann Cathline,20.0,2700000.0,Summer,2022/2023,Lorient,yoann-cathline02
+5970,Lebo Mothiba,26.0,0.0,Summer,2022/2023,Strasbourg,lebo-mothiba96
+5972,Issa Kaboré,21.0,0.0,Summer,2022/2023,Manchester City,issa-kabore01
+5986,Siriné Doucouré,20.0,0.0,Summer,2022/2023,Lorient,sirine-doucoure02
+5987,Bamo Meïté,21.0,0.0,Summer,2022/2023,Lorient,bamo-meite01
+5995,Houboulang Mendes,24.0,0.0,Summer,2022/2023,Almería,houboulang-mendes98
+5997,Paul Nardi,28.0,150000.0,Summer,2022/2023,Gent,paul-nardi94
+6002,Armand Laurienté,23.0,10000000.0,Summer,2022/2023,Sassuolo,armand-lauriente98
+6005,Adrian Grbic,25.0,0.0,Summer,2022/2023,Lorient,adrian-grbic96
+6008,Julien Ponceau,21.0,0.0,Summer,2022/2023,Lorient,julien-ponceau00
+6020,Jimmy Cabot,28.0,2000000.0,Summer,2022/2023,Lens,jimmy-cabot94
+6024,Paul Bernardoni,25.0,0.0,Summer,2022/2023,Angers,paul-bernardoni97
+6025,Giulian Biancone,22.0,10000000.0,Summer,2022/2023,Nott'ham Forest,giulian-biancone00
+6026,Sada Thioub,27.0,0.0,Summer,2022/2023,Angers,sada-thioub95
+6027,Antonin Bobichon,26.0,0.0,Summer,2022/2023,Angers,antonin-bobichon95
+6028,Farid El Melali,25.0,0.0,Summer,2022/2023,Angers,farid-el-melali97
+6031,Jean-Mattéo Bahoya,17.0,0.0,Summer,2022/2023,Angers,jean-matteo-bahoya05
+6032,Jason Mbock,22.0,0.0,Summer,2022/2023,Angers,jason-mbock99
+6035,Kenji-Van Boto,26.0,0.0,Summer,2022/2023,Auxerre,kenji-van-boto96
+6044,Rui Pires,24.0,0.0,Summer,2022/2023,Troyes,rui-pires98
+6045,Mykola Kukharevych,21.0,0.0,Summer,2022/2023,Troyes,mykola-kukharevych01
+6046,Mahamadou Dembélé,23.0,0.0,Summer,2022/2023,Troyes,mahamadou-dembele99
+6048,Lucien Agoumé,20.0,0.0,Summer,2022/2023,Troyes,lucien-agoume02
+6049,Mateusz Lis,25.0,0.0,Summer,2022/2023,Troyes,mateusz-lis97
+6050,Papa Ndiaga Yade,22.0,0.0,Summer,2022/2023,Troyes,papa-ndiaga-yade00
+6051,Rony Lopes,26.0,0.0,Summer,2022/2023,Troyes,rony-lopes95
+6052,Marlos Moreno,25.0,0.0,Summer,2022/2023,Troyes,marlos-moreno96
+6053,Ante Palaversa,22.0,0.0,Summer,2022/2023,Troyes,ante-palaversa00
+6054,Amar Abdirahman Ahmed,18.0,0.0,Summer,2022/2023,Troyes,amar-ahmed04
+6055,Wilson Odobert,17.0,0.0,Summer,2022/2023,Troyes,wilson-odobert04
+6056,Andreas Bruus,23.0,1500000.0,Summer,2022/2023,Troyes,andreas-bruus99
+6057,Thierno Baldé,20.0,3000000.0,Summer,2022/2023,Troyes,thierno-balde02
+6058,Iké Ugbo,23.0,3000000.0,Summer,2022/2023,Troyes,ike-ugbo98
+6060,Sávio,18.0,6500000.0,Summer,2022/2023,Troyes,savio04
+6062,Loïs Diony,29.0,0.0,Summer,2022/2023,Angers,lois-diony92
+6064,Yoann Touzghar,35.0,0.0,Summer,2022/2023,Ajaccio,yoann-touzghar86
+6067,Simon Elisor,22.0,0.0,Summer,2022/2023,Ajaccio,simon-elisor99
+6069,Kevin Spadanuda,25.0,0.0,Summer,2022/2023,Ajaccio,kevin-spadanuda97
+6070,Youssouf Koné,27.0,0.0,Summer,2022/2023,Ajaccio,youssouf-kone95
+6071,Clément Vidal,22.0,0.0,Summer,2022/2023,Ajaccio,clement-vidal00
+6072,Mickaël Alphonse,32.0,0.0,Summer,2022/2023,Ajaccio,mickael-alphonse89
+6073,Romain Hamouma,35.0,0.0,Summer,2022/2023,Ajaccio,romain-hamouma87
+6074,Thomas Mangani,35.0,0.0,Summer,2022/2023,Ajaccio,thomas-mangani87
+6075,Fernand Mayembo,26.0,300000.0,Summer,2022/2023,Ajaccio,fernand-mayembo96
+6083,Steve Mvoué,20.0,0.0,Summer,2022/2023,R.F.C. Seraing,steve-mvoue02
+6085,Bafodé Diakité,21.0,3000000.0,Summer,2022/2023,Lille,bafode-diakite01
+6086,Nathan Ngoumou,22.0,8000000.0,Summer,2022/2023,M'Gladbach,nathan-ngoumou00
+6088,Gédéon Kalulu,24.0,0.0,Summer,2022/2023,Lorient,gedeon-kalulu97
+6092,Mateusz Wieteska,25.0,1300000.0,Summer,2022/2023,Clermont Foot,mateusz-wieteska97
+6096,Kévin Danois,18.0,0.0,Summer,2022/2023,Auxerre,kevin-danois04
+6098,Gideon Mensah,24.0,0.0,Summer,2022/2023,Auxerre,gideon-mensah98
+6100,Brayann Pereira,19.0,0.0,Summer,2022/2023,Auxerre,brayann-pereira03
+6101,Denys Bain,29.0,0.0,Summer,2022/2023,Auxerre,denys-bain93
+6102,Julian Jeanvier,30.0,0.0,Summer,2022/2023,Auxerre,julian-jeanvier92
+6103,Youssouf M'Changama,31.0,0.0,Summer,2022/2023,Auxerre,youssouf-mchangama90
+6104,M'Baye Niang,27.0,0.0,Summer,2022/2023,Auxerre,mbaye-niang94
+6105,Rayan Raveloson,25.0,1750000.0,Summer,2022/2023,Auxerre,rayan-raveloson97
+6106,Nuno Da Costa,31.0,2000000.0,Summer,2022/2023,Auxerre,nuno-da-costa91
+6113,Kays Ruiz-Atil,19.0,0.0,Summer,2022/2023,Auxerre,kays-ruiz02
+6114,Farès Chaïbi,19.0,0.0,Summer,2022/2023,Toulouse,fares-chaibi02
+6116,Salis Abdul Samed,22.0,5000000.0,Summer,2022/2023,Lens,salis-abdul-samed00
+6117,Mohamed Bayo,24.0,14000000.0,Summer,2022/2023,Lille,mohamed-lamine-bayo98
+6123,Muhammed Cham,21.0,0.0,Summer,2022/2023,Clermont Foot,muhammed-cham00
+6124,Baïla Diallo,21.0,0.0,Summer,2022/2023,Clermont Foot,baila-diallo01
+6125,Maximiliano Caufriez,25.0,0.0,Summer,2022/2023,Clermont Foot,maximiliano-caufriez97
+6128,Mehdi Zeffane,30.0,0.0,Summer,2022/2023,Clermont Foot,mehdi-zeffane92
+6130,Maxime Gonalons,33.0,0.0,Summer,2022/2023,Clermont Foot,maxime-gonalons89
+6131,Mory Diaw,29.0,0.0,Summer,2022/2023,Clermont Foot,mory-diaw93
+6132,Souleymane Cissé,19.0,0.0,Summer,2022/2023,Clermont Foot,souleymane-cisse02
+6133,Yanis Massolin,19.0,0.0,Summer,2022/2023,Clermont Foot,yanis-massolin02
+6134,Komnen Andric,27.0,1000000.0,Summer,2022/2023,Clermont Foot,komnen-andric95
+6136,Neto Borges,25.0,0.0,Summer,2022/2023,Clermont Foot,neto-borges96
+6137,Cédric Hountondji,28.0,2000000.0,Summer,2022/2023,Angers,cedric-hountondji94
+6138,Jérémie Bela,29.0,0.0,Summer,2022/2023,Clermont Foot,jeremie-bela93
+6142,Oliver Zandén,20.0,1500000.0,Summer,2022/2023,Toulouse,oliver-zanden01
+6143,Zakaria Aboukhlal,22.0,2000000.0,Summer,2022/2023,Toulouse,zakaria-aboukhlal00
+6144,Thijs Dallinga,21.0,2500000.0,Summer,2022/2023,Toulouse,thijs-dallinga00
+6145,Theocharis Tsingaras,22.0,300000.0,Summer,2022/2023,Toulouse,theocharis-tsingaras00
+6151,Veljko Birmancevic,24.0,4099999.9999999995,Summer,2022/2023,Toulouse,veljko-birmancevic98
+6156,Oriol Busquets,23.0,0.0,Summer,2022/2023,Arouca,oriol-busquets99
