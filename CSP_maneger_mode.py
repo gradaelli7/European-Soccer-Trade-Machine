@@ -1,37 +1,37 @@
 #!/usr/bin/env python
 #coding:utf-8
 
-def csp(candidates, starting_xi_data, players, team, requested_positions, budget):
+def csp(candidates, common_players_data, players, team, requested_positions, budget):
     if len(requested_positions) == 0: 
-        suggestions(candidates, starting_xi_data, players, team, 3)
+        suggestions(candidates, common_players_data, players, team, 3)
     else:
-        backtracking(candidates.to_dict(orient='records'), team_starting_xi_positions(starting_xi_data, team), players, team, requested_positions, budget)
+        backtracking(candidates.to_dict(orient='records'), team_common_players_positions(common_players_data, team), players, team, requested_positions, budget)
 
-def team_starting_xi_positions(starting_xi_data, team):
-    df_team_roster = starting_xi_data[starting_xi_data['Squad'] == team]
+def team_common_players_positions(common_players_data, team):
+    df_team_roster = common_players_data[common_players_data['Squad'] == team]
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
     return df_team_roster['sub_position'].tolist()[:11]
 
-def team_positional_needs(candidates, starting_xi_data, team, n):
-    df_team_roster = starting_xi_data[starting_xi_data['Squad'] == team]
+def team_positional_needs(candidates, common_players_data, team, n):
+    df_team_roster = common_players_data[common_players_data['Squad'] == team]
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
-    df_starting_xi = df_team_roster[df_team_roster['90s'] >= 10]
+    df_common_players = df_team_roster[df_team_roster['90s'] >= 10]
     print(df_team_roster.head())
 
     pos_list = []
     starter_avgs = []
     roster_avgs = []
 
-    for pos in set(team_starting_xi_positions(starting_xi_data, team)):
+    for pos in set(team_common_players_positions(common_players_data, team)):
         pos_list.append(pos)
 
-        df_starting_xi_pos = candidates[candidates['name'].isin(df_starting_xi['Player'])]
-        df_starting_xi_pos = df_starting_xi_pos[df_starting_xi_pos['position'] == pos]
+        df_common_players_pos = candidates[candidates['name'].isin(df_common_players['Player'])]
+        df_common_players_pos = df_common_players_pos[df_common_players_pos['position'] == pos]
 
         df_team_roster_pos = candidates[candidates['name'].isin(df_team_roster['Player'])]
         df_team_roster_pos = df_team_roster_pos[df_team_roster_pos['position'] == pos]
 
-        starter_avgs.append(df_starting_xi_pos['rating'].mean())
+        starter_avgs.append(df_common_players_pos['rating'].mean())
         roster_avgs.append(df_team_roster_pos['rating'].mean())
 
     # print(pos_list)
@@ -59,8 +59,8 @@ def team_positional_needs(candidates, starting_xi_data, team, n):
 # Right-Back (D)
 # Second Striker (F)
 
-def suggestions(candidates, starting_xi_data, players, team, x):
-    pos_list = team_positional_needs(candidates, starting_xi_data, team, 1)
+def suggestions(candidates, common_players_data, players, team, x):
+    pos_list = team_positional_needs(candidates, common_players_data, team, 1)
     print("No positions specified.")
     print("Recommended position for {}: {}".format(team, pos_list[0]))
     candidates_pos = candidates[candidates['position'] == pos_list[0]]
@@ -68,7 +68,7 @@ def suggestions(candidates, starting_xi_data, players, team, x):
     for i in range(x):
         players.append(candidates_pos.iloc[i])
 
-def backtracking(candidates, starting_xi_positions, players, team, requested_positions, budget):
+def backtracking(candidates, common_players_positions, players, team, requested_positions, budget):
 
     if len(requested_positions) == 0:
         return True
@@ -82,7 +82,7 @@ def backtracking(candidates, starting_xi_positions, players, team, requested_pos
                 players.append(player)
                 requested_positions_updated.remove(player['position'])
                 candidates_temp.remove(player)
-                if backtracking(candidates_temp, starting_xi_positions, players, team, requested_positions_updated, budget - player['price']):
+                if backtracking(candidates_temp, common_players_positions, players, team, requested_positions_updated, budget - player['price']):
                     return True
                 players.pop()
                 requested_positions_updated.append(player['position'])
@@ -147,16 +147,16 @@ if __name__ == '__main__':
     # requested_positions = ['Goalkeeper'] # WORKING
     # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
 
-    df_starting_xi = pd.read_csv('data/starting_11.csv')
+    df_common_players = pd.read_csv('data/starting_11.csv')
 
     # initial condition
     players = []  # the players we choose under restrictions
 
-    csp(df_transfers, df_starting_xi, players, team, requested_positions, budget)
+    csp(df_transfers, df_common_players, players, team, requested_positions, budget)
 
-    # suggestions(df_transfers, df_starting_xi, players, team, 3)
+    # suggestions(df_transfers, df_common_players, players, team, 3)
 
-    # team_positional_needs(df_transfers, df_starting_xi, team, 3)
+    # team_positional_needs(df_transfers, df_common_players, team, 3)
 
     print_output(players)
     
