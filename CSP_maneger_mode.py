@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 #coding:utf-8
 
-def csp(candidates, common_players_data, players, team, requested_positions, budget):
+def csp(candidates, common_players_data, players, team, requested_positions, budget, attributes):
     if len(requested_positions) == 0: 
         suggestions(candidates, common_players_data, players, team, 3)
     else:
+        print("Before sorting")
+        print(candidates.head())
+        candidates = candidates.sort_values(by=['rating']+attributes, ascending=False)
+        print("After sorting")
+        print(candidates.head())
         backtracking(candidates.to_dict(orient='records'), team_common_players_positions(common_players_data, team), players, team, requested_positions, budget)
 
 def team_common_players_positions(common_players_data, team):
@@ -132,17 +137,15 @@ if __name__ == '__main__':
     ## load candidates   
     df_transfers = pd.read_csv('data/csp_data.csv')
     # pick useful information
-    df_transfers = df_transfers[['id', 'Player', 'sub_position', 'Squad', 'market_value_in_eur', 'target_bucket']]
+    df_transfers = df_transfers[['id', 'Player', 'sub_position', 'Squad', 'market_value_in_eur', 'target_bucket', 'FK', 'SoT%', 'PrgDist']]
     # rename columns
-    df_transfers.columns=['id', 'name', 'position', 'team', 'price', 'rating']
-    # Sort by player rating
-    df_transfers = df_transfers.sort_values(by=['rating'], ascending=False)
+    df_transfers.columns=['id', 'name', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker']
 
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
     budget = 100000000
-    # requested_positions = ['Centre-Back', 'Centre-Back', 'Attacking Midfield']
-    requested_positions = []
+    requested_positions = ['Centre-Back', 'Centre-Back', 'Attacking Midfield']
+    # requested_positions = []
     team = 'Cambuur'
     # requested_positions = ['Goalkeeper'] # WORKING
     # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
@@ -152,15 +155,10 @@ if __name__ == '__main__':
     # initial condition
     players = []  # the players we choose under restrictions
 
-    csp(df_transfers, df_common_players, players, team, requested_positions, budget)
+    csp(df_transfers, df_common_players, players, team, requested_positions, budget, ['Playmaker'])
 
     # suggestions(df_transfers, df_common_players, players, team, 3)
 
     # team_positional_needs(df_transfers, df_common_players, team, 3)
 
     print_output(players)
-    
-    # Characteristic - attribute pairings:
-    # Free-kick Specialist -> FK
-    # Sharp-shooter -> SoT%
-    # Playmaker -> PrgDist
