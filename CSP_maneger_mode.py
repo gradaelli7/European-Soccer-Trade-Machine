@@ -15,7 +15,7 @@ def team_starting_xi_positions(starting_xi_data, team):
 def team_positional_needs(candidates, starting_xi_data, team, n):
     df_team_roster = starting_xi_data[starting_xi_data['Squad'] == team]
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
-    df_starting_xi = df_team_roster[:11]
+    df_starting_xi = df_team_roster[df_team_roster['90s'] >= 10]
     print(df_team_roster.head())
 
     pos_list = []
@@ -141,8 +141,8 @@ if __name__ == '__main__':
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
     budget = 100000000
-    requested_positions = ['Centre-Back', 'Centre-Back', 'Attacking Midfield']
-    # requested_positions = []
+    # requested_positions = ['Centre-Back', 'Centre-Back', 'Attacking Midfield']
+    requested_positions = []
     team = 'Cambuur'
     # requested_positions = ['Goalkeeper'] # WORKING
     # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
