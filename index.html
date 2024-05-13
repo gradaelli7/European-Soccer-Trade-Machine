@@ -141,61 +141,57 @@
             playerDetails.classList.toggle('show');
         });
 
-        // JavaScript to add additional player position buttons
+        // JavaScript to add additional player position dropdowns
         var playerPositionBtn = document.querySelector('.player-position-btn');
-        var selectTeamSection = document.getElementById('select-team');
+        var playerDetails = document.querySelector('.player-details');
+        var dropdownContainer = document.createElement('div');
+        dropdownContainer.classList.add('dropdown-container');
+
+        // Limit the number of times the button can be clicked
+        var clickCount = 0;
+        var maxClicks = 5;
 
         playerPositionBtn.addEventListener('click', function() {
-            var additionalPlayerDetails = document.createElement('div');
-            additionalPlayerDetails.classList.add('additional-player');
+            if (clickCount < maxClicks) {
+                var playerPositionDropdown = document.createElement('div');
+                playerPositionDropdown.classList.add('dropdown', 'player-position-dropdown');
 
-            var playerPositionBtn = document.createElement('button');
-            playerPositionBtn.classList.add('btn', 'player-position-btn');
-            playerPositionBtn.textContent = '+ Player Position';
+                var playerPositionSelect = document.createElement('select');
+                playerPositionSelect.classList.add('player-position-select');
+                playerPositionSelect.innerHTML = `
+                    <option value="">Select a Position</option>
+                    <option value="forward">Forward</option>
+                    <option value="midfielder">Midfielder</option>
+                    <option value="defender">Defender</option>
+                    <option value="goalkeeper">Goalkeeper</option>
+                `;
 
-            var playerDetails = document.createElement('div');
-            playerDetails.classList.add('player-details');
+                var playerTraitsDropdown = document.createElement('div');
+                playerTraitsDropdown.classList.add('dropdown', 'player-traits-dropdown');
 
-            var playerPositionDropdown = document.createElement('div');
-            playerPositionDropdown.classList.add('dropdown', 'player-position-dropdown');
+                var playerTraitsSelect = document.createElement('select');
+                playerTraitsSelect.classList.add('player-traits-select');
+                playerTraitsSelect.innerHTML = `
+                    <option value="">Select Player Traits</option>
+                    <option value="speed">Speed</option>
+                    <option value="accuracy">Accuracy</option>
+                    <option value="strength">Strength</option>
+                    <option value="vision">Vision</option>
+                `;
 
-            var playerPositionSelect = document.createElement('select');
-            playerPositionSelect.classList.add('player-position-select');
-            playerPositionSelect.innerHTML = `
-                <option value="">Select a Position</option>
-                <option value="forward">Forward</option>
-                <option value="midfielder">Midfielder</option>
-                <option value="defender">Defender</option>
-                <option value="goalkeeper">Goalkeeper</option>
-            `;
+                playerPositionDropdown.appendChild(playerPositionSelect);
+                playerTraitsDropdown.appendChild(playerTraitsSelect);
+                dropdownContainer.appendChild(playerPositionDropdown);
+                dropdownContainer.appendChild(playerTraitsDropdown);
+                playerDetails.appendChild(dropdownContainer);
 
-            var playerTraitsDropdown = document.createElement('div');
-            playerTraitsDropdown.classList.add('dropdown', 'player-traits-dropdown');
-
-            var playerTraitsSelect = document.createElement('select');
-            playerTraitsSelect.classList.add('player-traits-select');
-            playerTraitsSelect.innerHTML = `
-                <option value="">Select Player Traits</option>
-                <option value="speed">Speed</option>
-                <option value="accuracy">Accuracy</option>
-                <option value="strength">Strength</option>
-                <option value="vision">Vision</option>
-            `;
-
-            playerDetails.appendChild(playerPositionDropdown);
-            playerPositionDropdown.appendChild(playerPositionSelect);
-            playerDetails.appendChild(playerTraitsDropdown);
-            playerTraitsDropdown.appendChild(playerTraitsSelect);
-            additionalPlayerDetails.appendChild(playerPositionBtn);
-            additionalPlayerDetails.appendChild(playerDetails);
-            selectTeamSection.appendChild(additionalPlayerDetails);
-
-            playerPositionBtn.addEventListener('click', function() {
-                playerDetails.classList.toggle('show');
-            });
+                clickCount++;
+            } else {
+                alert('You have reached the maximum limit of additional players.');
+            }
         });
     </script>
-
+    
     <!-- JavaScript to dynamically populate team dropdown based on league selection -->
     <script>
         document.getElementById('league').addEventListener('change', function() {
