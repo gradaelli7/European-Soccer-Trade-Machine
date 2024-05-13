@@ -43,6 +43,16 @@
         .btn:hover {
             background-color: #45a049;
         }
+
+        /* Style for dropdown menus */
+        .dropdown {
+            margin-top: 20px;
+        }
+
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
@@ -57,6 +67,28 @@
             <p>Insert Description Here.</p>
         </section>
 
+        <!-- Select Your Team -->
+        <section id="select-team">
+            <h2>Select Your Team</h2>
+            <!-- League Selection Dropdown -->
+            <div class="dropdown">
+                <select id="league">
+                    <option value="">Select a League</option>
+                    <option value="serieA">Serie A</option>
+                    <option value="bundesliga">Bundesliga</option>
+                    <option value="laLiga">La Liga</option>
+                    <option value="ligue1">Ligue 1</option>
+                </select>
+            </div>
+            <!-- Team Selection Dropdown -->
+            <div class="dropdown">
+                <select id="team">
+                    <option value="">Select a Team</option>
+                    <!-- Options for teams will be dynamically populated based on the league selection using JavaScript -->
+                </select>
+            </div>
+        </section>
+
         <!-- Mode Selection -->
         <section id="mode-selection">
             <h2>Choose a Mode</h2>
@@ -65,5 +97,43 @@
         </section>
     </div>
 
+    <!-- JavaScript to dynamically populate team dropdown based on league selection -->
+    <script>
+        document.getElementById('league').addEventListener('change', function() {
+            var league = this.value;
+            var teamDropdown = document.getElementById('team');
+            // Clear previous options
+            teamDropdown.innerHTML = '<option value="">Select a Team</option>';
+            // Populate team options based on league selection
+            switch (league) {
+                case 'serieA':
+                    populateTeams(['Team 1', 'Team 2', 'Team 3']); // Replace with actual team names
+                    break;
+                case 'bundesliga':
+                    populateTeams(['Team A', 'Team B', 'Team C']); // Replace with actual team names
+                    break;
+                case 'laLiga':
+                    populateTeams(['Team X', 'Team Y', 'Team Z']); // Replace with actual team names
+                    break;
+                case 'ligue1':
+                    populateTeams(['Team Alpha', 'Team Beta', 'Team Gamma']); // Replace with actual team names
+                    break;
+                default:
+                    // No league selected
+                    break;
+            }
+        });
+
+        function populateTeams(teams) {
+            var teamDropdown = document.getElementById('team');
+            teams.forEach(function(team) {
+                var option = document.createElement('option');
+                option.text = team;
+                option.value = team.toLowerCase().replace(/\s/g, ''); // Convert team name to lowercase and remove spaces for value
+                teamDropdown.add(option);
+            });
+        }
+    </script>
 </body>
 </html>
+
