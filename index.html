@@ -113,7 +113,7 @@
                     <!-- Dropdown for Player Position -->
                     <div class="dropdown player-position-dropdown">
                         <select class="player-position-select">
-                            <label for="dropdown">Dropdown Menu:</label>
+                            <label for="dropdown">1. </label>
                             <option value="">Select a Position</option>
                             <option value="forward">Forward</option>
                             <option value="midfielder">Midfielder</option>
@@ -184,7 +184,7 @@
             // Add a number to the left of the new dropdowns
             var positionNumber = document.createElement('span');
             positionNumber.classList.add('position-number');
-            positionNumber.textContent = (clickCount + 2) + '.'; // Increment clickCount and start from 2
+            positionNumber.textContent = (clickCount + 2) + '. '; // Increment clickCount and start from 2
             playerPositionDropdown.appendChild(positionNumber);
 
             playerPositionDropdown.appendChild(playerPositionSelect);
