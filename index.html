@@ -74,16 +74,16 @@
             <div class="dropdown">
                 <select id="league">
                     <option value="">Select a League</option>
-                    <option value="serieA">Serie A</option>
                     <option value="bundesliga">Bundesliga</option>
-                    <option value="premierLeague">Premier League</option>
-                    <option value="ligue1">Ligue 1</option>
+                    <option value="eredivisie">Eredivisie</option>
+                    <option value="jupilerProLeague">Jupiler Pro League</option>
                     <option value="laLiga">La Liga</option>
+                    <option value="ligaNos">Liga Nos</option>
+                    <option value="ligue1">Ligue 1</option>
+                    <option value="premierLeague">Premier League</option>
                     <option value="premierLiga">Premier Liga</option>
                     <option value="scottishPremiership">Scottish Premiership</option>
-                    <option value="jupilerProLeague">Jupiler Pro League</option>
-                    <option value="eredivisie">Eredivisie</option>
-                    <option value="ligaNos">Liga Nos</option>
+                    <option value="serieA">Serie A</option>
                 </select>
             </div>
             <!-- Team Selection Dropdown -->
@@ -108,34 +108,34 @@
             // Populate team options based on league selection
             switch (league) {
                 case 'serieA':
-                    populateTeams(['Udinese', 'Hellas Verona', 'Roma', 'Cremonese', 'Inter', 'Milan', 'Bologna', 'Spezia', 'Torino', 'Empoli', 'Lazio', 'Sassuolo', 'Sampdoria', 'Fiorentina', 'Monza', 'Lecce', 'Juventus', 'Napoli', 'Atalanta', 'Salernitana']);
+                    populateTeams(['Atalanta', 'Bologna', 'Cremonese', 'Empoli', 'Fiorentina', 'Hellas Verona', 'Inter', 'Juventus', 'Lazio', 'Lecce', 'Milan', 'Monza', 'Napoli', 'Roma', 'Salernitana', 'Sampdoria', 'Sassuolo', 'Spezia', 'Torino', 'Udinese']);
                     break;
                 case 'bundesliga':
-                    populateTeams(['Eint Frankfurt', 'Köln', 'Dortmund', 'Leverkusen', 'Werder Bremen', 'Mainz 05', 'Hoffenheim', 'Schalke 04', 'Stuttgart', 'Bochum', 'Wolfsburg', 'RB Leipzig', 'Augsburg', 'Union Berlin', "M'Gladbach", 'Bayern Munich', 'Hertha BSC', 'Freiburg']);
+                    populateTeams(['Augsburg', 'Bayern Munich', 'Bochum', 'Dortmund', 'Eint Frankfurt', "M'Gladbach", 'Freiburg', 'Hertha BSC', 'Hoffenheim', 'Köln', 'Leverkusen', 'Mainz 05', 'RB Leipzig', 'Schalke 04', 'Stuttgart', 'Union Berlin', 'Werder Bremen', 'Wolfsburg']);
                     break;
                 case 'premierLeague':
-                    populateTeams(['Leeds United', 'Southampton', 'Fulham', 'West Ham', 'Crystal Palace', 'Wolves', 'Brentford', 'Manchester City', 'Liverpool', 'Newcastle Utd', 'Leicester City', 'Bournemouth', 'Manchester Utd', 'Chelsea', "Nott'ham Forest", 'Brighton', 'Aston Villa', 'Tottenham', 'Everton', 'Arsenal']);
+                    populateTeams(['Arsenal', 'Aston Villa', 'Bournemouth', 'Brighton', 'Chelsea', 'Crystal Palace', 'Everton', 'Leeds United', 'Leicester City', "Nott'ham Forest", 'Liverpool', 'Manchester City', 'Manchester Utd', 'Newcastle Utd', 'Southampton', 'Tottenham', 'West Ham', 'Wolves', 'Fulham', 'Brentford']);
                     break;
                 case 'ligue1':
-                    populateTeams(['Reims', 'Angers', 'Lens', 'Lorient', 'Auxerre', 'Toulouse', 'Troyes', 'Monaco', 'Strasbourg', 'Clermont Foot', 'Ajaccio', 'Nice', 'Lille', 'Lyon', 'Brest', 'Rennes', 'Marseille', 'Paris S-G', 'Nantes', 'Montpellier']);
+                    populateTeams(['Ajaccio', 'Angers', 'Auxerre', 'Brest', 'Clermont Foot', 'Lens', 'Lille', 'Lorient', 'Lyon', 'Marseille', 'Metz', 'Monaco', 'Montpellier', 'Nantes', 'Nice', 'Paris S-G', 'Reims', 'Rennes', 'Strasbourg', 'Troyes']);
                     break;
                 case 'laLiga':
-                    populateTeams(['Betis', 'Sevilla', 'Valladolid', 'Celta Vigo', 'Almería', 'Real Madrid', 'Barcelona', 'Villarreal', 'Cádiz', 'Getafe', 'Real Sociedad', 'Valencia', 'Athletic Club', 'Mallorca', 'Osasuna', 'Rayo Vallecano', 'Espanyol', 'Atlético Madrid', 'Elche', 'Girona']);
+                    populateTeams(['Alavés', 'Athletic Club', 'Atlético Madrid', 'Barcelona', 'Betis', 'Cádiz', 'Celta Vigo', 'Elche', 'Espanyol', 'Getafe', 'Granada', 'Levante', 'Mallorca', 'Osasuna', 'Rayo Vallecano', 'Real Madrid', 'Real Sociedad', 'Sevilla', 'Valencia', 'Villarreal']);
                     break;
                 case 'premierLiga':
-                    populateTeams(['Orenburg', 'Zenit', 'Akhmat Grozny', 'CSKA Moscow', 'Fakel Voronezh', 'Krasnodar', 'Nizhny Novgorod', 'FC Khimki', 'Torpedo Moscow', 'Sochi', 'Samara', 'Spartak Moscow', 'Rostov', 'Ural', 'Dynamo Mosc']);
+                    populateTeams(['Akhmat Grozny', 'CSKA Moscow', 'Dynamo Mosc', 'Fakel Voronezh', 'Krasnodar', 'Nizhny Novgorod', 'Orenburg', 'Rostov', 'Samara', 'Spartak Moscow', 'Sochi', 'Torpedo Moscow', 'Ural', 'Zenit']);
                     break;
                 case 'scottishPremiership':
-                    populateTeams(['Celtic', 'Motherwell', 'Kilmarnock', 'Dundee United', 'Livingston', 'Rangers', 'Hearts', 'St Mirren', 'St Johnstone', 'Ross County', 'Aberdeen', 'Hibernian']);
+                    populateTeams(['Aberdeen', 'Celtic', 'Dundee United', 'Hamilton', 'Hearts', 'Hibernian', 'Livingston', 'Motherwell', 'Rangers', 'Ross County', 'St Johnstone', 'St Mirren']);
                     break;
                 case 'jupilerProLeague':
-                    populateTeams(['Cercle Brugge', 'Union SG', 'Mechelen', 'Antwerp', 'Oostende', 'Eupen', 'Standard Liège', 'Anderlecht', 'Charleroi', 'Genk', 'Kortrijk', 'Club Brugge', 'R.F.C. Seraing', 'Sint-Truiden', 'Westerlo', 'Zulte Waregem', 'Gent', 'OH Leuven']);
+                    populateTeams(['Anderlecht', 'Antwerp', 'Cercle Brugge', 'Charleroi', 'Club Brugge', 'Eupen', 'Genk', 'Gent', 'Kortrijk', 'Mechelen', 'Oostende', 'R.F.C. Seraing', 'Sint-Truiden', 'Standard Liège', 'Union SG', 'Westerlo', 'Zulte Waregem', 'OH Leuven']);
                     break;
                 case 'eredivisie':
-                    populateTeams(['PSV Eindhoven', "Sparta R'dam", 'Groningen', 'Go Ahead Eag', 'RKC Waalwijk', 'Excelsior', 'Heerenveen', 'Ajax', 'Volendam', 'Emmen', 'Vitesse', 'Cambuur', 'AZ Alkmaar', 'Fortuna Sittard', 'Feyenoord', 'Utrecht', 'NEC Nijmegen']);
+                    populateTeams(['ADO Den Haag', 'Ajax', 'AZ Alkmaar', 'Cambuur', 'Excelsior', 'Feyenoord', 'Fortuna Sittard', 'Go Ahead Eag', 'Groningen', 'Heerenveen', 'NEC Nijmegen', 'PSV Eindhoven', 'RKC Waalwijk', 'Sparta R\'dam', 'Twente', 'Utrecht', 'Vitesse', 'Willem II', 'Zwolle']);
                     break;
                 case 'ligaNos':
-                    populateTeams(['Boavista', 'Gil Vicente FC', 'Santa Clara', 'Marítimo', 'Estoril', 'Famalicão', 'Vizela', 'Portimonense', 'Sporting CP', 'Vitória', 'Arouca', 'Paços', 'Benfica', 'Rio Ave', 'Braga', 'Casa Pia', 'Chaves', 'Porto']);
+                    populateTeams(['Arouca', 'Belenenses', 'Benfica', 'Boavista', 'Braga', 'Casa Pia', 'Chaves', 'Estoril', 'Famalicão', 'Gil Vicente FC', 'Marítimo', 'Moreirense', 'Paços', 'Portimonense', 'Porto', 'Rio Ave', 'Santa Clara', 'Sporting CP', 'Tondela', 'Vitória']);
                     break;
                 default:
                     // No league selected
@@ -145,6 +145,8 @@
 
         function populateTeams(teams) {
             var teamDropdown = document.getElementById('team');
+            // Sort teams alphabetically
+            teams.sort();
             teams.forEach(function(team) {
                 var option = document.createElement('option');
                 option.text = team;
