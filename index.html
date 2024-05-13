@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             color: rgb(32, 8, 62);
-            text-align: lwft;
+            text-align: center;
         }
 
         header {
@@ -21,9 +21,9 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 10px;
+            padding: 5px;
             border: 1px solid #070707; /* Add a border */
             text-align: left; /* Align everything to the left */
         }
@@ -60,10 +60,6 @@
             margin-top: 10px; /* Add space between team selection dropdown and transfer budget textbox */
         }
 
-        /* Additional styles for showing/hiding player details */
-        .player-details .dropdown {
-            display: none; /* Hide the dropdowns initially */
-        }
     </style>
 </head>
 <body>
@@ -153,7 +149,7 @@
 
         // Limit the number of times the button can be clicked
         var clickCount = 0;
-        var maxClicks = 5;
+        var maxClicks = 4;
 
         playerPositionBtn.addEventListener('click', function() {
         if (clickCount < maxClicks) {
@@ -193,9 +189,6 @@
             playerTraitsDropdown.appendChild(playerTraitsSelect);
             playerDetails.appendChild(playerPositionDropdown);
             playerDetails.appendChild(playerTraitsDropdown);
-
-            // Show the newly added dropdowns
-            playerDetails.classList.add('show');
 
             clickCount++;
         } else {
