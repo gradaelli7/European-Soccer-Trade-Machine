@@ -155,7 +155,13 @@
 
         // Event listener for Enter button
         document.getElementById('enterBtn').addEventListener('click', function() {
-            window.location.href = "manager.html";
+            var selectedLeague = document.getElementById('league').value;
+            var selectedTeam = document.getElementById('team').value;
+            if (selectedLeague && selectedTeam) {
+                window.location.href = "manager.html";
+            } else {
+                alert('Please select both a league and a team.');
+            }
         });
     </script>
 </body>
