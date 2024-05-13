@@ -87,13 +87,8 @@
                     <!-- Options for teams will be dynamically populated based on the league selection using JavaScript -->
                 </select>
             </div>
-        </section>
-
-        <!-- Mode Selection -->
-        <section id="mode-selection">
-            <h2>Choose a Mode</h2>
-            <a href="manager.html" class="btn">Manager Mode</a>
-            <a href="fan.html" class="btn">Fan Mode</a>
+            <!-- Enter Button -->
+            <button class="btn" id="enterBtn">Enter</button>
         </section>
     </div>
 
@@ -133,7 +128,19 @@
                 teamDropdown.add(option);
             });
         }
+
+        // Event listener for Enter button
+        document.getElementById('enterBtn').addEventListener('click', function() {
+            var selectedLeague = document.getElementById('league').value;
+            var selectedTeam = document.getElementById('team').value;
+            if (selectedLeague && selectedTeam) {
+                // Redirect to appropriate page based on selection
+                var url = selectedLeague + '_' + selectedTeam + '.html'; // Example URL format
+                window.location.href = url;
+            } else {
+                alert('Please select both a league and a team.');
+            }
+        });
     </script>
 </body>
 </html>
-
