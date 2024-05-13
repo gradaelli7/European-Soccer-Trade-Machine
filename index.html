@@ -156,49 +156,52 @@
         var maxClicks = 5;
 
         playerPositionBtn.addEventListener('click', function() {
-            if (clickCount < maxClicks) {
-                var playerPositionDropdown = document.createElement('div');
-                playerPositionDropdown.classList.add('dropdown', 'player-position-dropdown');
+        if (clickCount < maxClicks) {
+            var playerPositionDropdown = document.createElement('div');
+            playerPositionDropdown.classList.add('dropdown', 'player-position-dropdown');
 
-                var playerPositionSelect = document.createElement('select');
-                playerPositionSelect.classList.add('player-position-select');
-                playerPositionSelect.innerHTML = `
-                    <option value="">Select a Position</option>
-                    <option value="forward">Forward</option>
-                    <option value="midfielder">Midfielder</option>
-                    <option value="defender">Defender</option>
-                    <option value="goalkeeper">Goalkeeper</option>
-                `;
+            var playerPositionSelect = document.createElement('select');
+            playerPositionSelect.classList.add('player-position-select');
+            playerPositionSelect.innerHTML = `
+                <option value="">Select a Position</option>
+                <option value="forward">Forward</option>
+                <option value="midfielder">Midfielder</option>
+                <option value="defender">Defender</option>
+                <option value="goalkeeper">Goalkeeper</option>
+            `;
 
-                var playerTraitsDropdown = document.createElement('div');
-                playerTraitsDropdown.classList.add('dropdown', 'player-traits-dropdown');
+            var playerTraitsDropdown = document.createElement('div');
+            playerTraitsDropdown.classList.add('dropdown', 'player-traits-dropdown');
 
-                var playerTraitsSelect = document.createElement('select');
-                playerTraitsSelect.classList.add('player-traits-select');
-                playerTraitsSelect.innerHTML = `
-                    <option value="">Select Player Traits</option>
-                    <option value="speed">Speed</option>
-                    <option value="accuracy">Accuracy</option>
-                    <option value="strength">Strength</option>
-                    <option value="vision">Vision</option>
-                `;
+            var playerTraitsSelect = document.createElement('select');
+            playerTraitsSelect.classList.add('player-traits-select');
+            playerTraitsSelect.innerHTML = `
+                <option value="">Select Player Traits</option>
+                <option value="speed">Speed</option>
+                <option value="accuracy">Accuracy</option>
+                <option value="strength">Strength</option>
+                <option value="vision">Vision</option>
+            `;
 
-                // Add a number to the left of the new dropdowns
-                var positionNumber = document.createElement('span');
-                positionNumber.classList.add('position-number');
-                positionNumber.textContent = (clickCount + 2) + '.'; // Increment clickCount and start from 2
-                playerPositionDropdown.appendChild(positionNumber);
+            // Add a number to the left of the new dropdowns
+            var positionNumber = document.createElement('span');
+            positionNumber.classList.add('position-number');
+            positionNumber.textContent = (clickCount + 2) + '.'; // Increment clickCount and start from 2
+            playerPositionDropdown.appendChild(positionNumber);
 
-                playerPositionDropdown.appendChild(playerPositionSelect);
-                playerTraitsDropdown.appendChild(playerTraitsSelect);
-                playerDetails.appendChild(playerPositionDropdown);
-                playerDetails.appendChild(playerTraitsDropdown);
+            playerPositionDropdown.appendChild(playerPositionSelect);
+            playerTraitsDropdown.appendChild(playerTraitsSelect);
+            playerDetails.appendChild(playerPositionDropdown);
+            playerDetails.appendChild(playerTraitsDropdown);
 
-                clickCount++;
-            } else {
-                alert('You have reached the maximum limit of additional players.');
-            }
-        });
+            // Show the newly added dropdowns
+            playerDetails.classList.add('show');
+
+            clickCount++;
+        } else {
+            alert('You have reached the maximum limit of additional players.');
+        }
+    });
     </script>
 
 
