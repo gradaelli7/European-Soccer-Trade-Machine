@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manager Mode - European Soccer Trade Machine</title>
+    <title>European Soccer Trade Machine</title>
     <style>
         /* Add your CSS styles here */
         body {
@@ -16,8 +16,33 @@
     </style>
 </head>
 <body>
-    <h1>Manager Mode</h1>
-    <p>This is the content for Manager Mode.</p>
+    <h1 id="teamName">Insert Team Name Here</h1>
+    <p>This is the content for the Trade Machine.</p>
+    <label for="tradeValue">Trade Value (in Euros):</label>
+    <input type="number" id="tradeValue" name="tradeValue" min="0" step="1" oninput="validity.valid||(value='');" required>
     <a href="index.html" class="btn">Back to Home</a>
+
+    <script>
+        // Function to get the query parameter from the URL
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Get the selected team from the previous page
+        var selectedTeam = getParameterByName('team');
+
+        // Update the team name in the heading
+        var teamNameHeading = document.getElementById('teamName');
+        if (selectedTeam) {
+            teamNameHeading.textContent = selectedTeam;
+        }
+    </script>
 </body>
 </html>
+
