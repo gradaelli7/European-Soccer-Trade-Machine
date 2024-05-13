@@ -258,17 +258,31 @@
                 teamDropdown.add(option);
             });
         }
+    </script>
 
-        // Event listener for Enter button
-        document.getElementById('enterBtn').addEventListener('click', function() {
-            var selectedLeague = document.getElementById('league').value;
-            var selectedTeam = document.getElementById('team').value;
-            if (selectedLeague && selectedTeam) {
-                window.location.href = "team.php?team=" + encodeURIComponent(selectedTeam); // Pass selected team as a parameter
-            } else {
-                alert('Please select both a league and a team.');
-            }
-        });
+    <!-- JavaScript for Enter button functionality -->
+    <script>
+    document.getElementById('enterBtn').addEventListener('click', function() {
+        var league = document.getElementById('league').value;
+        var team = document.getElementById('team').value;
+        var budget = document.getElementById('budget').value;
+
+        // Check if all fields are filled
+        if (league && team && budget) {
+            // If all fields are filled, proceed with output
+            var outputContainer = document.querySelector('.container.right');
+            outputContainer.innerHTML = `
+                <h2>Trade Details</h2>
+                <p>League: ${league}</p>
+                <p>Team: ${team}</p>
+                <p>Transfer Budget: ${budget} Euros</p>
+                <p>Output something based on the selected league, team, and budget...</p>
+            `;
+        } else {
+            // If any field is missing, show error message
+            alert('Please fill in all fields (League, Team, and Transfer Budget) before entering.');
+        }
+    });
     </script>
 </body>
 </html>
