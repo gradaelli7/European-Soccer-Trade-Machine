@@ -18,6 +18,6 @@
 <body>
     <h1><?php echo $_GET['team']; ?></h1>
     <p>This is the page for <?php echo $_GET['team']; ?>.</p>
-    <a href="index.php" class="btn">Back to Home</a>
+    <a href="index.html" class="btn">Back to Home</a>
 </body>
 </html>
