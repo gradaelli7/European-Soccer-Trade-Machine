@@ -138,15 +138,13 @@
                             <option value="leftBack">Left-Back</option>
                             <option value="rightBack">Right-Back</option>
                             <option value="goalkeeper">Goalkeeper</option>
-                        </select>                   
-                     </div>
+                        </select>
+                    </div>
                     <!-- Dropdown for Player Traits -->
                     <div class="dropdown player-traits-dropdown">
                         <select class="player-traits-select">
                             <option value="">Select Player Trait</option>
-                            <option value="freeKickSpecialist">Free-kick Specialist</option>
-                            <option value="sharpShooter">Sharp-shooter</option>
-                            <option value="playmaker">Playmaker</option>
+                            <!-- Options for player traits will be dynamically populated based on the position selection using JavaScript -->
                         </select>
                     </div>
                 </div>
@@ -157,7 +155,7 @@
     </div>
 
     <!-- JavaScript for showing/hiding player details -->
-<script>
+    <script>
     document.querySelector('.player-position-btn').addEventListener('click', function() {
         var playerDetails = document.querySelector('.player-details');
         playerDetails.classList.toggle('show');
@@ -195,27 +193,6 @@
                 <option value="goalkeeper">Goalkeeper</option>
             `;
 
-            playerPositionSelect.addEventListener('change', function() {
-                var playerTraitsSelect = playerPositionDropdown.nextElementSibling.querySelector('.player-traits-select');
-                var selectedPosition = playerPositionSelect.value;
-
-                // Clear previous options
-                playerTraitsSelect.innerHTML = '<option value="">Select Player Trait</option>';
-
-                // Update player traits based on selected position
-                switch (selectedPosition) {
-                    case 'secondStriker':
-                    case 'centreForward':
-                        addOption(playerTraitsSelect, 'sharpShooter', 'Sharp-shooter');
-                        break;
-                    case 'centralMidfield':
-                    case 'attackingMidfield':
-                    case 'defensiveMidfield':
-                        addOption(playerTraitsSelect, 'playmaker', 'Playmaker');
-                        break;
-                }
-            });
-
             var playerTraitsDropdown = document.createElement('div');
             playerTraitsDropdown.classList.add('dropdown', 'player-traits-dropdown');
 
@@ -223,11 +200,40 @@
             playerTraitsSelect.classList.add('player-traits-select');
             playerTraitsSelect.innerHTML = `
                 <option value="">Select Player Trait</option>
-                <option value="speed">Speed</option>
-                <option value="accuracy">Accuracy</option>
-                <option value="strength">Strength</option>
-                <option value="vision">Vision</option>
             `;
+
+            playerPositionSelect.addEventListener('change', function() {
+                var selectedPosition = this.value;
+                playerTraitsSelect.innerHTML = ""; // Clear previous options
+                switch (selectedPosition) {
+                    case "":
+                        break;
+                    case "centreForward":
+                    case "secondStriker":
+                        addPlayerTraitOption(playerTraitsSelect, "Free-kick Specialist");
+                        addPlayerTraitOption(playerTraitsSelect, "Sharp-shooter");
+                        break;
+                    case "leftWinger":
+                    case "rightWinger":
+                        addPlayerTraitOption(playerTraitsSelect, "Free-kick Specialist");
+                        break;
+                    case "attackingMidfield":
+                    case "centralMidfield":
+                    case "defensiveMidfield":
+                        addPlayerTraitOption(playerTraitsSelect, "Free-kick Specialist");
+                        addPlayerTraitOption(playerTraitsSelect, "Playmaker");
+                        break;
+                    default:
+                        break;
+                }
+            });
+
+            function addPlayerTraitOption(selectElement, optionText) {
+                var option = document.createElement('option');
+                option.textContent = optionText;
+                option.value = optionText.toLowerCase().replace(/\s+/g, ''); // Convert to lowercase and remove spaces
+                selectElement.appendChild(option);
+            }
 
             // Add a number to the left of the new dropdowns
             var positionNumber = document.createElement('span');
@@ -245,14 +251,8 @@
             alert('You have reached the maximum limit of additional players.');
         }
     });
+    </script>
 
-    function addOption(select, value, text) {
-        var option = document.createElement('option');
-        option.value = value;
-        option.text = text;
-        select.add(option);
-    }
-</script>
 
 
 
