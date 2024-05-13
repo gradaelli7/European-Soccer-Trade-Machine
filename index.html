@@ -103,10 +103,44 @@
                 <label for="budget">Transfer Budget (in Euros):</label>
                 <input type="number" id="budget" name="budget" min="0">
             </div>
+            <!-- Player Position Button -->
+            <div class="player-position">
+                <button class="btn player-position-btn">+ Player Position</button>
+                <div class="player-details">
+                    <!-- Dropdown for Player Position -->
+                    <div class="dropdown player-position-dropdown">
+                        <select class="player-position-select">
+                            <option value="">Select a Position</option>
+                            <option value="forward">Forward</option>
+                            <option value="midfielder">Midfielder</option>
+                            <option value="defender">Defender</option>
+                            <option value="goalkeeper">Goalkeeper</option>
+                        </select>
+                    </div>
+                    <!-- Dropdown for Player Traits -->
+                    <div class="dropdown player-traits-dropdown">
+                        <select class="player-traits-select">
+                            <option value="">Select Player Traits</option>
+                            <option value="speed">Speed</option>
+                            <option value="accuracy">Accuracy</option>
+                            <option value="strength">Strength</option>
+                            <option value="vision">Vision</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
             <!-- Enter Button -->
             <button class="btn" id="enterBtn">Enter</button>
-                </section>
+        </section>
     </div>
+
+    <!-- JavaScript for showing/hiding player details -->
+    <script>
+        document.querySelector('.player-position-btn').addEventListener('click', function() {
+            var playerDetails = document.querySelector('.player-details');
+            playerDetails.classList.toggle('show');
+        });
+    </script>
 
     <!-- JavaScript to dynamically populate team dropdown based on league selection -->
     <script>
