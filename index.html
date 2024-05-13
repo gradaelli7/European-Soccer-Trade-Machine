@@ -155,16 +155,16 @@
             });
         }
 
-        // Event listener for Enter button
-        document.getElementById('enterBtn').addEventListener('click', function() {
-            var selectedLeague = document.getElementById('league').value;
-            var selectedTeam = document.getElementById('team').value;
-            if (selectedLeague && selectedTeam) {
-                window.location.href = "team.php?team=" + encodeURIComponent(selectedTeam); // Pass selected team as a parameter
-            } else {
-                alert('Please select both a league and a team.');
-            }
-        });
+        // // Event listener for Enter button
+        // document.getElementById('enterBtn').addEventListener('click', function() {
+        //     var selectedLeague = document.getElementById('league').value;
+        //     var selectedTeam = document.getElementById('team').value;
+        //     if (selectedLeague && selectedTeam) {
+        //         window.location.href = "team.php?team=" + encodeURIComponent(selectedTeam); // Pass selected team as a parameter
+        //     } else {
+        //         alert('Please select both a league and a team.');
+        //     }
+        // });
     </script>
 </body>
 </html>
