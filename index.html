@@ -138,8 +138,8 @@
                             <option value="leftBack">Left-Back</option>
                             <option value="rightBack">Right-Back</option>
                             <option value="goalkeeper">Goalkeeper</option>
-                        </select>
-                    </div>
+                        </select>                   
+                     </div>
                     <!-- Dropdown for Player Traits -->
                     <div class="dropdown player-traits-dropdown">
                         <select class="player-traits-select">
@@ -155,7 +155,7 @@
     </div>
 
     <!-- JavaScript for showing/hiding player details -->
-    <script>
+<script>
     document.querySelector('.player-position-btn').addEventListener('click', function() {
         var playerDetails = document.querySelector('.player-details');
         playerDetails.classList.toggle('show');
@@ -202,39 +202,6 @@
                 <option value="">Select Player Trait</option>
             `;
 
-            playerPositionSelect.addEventListener('change', function() {
-                var selectedPosition = this.value;
-                playerTraitsSelect.innerHTML = ""; // Clear previous options
-                switch (selectedPosition) {
-                    case "":
-                        break;
-                    case "centreForward":
-                    case "secondStriker":
-                        addPlayerTraitOption(playerTraitsSelect, "Free-kick Specialist");
-                        addPlayerTraitOption(playerTraitsSelect, "Sharp-shooter");
-                        break;
-                    case "leftWinger":
-                    case "rightWinger":
-                        addPlayerTraitOption(playerTraitsSelect, "Free-kick Specialist");
-                        break;
-                    case "attackingMidfield":
-                    case "centralMidfield":
-                    case "defensiveMidfield":
-                        addPlayerTraitOption(playerTraitsSelect, "Free-kick Specialist");
-                        addPlayerTraitOption(playerTraitsSelect, "Playmaker");
-                        break;
-                    default:
-                        break;
-                }
-            });
-
-            function addPlayerTraitOption(selectElement, optionText) {
-                var option = document.createElement('option');
-                option.textContent = optionText;
-                option.value = optionText.toLowerCase().replace(/\s+/g, ''); // Convert to lowercase and remove spaces
-                selectElement.appendChild(option);
-            }
-
             // Add a number to the left of the new dropdowns
             var positionNumber = document.createElement('span');
             positionNumber.classList.add('position-number');
@@ -251,8 +218,7 @@
             alert('You have reached the maximum limit of additional players.');
         }
     });
-    </script>
-
+</script>
 
 
 
