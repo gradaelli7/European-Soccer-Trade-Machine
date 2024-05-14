@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #coding:utf-8
 
+import pandas as pd
+
 def csp(candidates, common_players_data, players, team, requested_positions, budget, attributes):
     if len(requested_positions) == 0: 
         suggestions(candidates, common_players_data, players, team, 3)

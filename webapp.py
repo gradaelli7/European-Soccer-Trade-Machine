@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+from CSP_maneger_mode import *
+
 
 # Initialize session state
 if 'player_count' not in st.session_state:
@@ -11,6 +14,16 @@ if 'player_traits' not in st.session_state:
     st.session_state.player_traits = {}
 
 def main():
+
+    # Load CSV files and other required data
+    df_transfers = pd.read_csv('new_player_scores.csv')
+    df_common_players = pd.read_csv('data/starting_11.csv')
+
+    # pick useful information
+    df_transfers = df_transfers[['Player', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT%', 'PrgDist']]
+    # rename columns
+    df_transfers.columns=['name', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker']
+
 
     # Set wide mode for the entire page
     st.set_page_config(layout="wide")
@@ -106,14 +119,31 @@ def main():
                     st.session_state.player_positions[i+1] = player_position
                     st.session_state.player_traits[i+1] = player_trait 
                     
-            # # Print out the lists for testing
-            # st.write("Player Positions:", st.session_state.player_positions)
-            # st.write("Player Traits:", st.session_state.player_traits)
+            if selected_team != 'Select A Team' and transfer_budget > 0:
+                if st.button("Find Transfer Suggestions"):
 
-    with col3:
-        st.header("Output")
-        # Placeholder for output
-        st.write("Output will be displayed here")
+                    budget = transfer_budget
+                    requested_positions = list(st.session_state.player_positions.values())
+                    
+                    team = selected_team
+
+                    players = []
+
+                    attributes = None
+
+                    csp(df_transfers, df_common_players, players, selected_team, requested_positions, transfer_budget, attributes)
+
+                    players = hill_climb(df_transfers, players, team, budget)
+
+                    with col3:
+                        st.header("Output")
+                        # Placeholder for output
+                        for item in players:
+                            st.write('name:', item['name'], 
+                                'position:', item['position'], 
+                                'team:', item['team'],
+                                'price:', item['price'],
+                                'rating:', item['rating'])
 
 if __name__ == "__main__":
     main()
