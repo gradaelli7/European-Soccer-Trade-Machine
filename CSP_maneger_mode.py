@@ -17,18 +17,19 @@ def csp(candidates, common_players_data, players, team, requested_positions, bud
 def hill_climb(candidates, init_state, team, budget):
     cur_state = init_state
     while True:
-        print(heur(cur_state))
+        print_output(cur_state)
+        print(heur(cur_state, budget))
         neighbors = generate_neighbors(candidates, cur_state, team, budget)
-        best_neighbor = max(neighbors, key=heur)
-        if heur(best_neighbor) <= heur(cur_state):
+        best_neighbor = max(neighbors, key=lambda x: heur(x, budget))
+        if heur(best_neighbor, budget) <= heur(cur_state, budget):
             return cur_state
         cur_state = best_neighbor
 
-def heur(players):
+def heur(players, budget):
     result = 0.0
     for player in players:
         result += player['rating'] / len(players)
-    # result -= total_price(players) / 50000000
+    result += 1.5 * proportion_of_budget(players, budget)
     return result
 
 def total_price(players):
@@ -36,6 +37,9 @@ def total_price(players):
     for player in players:
         result += player['price']
     return result
+
+def proportion_of_budget(players, budget):
+    return total_price(players) / budget
 
 def unique_positions(players):
     result = set()
@@ -72,6 +76,8 @@ def team_common_players_positions(common_players_data, team):
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
     return df_team_roster['sub_position'].tolist()[:11]
 
+# Change this to suggest positions for which a common player has a rating SD < -1, -1.25, or -1.5
+# But always suggest lowest.
 def team_positional_needs(candidates, common_players_data, team, n):
     df_team_roster = common_players_data[common_players_data['Squad'] == team]
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
@@ -119,6 +125,7 @@ def team_positional_needs(candidates, common_players_data, team, n):
 # Right-Back (D)
 # Second Striker (F)
 
+# Do hill-climbing in here, display top x combinations
 def suggestions(candidates, common_players_data, players, team, x):
     pos_list = team_positional_needs(candidates, common_players_data, team, 1)
     print("No positions specified.")
@@ -197,8 +204,8 @@ if __name__ == '__main__':
 
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
-    budget = 100000000
-    requested_positions = ['Centre-Back', 'Centre-Back', 'Attacking Midfield']
+    budget = 50000000
+    requested_positions = []
     # requested_positions = []
     team = 'Cambuur'
     # requested_positions = ['Goalkeeper'] # WORKING
@@ -211,10 +218,11 @@ if __name__ == '__main__':
 
     csp(df_transfers, df_common_players, players, team, requested_positions, budget, ['Playmaker'])
 
-    players = hill_climb(df_transfers, players, team, budget)
+    if len(requested_positions) > 0:
+        players = hill_climb(df_transfers, players, team, budget)
 
     # suggestions(df_transfers, df_common_players, players, team, 3)
 
     # team_positional_needs(df_transfers, df_common_players, team, 3)
 
-    print_output(players)
+    # print_output(players)
