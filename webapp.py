@@ -142,8 +142,6 @@ def main():
                             st.write('name:', item['name'], 
                                 'position:', item['position'], 
                                 'team:', item['team'],
-                                'price:', item['price'],
-                                'rating:', item['rating'])
-
+                                'price:', item['price'])
 if __name__ == "__main__":
     main()
