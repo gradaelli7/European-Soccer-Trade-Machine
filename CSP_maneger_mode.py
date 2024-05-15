@@ -3,16 +3,12 @@
 
 import pandas as pd
 
-def csp(candidates, common_players_data, players, team, requested_positions, budget, attributes):
+def csp(candidates, players, team, requested_positions, budget, attributes):
     if len(requested_positions) == 0: 
-        suggestions(candidates, common_players_data, players, team, 3)
-    else:
-        # print("Before sorting")
-        # print(candidates.head())
-        # candidates = candidates.sort_values(by=['rating']+attributes, ascending=False)
-        # print("After sorting")
-        # print(candidates.head())
-        backtracking(candidates.to_dict(orient='records'), team_common_players_positions(common_players_data, team), players, team, requested_positions, budget)
+        suggested_positions = team_positional_needs(candidates, team)
+        print("No positions specified; suggesting based on following weaknesses:")
+        print(suggested_positions)
+    backtracking(candidates.to_dict(orient='records'), players, team, suggested_positions, budget)
 
 def hill_climb(candidates, init_state, team, budget):
     cur_state = init_state
@@ -78,40 +74,31 @@ def team_common_players_positions(common_players_data, team):
 
 # Change this to suggest positions for which a common player has a rating SD < -1, -1.25, or -1.5
 # But always suggest lowest.
-def team_positional_needs(candidates, common_players_data, team, n):
-    df_team_roster = common_players_data[common_players_data['Squad'] == team]
-    df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
-    df_common_players = df_team_roster[df_team_roster['90s'] >= 10]
-    print(df_team_roster.head())
+def team_positional_needs(candidates, team):
+    df_team_roster = candidates[candidates['team'] == team]
+    df_common_players = df_team_roster[df_team_roster['games'] >= 14]
 
-    pos_list = []
-    starter_avgs = []
-    roster_avgs = []
+    print("Before normalization")
+    print(df_common_players[['name', 'rating']])
 
-    for pos in set(team_common_players_positions(common_players_data, team)):
-        pos_list.append(pos)
 
-        df_common_players_pos = candidates[candidates['name'].isin(df_common_players['Player'])]
-        df_common_players_pos = df_common_players_pos[df_common_players_pos['position'] == pos]
+    text_cols = df_common_players.select_dtypes(include='object')
 
-        df_team_roster_pos = candidates[candidates['name'].isin(df_team_roster['Player'])]
-        df_team_roster_pos = df_team_roster_pos[df_team_roster_pos['position'] == pos]
+    numerical_cols = df_common_players.select_dtypes(include=['float', 'int'])
+    normalized_numerical_cols = (numerical_cols - numerical_cols.mean()) / numerical_cols.std()
 
-        starter_avgs.append(df_common_players_pos['rating'].mean())
-        roster_avgs.append(df_team_roster_pos['rating'].mean())
+    df_common_players_norm = pd.concat([normalized_numerical_cols, text_cols], axis=1)
 
-    # print(pos_list)
-    # print(starter_avgs)
-    # print(roster_avgs)
+    print("After normalization")
+    print(df_common_players_norm[['name', 'rating']])
 
-    pos_comparison_dict = {'Position': pos_list, 'Avg starter rating': starter_avgs, 'Avg roster rating': roster_avgs}
+    df_common_weaknesses = df_common_players_norm[df_common_players_norm['rating'] < -1]
+    df_common_weaknesses = df_common_weaknesses.sort_values(by=['rating'], ascending=True)
 
-    # Creating a DataFrame from the dictionary
-    pos_comparison = pd.DataFrame(pos_comparison_dict).sort_values(by=['Avg starter rating', 'Avg roster rating'], ascending=True)
-    
-    print(pos_comparison)
+    print("Weaknesses")
+    print(df_common_weaknesses[['name', 'rating']])
 
-    return pos_comparison['Position'].to_list()[:n]
+    return df_common_weaknesses['position'].to_list()[:5]
 
 # Unique Non-GK Positions:
 # Attacking Midfield (M)
@@ -125,17 +112,7 @@ def team_positional_needs(candidates, common_players_data, team, n):
 # Right-Back (D)
 # Second Striker (F)
 
-# Do hill-climbing in here, display top x combinations
-def suggestions(candidates, common_players_data, players, team, x):
-    pos_list = team_positional_needs(candidates, common_players_data, team, 1)
-    print("No positions specified.")
-    print("Recommended position for {}: {}".format(team, pos_list[0]))
-    candidates_pos = candidates[candidates['position'] == pos_list[0]]
-    print("Top available players:")
-    for i in range(x):
-        players.append(candidates_pos.iloc[i])
-
-def backtracking(candidates, common_players_positions, players, team, requested_positions, budget):
+def backtracking(candidates, players, team, requested_positions, budget):
 
     if len(requested_positions) == 0:
         return True
@@ -149,7 +126,7 @@ def backtracking(candidates, common_players_positions, players, team, requested_
                 players.append(player)
                 requested_positions_updated.remove(player['position'])
                 candidates_temp.remove(player)
-                if backtracking(candidates_temp, common_players_positions, players, team, requested_positions_updated, budget - player['price']):
+                if backtracking(candidates_temp, players, team, requested_positions_updated, budget - player['price']):
                     return True
                 players.pop()
                 requested_positions_updated.append(player['position'])
@@ -175,10 +152,6 @@ def Is_valid(player, team, requested_positions, budget): # Done psudo code check
     # Don't need to get players already on this team!
     if player['team'] == team:
         return False
-    
-    # all other constraints # TODO
-    #if (Not other_contraint): 
-    #    return False
          
     # print("Player is valid")
     return True
@@ -198,31 +171,24 @@ if __name__ == '__main__':
     ## load candidates   
     df_transfers = pd.read_csv('new_player_scores.csv')
     # pick useful information
-    df_transfers = df_transfers[['Player', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT%', 'PrgDist']]
+    df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT%', 'PrgDist']]
     # rename columns
-    df_transfers.columns=['name', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker']
+    df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker']
 
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
     budget = 50000000
     requested_positions = []
     # requested_positions = []
-    team = 'Cambuur'
+    team = 'Liverpool'
     # requested_positions = ['Goalkeeper'] # WORKING
     # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
-
-    df_common_players = pd.read_csv('data/starting_11.csv')
 
     # initial condition
     players = []  # the players we choose under restrictions
 
-    csp(df_transfers, df_common_players, players, team, requested_positions, budget, ['Playmaker'])
+    csp(df_transfers, players, team, requested_positions, budget, ['Playmaker'])
 
-    if len(requested_positions) > 0:
-        players = hill_climb(df_transfers, players, team, budget)
+    players = hill_climb(df_transfers, players, team, budget)
 
-    # suggestions(df_transfers, df_common_players, players, team, 3)
-
-    # team_positional_needs(df_transfers, df_common_players, team, 3)
-
-    # print_output(players)
+    print_output(players)
