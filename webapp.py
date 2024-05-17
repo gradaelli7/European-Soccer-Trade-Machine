@@ -31,7 +31,7 @@ def main():
     colF, colS, colT= st.columns([1, 2, 1])
     with colS:
         # Set title of the app
-        st.title("European Soccer Trade Machine")
+        st.title("European Soccer Transfer Machine")
 
 
     # Divide layout into two columns
@@ -39,7 +39,7 @@ def main():
 
     with colB:
         # Add introduction section
-        st.write("Welcome to the European Soccer Trade Machine! Your go-to resource for making informed transfer decisions in the highly competitive world of professional soccer. Our platform offers a comprehensive toolset designed to assist general managers and front office staff in navigating the complexities of player trades across various European leagues.")
+        st.write("Welcome to the European Soccer Transfer Machine! Your go-to resource for making informed transfer decisions in the highly competitive world of professional soccer. Our platform offers a comprehensive toolset designed to assist general managers and front office staff in navigating the complexities of player trades across various European leagues.")
 
         st.subheader("Here's what you need to do:")
         st.markdown("- **Select Your Team:** Begin by choosing your team of interest from a wide array of European leagues, including the Premier League, Serie A, La Liga, and more. First, pick the league in which your desired team competes, then select the team itself.")
@@ -145,7 +145,7 @@ def main():
                             players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
                         with col3:
-                            st.header("Output")
+                            st.header("Transfer Recommendations")
                             # Placeholder for output
                             for item in players:
                                 st.write('name:', item['name'], 
@@ -155,7 +155,7 @@ def main():
                                     'rating:', item['rating'])
                     except IndexError:
                         with col3:
-                            st.header("Output")
+                            st.header("Transfer Recommendations")
                             st.write("Your transfer budget is too low! Modify your player requests or increase your budget.")
                     
                     
