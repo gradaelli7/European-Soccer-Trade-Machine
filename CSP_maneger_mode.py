@@ -29,10 +29,12 @@ def heur(players, requested_positions_attributes, budget):
     result = 0.0
     rating_comp = 0.0
     budget_comp = 0.0
+    attr_comp = 0.0
     for player in players:
         rating_comp += player['rating'] / len(players)
         budget_comp += 1.5 * proportion_of_budget(player, budget)
-    attr_comp = 2 * max_attribute_assignment_value(players, requested_positions_attributes) / len(players)
+    if len(players) != 0:
+        attr_comp = 2 * max_attribute_assignment_value(players, requested_positions_attributes) / len(players)
 
     # print(rating_comp)
     # print(budget_comp)
