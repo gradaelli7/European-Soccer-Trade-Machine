@@ -135,6 +135,7 @@ def team_positional_needs(candidates, team):
     print("Before normalization")
     print(df_common_players[['name', 'rating']])
 
+
     text_cols = df_common_players.select_dtypes(include='object')
 
     numerical_cols = df_common_players.select_dtypes(include=['float', 'int'])
@@ -151,12 +152,7 @@ def team_positional_needs(candidates, team):
     print("Weaknesses")
     print(df_common_weaknesses[['name', 'rating']])
 
-    weakness_list = df_common_weaknesses['position'].to_list()[:5]
-    result = []
-    for weakness in weakness_list:
-        result.append([weakness, 'None'])
-
-    return result
+    return df_common_weaknesses['position'].to_list()[:5]
 
 # Unique Non-GK Positions:
 # Attacking Midfield (M)
