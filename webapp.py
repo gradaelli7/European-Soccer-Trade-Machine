@@ -20,10 +20,9 @@ def main():
     df_common_players = pd.read_csv('data/starting_11.csv')
 
     # pick useful information
-    df_transfers = df_transfers[['Player', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT%', 'PrgDist']]
+    df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT', 'PrgDist', 'Blocks', 'CrsPA', 'KP']]
     # rename columns
-    df_transfers.columns=['name', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker']
-
+    df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']
 
     # Set wide mode for the entire page
     st.set_page_config(layout="wide")
@@ -127,11 +126,7 @@ def main():
                     # Combine the two lists into a list of lists
                     pos_att = [[pos, trait] for pos, trait in zip(requested_positions, requested_traits)]
 
-                    # pick useful information
-                    df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT', 'PrgDist', 'Blocks', 'CrsPA', 'KP']]
-                    # rename columns
-                    df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']
-
+                    
                     data_to_normalize = df_transfers[['Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']]
                     data_not_to_normalize = df_transfers[['name', 'games', 'position', 'team', 'price', 'rating']]
                     data_normalized = (data_to_normalize - data_to_normalize.min()) / (data_to_normalize.max() - data_to_normalize.min())
@@ -140,7 +135,7 @@ def main():
                     players = []
                     csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
                     
-                    players = hill_climb(df_transfers_norm, players, selected_team, requested_positions_attributes, transfer_budget)
+                    players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
                     with col3:
                         st.header("Output")
