@@ -91,24 +91,23 @@ def main():
             positions = [
                 'Select Position','Defensive Midfield', 'Centre-Forward', 'Centre-Back', 'Right-Back', 'Left-Back',
                 'Attacking Midfield', 'Right Winger', 'Right Midfield', 'Second Striker',
-                'Central Midfield', 'Left Winger', 'Left Midfield', 'Goalkeeper'
+                'Central Midfield', 'Left Winger', 'Left Midfield'
             ]
             traits = {
                 'Select Position': ['None'],
-                'Defensive Midfield': ['None', 'Playmaker'],
+                'Defensive Midfield': ['None', 'Playmaker', 'Impenetrable Wall'],
                 'Centre-Forward': ['None','Free-kick Specialist', 'Sharp-shooter'],
-                'Centre-Back': ['None'],
-                'Right-Back': ['None','Free-kick Specialist'],
-                'Left-Back': ['None','Free-kick Specialist'],
-                'Attacking Midfield': ['None','Free-kick Specialist', 'Playmaker'],
-                'Right Winger': ['None','Free-kick Specialist'],
-                'Right Midfield': ['None','Free-kick Specialist'],
+                'Centre-Back': ['None', 'Impenetrable Wall'],
+                'Right-Back': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine'],
+                'Left-Back': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine'],
+                'Attacking Midfield': ['None','Free-kick Specialist', 'Playmaker', 'Assisting Machine'],
+                'Right Winger': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine'],
+                'Right Midfield': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine'],
                 'Second Striker': ['None','Free-kick Specialist', 'Sharp-shooter'],
-                'Central Midfield': ['None','Free-kick Specialist', 'Playmaker'],
-                'Left Winger': ['None','Free-kick Specialist'],
-                'Left Midfield': ['None','Free-kick Specialist'],
-                'Goalkeeper': ['None']
-            }
+                'Central Midfield': ['None','Free-kick Specialist', 'Playmaker', 'Assisting Machine'],
+                'Left Winger': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine'],
+                'Left Midfield': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine']
+                }
             if st.session_state.player_count < 5:
                 if st.button("+ Add Player"):
                     st.session_state.player_count += 1
@@ -122,18 +121,26 @@ def main():
             if selected_team != 'Select A Team' and transfer_budget > 0:
                 if st.button("Find Transfer Suggestions"):
 
-                    budget = transfer_budget
                     requested_positions = list(st.session_state.player_positions.values())
+                    requested_traits = list(st.session_state.player_traits.values())
                     
-                    team = selected_team
+                    # Combine the two lists into a list of lists
+                    pos_att = [[pos, trait] for pos, trait in zip(requested_positions, requested_traits)]
+
+                    # pick useful information
+                    df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT', 'PrgDist', 'Blocks', 'CrsPA', 'KP']]
+                    # rename columns
+                    df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']
+
+                    data_to_normalize = df_transfers[['Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']]
+                    data_not_to_normalize = df_transfers[['name', 'games', 'position', 'team', 'price', 'rating']]
+                    data_normalized = (data_to_normalize - data_to_normalize.min()) / (data_to_normalize.max() - data_to_normalize.min())
+                    df_transfers_norm = pd.concat([data_not_to_normalize, data_normalized], axis=1)
 
                     players = []
-
-                    attributes = None
-
-                    csp(df_transfers, df_common_players, players, selected_team, requested_positions, transfer_budget, attributes)
-
-                    players = hill_climb(df_transfers, players, team, budget)
+                    csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                    
+                    players = hill_climb(df_transfers_norm, players, selected_team, requested_positions_attributes, transfer_budget)
 
                     with col3:
                         st.header("Output")
@@ -143,5 +150,6 @@ def main():
                                 'position:', item['position'], 
                                 'team:', item['team'],
                                 'price:', item['price'])
+
 if __name__ == "__main__":
     main()
