@@ -107,22 +107,44 @@ def main():
                 'Left Winger': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine'],
                 'Left Midfield': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine']
                 }
+            
+            # Add Player Button
             if st.session_state.player_count < 5:
                 if st.button("+ Add Player"):
                     st.session_state.player_count += 1
-            for i in range(st.session_state.player_count):
-                player_position = st.selectbox(f"Player {i+1} Position:", positions)
-                player_trait = st.selectbox(f"Player {i+1} Trait:", traits[player_position])
-                if player_position and player_trait: 
-                    st.session_state.player_positions[i+1] = player_position
-                    st.session_state.player_traits[i+1] = player_trait 
 
             # Remove Player Button
             if st.session_state.player_count > 0:
                 if st.button("- Remove Player"):
-                    st.session_state.player_count -= 1
-                    st.session_state.player_positions.pop(st.session_state.player_count, None)
-                    st.session_state.player_traits.pop(st.session_state.player_count, None)
+                    if st.session_state.player_count > 0:
+                        st.session_state.player_positions.pop(st.session_state.player_count, None)
+                        st.session_state.player_traits.pop(st.session_state.player_count, None)
+                        st.session_state.player_count -= 1
+
+            # Display player selection boxes
+            for i in range(st.session_state.player_count):
+                player_position = st.selectbox(f"Player {i+1} Position:", positions, key=f"position_{i+1}")
+                player_trait = st.selectbox(f"Player {i+1} Trait:", traits[player_position], key=f"trait_{i+1}")
+                if player_position and player_trait: 
+                    st.session_state.player_positions[i+1] = player_position
+                    st.session_state.player_traits[i+1] = player_trait
+            
+            # if st.session_state.player_count < 5:
+            #     if st.button("+ Add Player"):
+            #         st.session_state.player_count += 1
+            # for i in range(st.session_state.player_count):
+            #     player_position = st.selectbox(f"Player {i+1} Position:", positions)
+            #     player_trait = st.selectbox(f"Player {i+1} Trait:", traits[player_position])
+            #     if player_position and player_trait: 
+            #         st.session_state.player_positions[i+1] = player_position
+            #         st.session_state.player_traits[i+1] = player_trait 
+
+            # # Remove Player Button
+            # if st.session_state.player_count > 0:
+            #     if st.button("- Remove Player"):
+            #         st.session_state.player_count -= 1
+            #         st.session_state.player_positions.pop(st.session_state.player_count, None)
+            #         st.session_state.player_traits.pop(st.session_state.player_count, None)
 
                     
             if selected_team != 'Select A Team' and transfer_budget > 0:
