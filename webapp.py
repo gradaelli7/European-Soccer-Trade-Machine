@@ -121,8 +121,8 @@ def main():
             if st.session_state.player_count > 0:
                 if st.button("- Remove Player"):
                     st.session_state.player_count -= 1
-                    st.session_state.player_positions.pop(st.session_state.player_count + 1, None)
-                    st.session_state.player_traits.pop(st.session_state.player_count + 1, None)
+                    st.session_state.player_positions.pop(st.session_state.player_count, None)
+                    st.session_state.player_traits.pop(st.session_state.player_count, None)
 
                     
             if selected_team != 'Select A Team' and transfer_budget > 0:
