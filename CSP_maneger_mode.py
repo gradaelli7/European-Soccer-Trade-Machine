@@ -246,9 +246,9 @@ if __name__ == '__main__':
     # The following is just for testing now
     budget = 74000000
     # requested_positions_attributes = [['Attacking Midfield', 'Playmaker'], ['Centre-Forward', 'Sharp-shooter'], ['Attacking Midfield', 'Free-kick Specialist']]
-    requested_positions_attributes = [['Right-Back', 'Impenetrable Wall'], ['Right-Back', 'None'], ['Defensive Midfield', 'Playmaker']]
+    requested_positions_attributes = []
     # requested_positions = []
-    team = 'Bayern Munich'
+    team = 'Milan'
     # requested_positions = ['Goalkeeper'] # WORKING
     # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
 
@@ -257,6 +257,12 @@ if __name__ == '__main__':
 
     csp(df_transfers_norm, players, team, requested_positions_attributes, budget)
 
-    players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
+    if len(requested_positions_attributes) == 0:
+        suggested_positions = team_positional_needs(df_transfers_norm, team)
+        requested_positions_attributes = [[position, 'None'] for position in suggested_positions]
+        players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
+    
+    else:
+        players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
 
     # print_output(players)
