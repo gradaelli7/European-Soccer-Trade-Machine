@@ -126,8 +126,6 @@ def team_common_players_positions(common_players_data, team):
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
     return df_team_roster['sub_position'].tolist()[:11]
 
-# Change this to always suggest lowest.
-# More important: return position-None pairs rather than just positions.
 def team_positional_needs(candidates, team):
     df_team_roster = candidates[candidates['team'] == team]
     df_common_players = df_team_roster[df_team_roster['games'] >= 10]
@@ -151,6 +149,14 @@ def team_positional_needs(candidates, team):
 
     print("Weaknesses")
     print(df_common_weaknesses[['name', 'rating']])
+    if len(df_common_weaknesses) == 0:
+        # Find the index of the row with the lowest rating
+        min_rating_index = df_common_players_norm['rating'].idxmin()
+
+        # Get the position of the row with the lowest rating
+        position_lowest_rating = df_common_players_norm.at[min_rating_index, 'position']
+        print("Lowest rating position is:", position_lowest_rating)
+        return [position_lowest_rating]
 
     return df_common_weaknesses['position'].to_list()[:5]
 

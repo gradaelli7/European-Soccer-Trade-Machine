@@ -135,7 +135,14 @@ def main():
                     players = []
                     csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
                     
-                    players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                    if len(pos_att) == 0:
+                        suggested_positions = team_positional_needs(df_transfers_norm, selected_team)
+                        pos_att = [[position, 'None'] for position in suggested_positions]
+                        players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                    
+                    else:
+                        players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+
 
                     with col3:
                         st.header("Output")
