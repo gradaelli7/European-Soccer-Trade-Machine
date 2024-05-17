@@ -44,6 +44,10 @@ def heur(players, requested_positions_attributes, budget):
 
     return result
 
+# Report: How to explain why weights are good?
+# Demo that ratings are high while we're still getting 
+# Ideally: Figure out how to print attribute assigned to each player and said attribute/player value
+
 def positions(requested_positions_attributes):
     requested_positions = []
     for x in requested_positions_attributes:
@@ -69,7 +73,8 @@ def max_attribute_assignment_value(players, requested_positions_attributes):
         for permutation in attribute_permutations:
             cur_position_sum = 0.0
             for i in range(len(players_at_pos)):
-                cur_position_sum += players_at_pos[i][permutation[i]]
+                if not permutation[i] == 'None':
+                    cur_position_sum += players_at_pos[i][permutation[i]]
             max_position_sum = max(max_position_sum, cur_position_sum)
             # print("{}: {}".format(permutation, cur_position_sum))
         result += max_position_sum
@@ -119,8 +124,8 @@ def team_common_players_positions(common_players_data, team):
     df_team_roster = df_team_roster.sort_values(by=['90s'], ascending=False)
     return df_team_roster['sub_position'].tolist()[:11]
 
-# Change this to suggest positions for which a common player has a rating SD < -1, -1.25, or -1.5
-# But always suggest lowest.
+# Change this to always suggest lowest.
+# More important: return position-None pairs rather than just positions.
 def team_positional_needs(candidates, team):
     df_team_roster = candidates[candidates['team'] == team]
     df_common_players = df_team_roster[df_team_roster['games'] >= 10]
@@ -239,7 +244,7 @@ if __name__ == '__main__':
     # The following is just for testing now
     budget = 74000000
     # requested_positions_attributes = [['Attacking Midfield', 'Playmaker'], ['Centre-Forward', 'Sharp-shooter'], ['Attacking Midfield', 'Free-kick Specialist']]
-    requested_positions_attributes = [['Right-Back', 'Impenetrable Wall'], ['Right-Back', 'Assisting Machine'], ['Defensive Midfield', 'Playmaker']]
+    requested_positions_attributes = [['Right-Back', 'Impenetrable Wall'], ['Right-Back', 'None'], ['Defensive Midfield', 'Playmaker']]
     # requested_positions = []
     team = 'Bayern Munich'
     # requested_positions = ['Goalkeeper'] # WORKING
