@@ -28,7 +28,7 @@ def main():
     st.set_page_config(layout="wide")
 
     # Divide layout into two columns
-    colF, colS, colT= st.columns([1, 2, 1])
+    colF, colS, colT= st.columns([1, 3, 1])
     with colS:
         # Set title of the app
         st.title("European Soccer Transfer Machine")
