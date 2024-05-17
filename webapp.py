@@ -116,6 +116,14 @@ def main():
                 if player_position and player_trait: 
                     st.session_state.player_positions[i+1] = player_position
                     st.session_state.player_traits[i+1] = player_trait 
+
+            # Remove Player Button
+            if st.session_state.player_count > 0:
+                if st.button("- Remove Player"):
+                    st.session_state.player_count -= 1
+                    st.session_state.player_positions.pop(st.session_state.player_count + 1, None)
+                    st.session_state.player_traits.pop(st.session_state.player_count + 1, None)
+
                     
             if selected_team != 'Select A Team' and transfer_budget > 0:
                 if st.button("Find Transfer Suggestions"):
