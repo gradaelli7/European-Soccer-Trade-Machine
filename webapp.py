@@ -133,25 +133,31 @@ def main():
                     df_transfers_norm = pd.concat([data_not_to_normalize, data_normalized], axis=1)
 
                     players = []
-                    csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
-                    
-                    if len(pos_att) == 0:
-                        suggested_positions = team_positional_needs(df_transfers_norm, selected_team)
-                        pos_att = [[position, 'None'] for position in suggested_positions]
-                        players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
-                    
-                    else:
-                        players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                    try:
+                        csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
+                        if len(pos_att) == 0:
+                            suggested_positions = team_positional_needs(df_transfers_norm, selected_team)
+                            pos_att = [[position, 'None'] for position in suggested_positions]
+                            players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                    
+                        else:
+                            players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
-                    with col3:
-                        st.header("Output")
-                        # Placeholder for output
-                        for item in players:
-                            st.write('name:', item['name'], 
-                                'position:', item['position'], 
-                                'team:', item['team'],
-                                'price:', item['price'])
+                        with col3:
+                            st.header("Output")
+                            # Placeholder for output
+                            for item in players:
+                                st.write('name:', item['name'], 
+                                    'position:', item['position'], 
+                                    'team:', item['team'],
+                                    'price:', item['price'])
+                    except IndexError:
+                        with col3:
+                            st.header("Output")
+                            st.write("Your transfer budget is too low! Modify your player requests or increase your budget.")
+                    
+                    
 
 if __name__ == "__main__":
     main()

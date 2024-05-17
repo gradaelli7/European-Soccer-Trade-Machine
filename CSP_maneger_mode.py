@@ -133,7 +133,6 @@ def team_positional_needs(candidates, team):
     print("Before normalization")
     print(df_common_players[['name', 'rating']])
 
-
     text_cols = df_common_players.select_dtypes(include='object')
 
     numerical_cols = df_common_players.select_dtypes(include=['float', 'int'])
