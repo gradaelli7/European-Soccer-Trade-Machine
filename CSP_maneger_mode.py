@@ -2,30 +2,77 @@
 #coding:utf-8
 
 import pandas as pd
+import itertools
 
-def csp(candidates, players, team, requested_positions, budget, attributes):
-    if len(requested_positions) == 0: 
+def csp(candidates, players, team, requested_positions_attributes, budget):
+    if len(requested_positions_attributes) == 0: 
         suggested_positions = team_positional_needs(candidates, team)
         print("No positions specified; suggesting based on following weaknesses:")
         print(suggested_positions)
-    backtracking(candidates.to_dict(orient='records'), players, team, suggested_positions, budget)
+        backtracking(candidates.to_dict(orient='records'), players, team, suggested_positions, budget)
+    else:
+        requested_positions = positions(requested_positions_attributes)
+        backtracking(candidates.to_dict(orient='records'), players, team, requested_positions, budget)
 
-def hill_climb(candidates, init_state, team, budget):
+def hill_climb(candidates, init_state, team, requested_positions_attributes, budget):
     cur_state = init_state
     while True:
         print_output(cur_state)
-        print(heur(cur_state, budget))
+        print(heur(cur_state, requested_positions_attributes, budget))
         neighbors = generate_neighbors(candidates, cur_state, team, budget)
-        best_neighbor = max(neighbors, key=lambda x: heur(x, budget))
-        if heur(best_neighbor, budget) <= heur(cur_state, budget):
+        best_neighbor = max(neighbors, key=lambda x: heur(x, requested_positions_attributes, budget))
+        if heur(best_neighbor, requested_positions_attributes, budget) <= heur(cur_state, requested_positions_attributes, budget):
             return cur_state
         cur_state = best_neighbor
 
-def heur(players, budget):
+def heur(players, requested_positions_attributes, budget):
     result = 0.0
+    rating_comp = 0.0
+    budget_comp = 0.0
     for player in players:
-        result += player['rating'] / len(players)
-    result += 1.5 * proportion_of_budget(players, budget)
+        rating_comp += player['rating'] / len(players)
+        budget_comp += 1.5 * proportion_of_budget(player, budget)
+    attr_comp = 2 * max_attribute_assignment_value(players, requested_positions_attributes) / len(players)
+
+    # print(rating_comp)
+    # print(budget_comp)
+    # print(attr_comp)
+
+    result += rating_comp
+    result += budget_comp
+    result += attr_comp
+
+    return result
+
+def positions(requested_positions_attributes):
+    requested_positions = []
+    for x in requested_positions_attributes:
+        requested_positions.append(x[0])
+    return requested_positions
+
+def attributes_at_position(requested_positions_attributes, pos):
+    requested_attributes = []
+    for x in requested_positions_attributes:
+        if x[0] == pos:
+            requested_attributes.append(x[1])
+    return requested_attributes
+
+def max_attribute_assignment_value(players, requested_positions_attributes):
+    # print("Heur computation process")
+    requested_positions = unique_positions(players)
+    result = 0.0
+    for position in requested_positions:
+        players_at_pos = players_at_position(players, position)
+        position_attributes = attributes_at_position(requested_positions_attributes, position)
+        max_position_sum = -20.0
+        attribute_permutations = list(itertools.permutations(position_attributes))
+        for permutation in attribute_permutations:
+            cur_position_sum = 0.0
+            for i in range(len(players_at_pos)):
+                cur_position_sum += players_at_pos[i][permutation[i]]
+            max_position_sum = max(max_position_sum, cur_position_sum)
+            # print("{}: {}".format(permutation, cur_position_sum))
+        result += max_position_sum
     return result
 
 def total_price(players):
@@ -34,8 +81,8 @@ def total_price(players):
         result += player['price']
     return result
 
-def proportion_of_budget(players, budget):
-    return total_price(players) / budget
+def proportion_of_budget(player, budget):
+    return player['price'] / budget
 
 def unique_positions(players):
     result = set()
@@ -76,7 +123,7 @@ def team_common_players_positions(common_players_data, team):
 # But always suggest lowest.
 def team_positional_needs(candidates, team):
     df_team_roster = candidates[candidates['team'] == team]
-    df_common_players = df_team_roster[df_team_roster['games'] >= 14]
+    df_common_players = df_team_roster[df_team_roster['games'] >= 10]
 
     print("Before normalization")
     print(df_common_players[['name', 'rating']])
@@ -171,24 +218,38 @@ if __name__ == '__main__':
     ## load candidates   
     df_transfers = pd.read_csv('new_player_scores.csv')
     # pick useful information
-    df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT%', 'PrgDist']]
+    df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT', 'PrgDist', 'Blocks', 'CrsPA', 'KP']]
     # rename columns
-    df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker']
+    df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']
+
+    # print("Before normalization")
+    # print(df_transfers.head())
+
+    data_to_normalize = df_transfers[['Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']]
+    data_not_to_normalize = df_transfers[['name', 'games', 'position', 'team', 'price', 'rating']]
+
+    data_normalized = (data_to_normalize - data_to_normalize.min()) / (data_to_normalize.max() - data_to_normalize.min())
+
+    df_transfers_norm = pd.concat([data_not_to_normalize, data_normalized], axis=1)
+
+    # print("After normalization")
+    # print(df_transfers_norm.head())
 
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
-    budget = 50000000
-    requested_positions = []
+    budget = 74000000
+    # requested_positions_attributes = [['Attacking Midfield', 'Playmaker'], ['Centre-Forward', 'Sharp-shooter'], ['Attacking Midfield', 'Free-kick Specialist']]
+    requested_positions_attributes = [['Right-Back', 'Impenetrable Wall'], ['Right-Back', 'Assisting Machine'], ['Defensive Midfield', 'Playmaker']]
     # requested_positions = []
-    team = 'Liverpool'
+    team = 'Bayern Munich'
     # requested_positions = ['Goalkeeper'] # WORKING
     # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
 
     # initial condition
     players = []  # the players we choose under restrictions
 
-    csp(df_transfers, players, team, requested_positions, budget, ['Playmaker'])
+    csp(df_transfers_norm, players, team, requested_positions_attributes, budget)
 
-    players = hill_climb(df_transfers, players, team, budget)
+    players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
 
-    print_output(players)
+    # print_output(players)
