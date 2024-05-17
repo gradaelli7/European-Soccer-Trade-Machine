@@ -151,7 +151,8 @@ def main():
                                 st.write('name:', item['name'], 
                                     'position:', item['position'], 
                                     'team:', item['team'],
-                                    'price:', item['price'])
+                                    'price:', item['price'],
+                                    'rating:', item['rating'])
                     except IndexError:
                         with col3:
                             st.header("Output")
