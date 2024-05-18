@@ -130,7 +130,7 @@ def main():
             for i in range(st.session_state.player_count):
                 player_position = st.selectbox(f"Player {i+1} Position:", positions, key=f"position_{i+1}")
                 player_trait = st.selectbox(f"Player {i+1} Trait:", traits[player_position], key=f"trait_{i+1}")
-                if player_position and player_trait: 
+                if player_position and player_trait and player_position != 'Select Position': 
                     st.session_state.player_positions[i+1] = player_position
                     st.session_state.player_traits[i+1] = player_trait
             
@@ -156,6 +156,7 @@ def main():
                 if st.button("Find Transfer Suggestions"):
 
                     requested_positions = list(st.session_state.player_positions.values())
+                    print(requested_positions)
                     requested_traits = list(st.session_state.player_traits.values())
                     
                     # Combine the two lists into a list of lists
