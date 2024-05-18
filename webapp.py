@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 from CSP_maneger_mode import *
-import locale
-
 
 # Initialize session state
 if 'player_count' not in st.session_state:
