@@ -16,12 +16,14 @@ def main():
 
     # Load CSV files and other required data
     df_transfers = pd.read_csv('new_player_scores.csv')
-    df_common_players = pd.read_csv('data/starting_11.csv')
 
     # pick useful information
     df_transfers = df_transfers[['Player', '90s', 'sub_position', 'Squad', 'market_value_in_eur', 'score', 'FK', 'SoT', 'PrgDist', 'Blocks', 'CrsPA', 'KP']]
     # rename columns
     df_transfers.columns=['name', 'games', 'position', 'team', 'price', 'rating', 'Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']
+
+    # Replace 'Eint Frankfurt' with 'Eintracht Frankfurt'
+    df_transfers['team'] = df_transfers['team'].replace('Eint Frankfurt', 'Eintracht Frankfurt')
 
     # Set wide mode for the entire page
     st.set_page_config(layout="wide")
