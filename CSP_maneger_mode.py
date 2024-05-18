@@ -36,9 +36,9 @@ def heur(players, requested_positions_attributes, budget):
     if len(players) != 0:
         attr_comp = 2 * max_attribute_assignment_value(players, requested_positions_attributes) / len(players)
 
-    # print(rating_comp)
-    # print(budget_comp)
-    # print(attr_comp)
+    print(rating_comp)
+    print(budget_comp)
+    print(attr_comp)
 
     result += rating_comp
     result += budget_comp
