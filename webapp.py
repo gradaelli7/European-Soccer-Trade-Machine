@@ -86,6 +86,12 @@ def main():
             # Budget textbox
             transfer_budget = st.number_input("Transfer Budget (in Euros):", min_value=0, step=1)
 
+            # Format the transfer budget with commas and euro symbol
+            formatted_budget = locale.currency(transfer_budget, grouping=True, symbol=True)
+
+            # Display the formatted transfer budget
+            st.write(f"Formatted Transfer Budget: {formatted_budget}")
+
            # Player positions
             positions = [
                 'Select Position','Defensive Midfield', 'Centre-Forward', 'Centre-Back', 'Right-Back', 'Left-Back',
