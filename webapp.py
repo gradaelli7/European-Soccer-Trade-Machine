@@ -88,7 +88,7 @@ def main():
             transfer_budget = st.number_input("Transfer Budget (in Euros):", min_value=0, step=1)
 
             # Format the transfer budget with commas and euro symbol
-            formatted_budget = f"€{transfer_budget:,.2f}"
+            formatted_budget = f"€{transfer_budget:,}"
 
             # Display the formatted transfer budget
             st.write(f"Budget: {formatted_budget}")
