@@ -176,10 +176,10 @@ def main():
                             st.header("Transfer Recommendations")
                             # Placeholder for output
                             for item in players:
-                                st.write('name:', item['name'], 
-                                    'position:', item['position'], 
-                                    'team:', item['team'],
-                                    'price:', f"€{item['price']:,}",
+                                st.write('name:', item['name'], '\n',
+                                    'position:', item['position'], '\n',
+                                    'team:', item['team'],'\n',
+                                    'price:', f"€{item['price']:,}",'\n',
                                     'rating:', item['rating'])
                     except (IndexError):
                         with col3:
