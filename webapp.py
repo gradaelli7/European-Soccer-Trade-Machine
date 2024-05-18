@@ -109,7 +109,7 @@ def main():
                 }
             
             # Layout with columns
-            colAdd, colRem = st.beta_columns(2)
+            colAdd, colRem = st.columns([2, 1])
 
             # Add Player Button
             with colAdd:
