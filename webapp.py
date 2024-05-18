@@ -91,7 +91,7 @@ def main():
             formatted_budget = f"€{transfer_budget:,}"
 
             # Display the formatted transfer budget
-            st.write(f"Budget: {formatted_budget}")
+            st.write(f"Current Transfer Budget: {formatted_budget}")
 
            # Player positions
             positions = [
