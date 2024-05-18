@@ -87,7 +87,6 @@ def main():
             transfer_budget = st.number_input("Transfer Budget (in Euros):", min_value=0, step=1)
 
            # Player positions
-            st.header("Player Positions")
             positions = [
                 'Select Position','Defensive Midfield', 'Centre-Forward', 'Centre-Back', 'Right-Back', 'Left-Back',
                 'Attacking Midfield', 'Right Winger', 'Right Midfield', 'Second Striker',
@@ -110,6 +109,8 @@ def main():
                 }
  
             if selected_team != 'Select A Team' and transfer_budget > 0:
+
+                st.header("Player Positions")
 
                 # Layout with columns
                 colAdd, colRem = st.columns([2, 1])
