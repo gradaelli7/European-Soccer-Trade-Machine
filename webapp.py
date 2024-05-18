@@ -179,7 +179,7 @@ def main():
                                     'team:', item['team'],
                                     'price:', item['price'],
                                     'rating:', item['rating'])
-                    except (IndexError, ValueError):
+                    except (IndexError):
                         with col3:
                             st.header("Transfer Recommendations")
                             st.write("Your transfer budget is too low! Modify your player requests or increase your budget.")
