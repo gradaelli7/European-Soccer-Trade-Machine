@@ -108,18 +108,23 @@ def main():
                 'Left Midfield': ['None','Free-kick Specialist', 'Crossing Specialist', 'Assisting Machine']
                 }
             
+            # Layout with columns
+            colAdd, colRem = st.beta_columns(2)
+
             # Add Player Button
-            if st.session_state.player_count < 5:
-                if st.button("+ Add Player"):
-                    st.session_state.player_count += 1
+            with colAdd:
+                if st.session_state.player_count < 5:
+                    if st.button("+ Add Player"):
+                        st.session_state.player_count += 1
 
             # Remove Player Button
-            if st.session_state.player_count > 0:
-                if st.button("- Remove Player"):
-                    if st.session_state.player_count > 0:
-                        st.session_state.player_positions.pop(st.session_state.player_count, None)
-                        st.session_state.player_traits.pop(st.session_state.player_count, None)
-                        st.session_state.player_count -= 1
+            with colRem:
+                if st.session_state.player_count > 0:
+                    if st.button("- Remove Player"):
+                        if st.session_state.player_count > 0:
+                            st.session_state.player_positions.pop(st.session_state.player_count, None)
+                            st.session_state.player_traits.pop(st.session_state.player_count, None)
+                            st.session_state.player_count -= 1
 
             # Display player selection boxes
             for i in range(st.session_state.player_count):
