@@ -179,7 +179,7 @@ def main():
                                 st.write('name:', item['name'], 
                                     'position:', item['position'], 
                                     'team:', item['team'],
-                                    'price:', item['price'],
+                                    'price:', f"€{item['price']:,}",
                                     'rating:', item['rating'])
                     except (IndexError):
                         with col3:
