@@ -24,6 +24,7 @@ def main():
 
     # Replace 'Eint Frankfurt' with 'Eintracht Frankfurt'
     df_transfers['team'] = df_transfers['team'].replace('Eint Frankfurt', 'Eintracht Frankfurt')
+    df_transfers['team'] = df_transfers['team'].replace("Sparta R'dam", 'Sparta Rotterdam')
 
     # Set wide mode for the entire page
     st.set_page_config(layout="wide")
