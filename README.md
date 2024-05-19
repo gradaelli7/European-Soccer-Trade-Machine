@@ -59,3 +59,33 @@ Here is a brief description of the datasets found under the "data" folder:
 15. whoscored_merged.csv
 
   Note: In Variable_Descriptions.pdf you can find a description for all of the columns in each corresponding csv file.
+
+## Machine Learning 
+The Python notebook used to score soccer players can be found in the GitHub repo, with the title euro_transfer_model.ipynb
+
+Machine Learning Model for Scoring Players
+Data Preprocessing and target engineering: To develop a system for recommending player transfers, we used machine learning techniques to score players. Our target variable was a combination of three factors:
+Plus-Minus: This represents the team's performance with the player on the pitch versus off the pitch.
+Squad Performance Post-Trade: Players traded to teams that performed better after the trade received a bonus.
+Minutes Played: This factor benefits players with high usage.
+We used two datasets:
+Transferred Players (2022-2023): Contains the target variable.
+Eligible Players (2023): Players who have not been transferred but are eligible for the coming season.
+Our data preparation steps included:
+Filling null or NA values with the column mean to prevent skewing in decision trees.
+Identifying and dropping unimportant categorical variables (e.g., player name).
+Converting important categorical variables (e.g., country of origin, footedness) to numeric values using label encoders.
+Target Calculation: We recalculated the target based on the player's position:
+
+Forwards: Given a bonus if their team scored while they were on the pitch.
+Defenders: Given a demerit if goals were scored against their team while they were on the pitch.
+Midfielders: A combination of the two.
+To normalize the target across positions, we scaled each to a number between 0 and 1 and created bins for classification.
+Exploring Models
+In our project, we explored various machine learning models to determine which one provided the best performance in predicting soccer player transfers. We started with the Naive Bayes classifier, known for its simplicity and effectiveness in handling categorical data through its probabilistic approach. However, Naive Bayes assumes feature independence, which makes it suboptimal for our problem. Next, we implemented a simple Decision Tree, which offers clear interpretability by creating a model that splits data into branches based on feature values. This had impressive results, but we found we were able to improve the results with more advanced models. We then implemented a Random Forest model, which is a bagging algorithm wherein a subset of features are selected at random to build a forest or collection of decision trees. Bagging is “bootstrap aggregating,” an ensemble meta-algorithm combining predictions from multiple decision trees through a majority voting mechanism. It can improve accuracy and reduce overfitting. This method leverages the "wisdom of the crowd," making it more robust than a single decision tree. 
+We then tested Gradient Boosted Decision Trees (GBDT), which sequentially builds trees, with each new tree correcting errors made by the previous ones. Gradient boosting employs gradient descent algorithm to minimize errors in sequential models GBDT is powerful for capturing complex patterns but can be computationally intensive. 
+Lastly, we used Extreme Gradient Boosting (XGBoost), an advanced implementation of gradient boosting that optimizes both speed and performance. XGBoost incorporates regularization to prevent overfitting and handles missing data efficiently. Optimized Gradient Boosting algorithm through parallel processing, tree pruning, regularization 
+Through this comparison, we identified the model for our soccer transfer predictions.
+
+
+
