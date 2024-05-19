@@ -25,6 +25,8 @@ def main():
     # Replace 'Eint Frankfurt' with 'Eintracht Frankfurt'
     df_transfers['team'] = df_transfers['team'].replace('Eint Frankfurt', 'Eintracht Frankfurt')
     df_transfers['team'] = df_transfers['team'].replace("Sparta R'dam", 'Sparta Rotterdam')
+    df_transfers['team'] = df_transfers['team'].replace("Dynamo Mosc", 'Dynamo Moscow')
+
 
     # Set wide mode for the entire page
     st.set_page_config(layout="wide")
@@ -77,9 +79,9 @@ def main():
                 "Bundesliga": ['Augsburg', 'Bayern Munich', 'Bochum', 'Dortmund', 'Eintracht Frankfurt', 'Freiburg', 'Hertha BSC', 'Hoffenheim', 'Köln', 'Mainz 05', 'RB Leipzig', "M'Gladbach", 'Schalke 04', 'Stuttgart', 'Union Berlin', 'Wolfsburg', 'Werder Bremen'],
                 "Eredivisie": ['Ajax', 'AZ Alkmaar', 'Cambuur', 'Emmen', 'Excelsior', 'Feyenoord', 'Fortuna Sittard', 'Go Ahead Eagles', 'Groningen', 'Heerenveen', 'NEC Nijmegen', 'PSV Eindhoven', 'RKC Waalwijk', 'Sparta Rotterdam', 'Utrecht', 'Vitesse', 'Volendam', 'Willem II', 'Zwolle'],
                 "Liga Nos": ['Arouca', 'Belenenses', 'Benfica', 'Boavista', 'Braga', 'Estoril', 'Famalicão', 'Gil Vicente', 'Marítimo', 'Moreirense', 'Paços de Ferreira', 'Portimonense', 'Porto', 'Rio Ave', 'Santa Clara', 'Sporting CP', 'Tondela', 'Vizela', 'Vitória Guimarães', 'Vitória SC'],
-                "Jupiler Pro League": ['Anderlecht', 'Antwerp', 'Beerschot VA', 'Cercle Brugge', 'Charleroi', 'Club Brugge', 'Eupen', 'Genk', 'Gent', 'Kortrijk', 'Mechelen', 'Oostende', 'RSC Anderlecht', 'Sint-Truiden', 'Sporting Charleroi', 'Standard Liège', 'Waasland-Beveren', 'Zulte Waregem'],
-                "Premier Liga": ['Akhmat Grozny', 'Arsenal Tula', 'CSKA Moscow', 'Dinamo Moscow', 'Dynamo Moscow', 'FC Krasnodar', 'Khimki', 'Lokomotiv Moscow', 'Rubin Kazan', 'Rostov', 'SKA-Khabarovsk', 'Spartak Moscow', 'Ufa', 'Ural', 'Veles Moscow', 'Zenit St. Petersburg'],
-                "Scottish Premiership": ['Aberdeen', 'Celtic', 'Dundee', 'Dundee Utd', 'Hamilton', 'Hearts', 'Hibernian', 'Livingston', 'Motherwell', 'Partick', 'Rangers', 'Ross County', 'St Johnstone', 'St Mirren']
+                "Jupiler Pro League": ['Anderlecht', 'Antwerp', 'Beerschot VA', 'Cercle Brugge', 'Charleroi', 'Club Brugge', 'Eupen', 'Genk', 'Gent', 'Kortrijk', 'Mechelen', 'Oostende', 'RSC Anderlecht', 'Sint-Truiden', 'Standard Liège', 'Waasland-Beveren', 'Zulte Waregem'],
+                "Premier Liga": ['Akhmat Grozny', 'Arsenal Tula', 'CSKA Moscow', 'Dynamo Moscow','FC Krasnodar', 'Khimki', 'Lokomotiv Moscow', 'Rubin Kazan', 'Rostov', 'SKA-Khabarovsk', 'Spartak Moscow', 'Ufa', 'Ural', 'Veles Moscow', 'Zenit'],
+                "Scottish Premiership": ['Aberdeen', 'Celtic', 'Dundee United', 'Hamilton', 'Hearts', 'Hibernian', 'Livingston', 'Motherwell', 'Partick', 'Rangers', 'Ross County', 'St Johnstone', 'St Mirren']
             }
 
             # Select team dropdown based on selected league
