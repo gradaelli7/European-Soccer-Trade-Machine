@@ -17,15 +17,23 @@ def csp(candidates, players, team, requested_positions_attributes, budget):
 def hill_climb(candidates, init_state, team, requested_positions_attributes, budget):
     cur_state = init_state
     while True:
-        print_output(cur_state)
-        print(heur(cur_state, requested_positions_attributes, budget))
+        max_attribute_assignment_value, max_attribute_assignment_permutation = max_attribute_assignment(cur_state, requested_positions_attributes)
+        # print("attr_comp = {}".format(max_attribute_assignment_value))
+        # print("permutation = {}".format(max_attribute_assignment_permutation))
+        # print_output(cur_state, max_attribute_assignment_permutation)
+        # print(heur(cur_state, requested_positions_attributes, budget))
+
         neighbors = generate_neighbors(candidates, cur_state, team, budget)
         best_neighbor = max(neighbors, key=lambda x: heur(x, requested_positions_attributes, budget))
         if heur(best_neighbor, requested_positions_attributes, budget) <= heur(cur_state, requested_positions_attributes, budget):
             return cur_state
         cur_state = best_neighbor
 
+
 def heur(players, requested_positions_attributes, budget):
+
+    max_attribute_assignment_value, _ = max_attribute_assignment(players, requested_positions_attributes)
+
     result = 0.0
     rating_comp = 0.0
     budget_comp = 0.0
@@ -34,11 +42,7 @@ def heur(players, requested_positions_attributes, budget):
         rating_comp += player['rating'] / len(players)
         budget_comp += 1.5 * proportion_of_budget(player, budget)
     if len(players) != 0:
-        attr_comp = 2 * max_attribute_assignment_value(players, requested_positions_attributes) / len(players)
-
-    # print(rating_comp)
-    # print(budget_comp)
-    # print(attr_comp)
+        attr_comp = 2 * max_attribute_assignment_value / len(players)
 
     result += rating_comp
     result += budget_comp
@@ -63,10 +67,11 @@ def attributes_at_position(requested_positions_attributes, pos):
             requested_attributes.append(x[1])
     return requested_attributes
 
-def max_attribute_assignment_value(players, requested_positions_attributes):
+def max_attribute_assignment(players, requested_positions_attributes):
     # print("Heur computation process")
     requested_positions = unique_positions(players)
-    result = 0.0
+    result_value = 0.0
+    result_permutation = []
     for position in requested_positions:
         players_at_pos = players_at_position(players, position)
         position_attributes = attributes_at_position(requested_positions_attributes, position)
@@ -77,10 +82,13 @@ def max_attribute_assignment_value(players, requested_positions_attributes):
             for i in range(len(players_at_pos)):
                 if not permutation[i] == 'None':
                     cur_position_sum += players_at_pos[i][permutation[i]]
-            max_position_sum = max(max_position_sum, cur_position_sum)
+            if cur_position_sum > max_position_sum:
+                max_position_sum = cur_position_sum
+                cur_position_permutation = permutation
             # print("{}: {}".format(permutation, cur_position_sum))
-        result += max_position_sum
-    return result
+        result_value += max_position_sum
+        result_permutation += cur_position_permutation
+    return result_value, result_permutation
 
 def total_price(players):
     result = 0
@@ -130,8 +138,8 @@ def team_positional_needs(candidates, team):
     df_team_roster = candidates[candidates['team'] == team]
     df_common_players = df_team_roster[df_team_roster['games'] >= 10]
 
-    print("Before normalization")
-    print(df_common_players[['name', 'rating']])
+    # print("Before normalization")
+    # print(df_common_players[['name', 'rating']])
 
     text_cols = df_common_players.select_dtypes(include='object')
 
@@ -140,21 +148,21 @@ def team_positional_needs(candidates, team):
 
     df_common_players_norm = pd.concat([normalized_numerical_cols, text_cols], axis=1)
 
-    print("After normalization")
-    print(df_common_players_norm[['name', 'rating']])
+    # print("After normalization")
+    # print(df_common_players_norm[['name', 'rating']])
 
     df_common_weaknesses = df_common_players_norm[df_common_players_norm['rating'] < -1]
     df_common_weaknesses = df_common_weaknesses.sort_values(by=['rating'], ascending=True)
 
-    print("Weaknesses")
-    print(df_common_weaknesses[['name', 'rating']])
+    # print("Weaknesses")
+    # print(df_common_weaknesses[['name', 'rating']])
     if len(df_common_weaknesses) == 0:
         # Find the index of the row with the lowest rating
         min_rating_index = df_common_players_norm['rating'].idxmin()
 
         # Get the position of the row with the lowest rating
         position_lowest_rating = df_common_players_norm.at[min_rating_index, 'position']
-        print("Lowest rating position is:", position_lowest_rating)
+        # print("Lowest rating position is:", position_lowest_rating)
         return [position_lowest_rating]
 
     return df_common_weaknesses['position'].to_list()[:5]
@@ -164,64 +172,118 @@ def team_positional_needs(candidates, team):
 # Central Midfield (M)
 # Centre-Back (D)
 # Centre-Forward (F)
+# Centre Midfield (M)
 # Defensive Midfield (M)
 # Left Winger (F)
 # Left-Back (D)
+# Left Midfield (M)
 # Right Winger (F)
 # Right-Back (D)
+# Right Midfield (M)
 # Second Striker (F)
 
 def backtracking(candidates, players, team, requested_positions, budget):
 
+    """Backtracking algorithm for finding a valid combination of players.
+
+    Parameters
+    ----------
+    candidates : pandas.core.frame.DataFrame
+        The dataset containing players from which we will choose.
+    players : list
+        The list of players currently in our set of choices.
+    team : str
+        The team specified by the user/manager.
+    requested_positions : list
+        The list of positions we still have yet to choose a player for. (Initially
+        the full set specified by the user/manager)
+    budget : int
+        The transfer budget specified by the user/manager.
+
+    Returns
+    ----------
+    The first found combination of players satisfying the team, budget, and position
+    constraints.
+    """
+
+    """If there are no more positions to find players for, we are done"""
     if len(requested_positions) == 0:
         return True
-
     else:
         candidates_temp = candidates.copy()
         requested_positions_updated = requested_positions.copy()
+
         while(len(candidates_temp) > 0):
+            """Try adding every other player to our choices"""
             player = candidates.pop(0) # in the candidates list, to be checked
+            """If this player satisfies constraints, add them to our choices"""
             if Is_valid(player, team, requested_positions, budget):
                 players.append(player)
                 requested_positions_updated.remove(player['position'])
                 candidates_temp.remove(player)
+                """Next step of recursion"""
                 if backtracking(candidates_temp, players, team, requested_positions_updated, budget - player['price']):
                     return True
+                """Backtrack"""
                 players.pop()
                 requested_positions_updated.append(player['position'])
                 candidates_temp.append(player)
     return False
 
-def Is_valid(player, team, requested_positions, budget): # Done psudo code check validation
+def Is_valid(player, team, requested_positions, budget):
 
-    # the constraint
-    # financial constraints
+    """Predicate checking if given player satisfies team, position, and budget constraints.
 
-    # print("Budget  = {}, this player's price = {}".format(budget, player['price']))
-    if budget < player['price'] : # financial constraint failed
-        # print("Budget insufficient")
+    Parameters
+    ----------
+    players : (?)
+        The player we are validating.
+    team : str
+        The team specified by the user/manager.
+    requested_positions : list
+        The list of positions we still have yet to choose a player for.
+    budget : int
+        The transfer budget specified by the user/manager.
+    """
+
+    """Player's price must be within budget"""
+    if budget < player['price'] :
         return False
     
-    # Position constraints
-    # if requested_positions[0] != player['position']:
+    """Player's position must be one we are looking for"""
     if player['position'] not in requested_positions:
         # print("Not looking for this position")
         return False
 
-    # Don't need to get players already on this team!
+    """Player must not already be on team"""
     if player['team'] == team:
         return False
          
-    # print("Player is valid")
     return True
     
-def print_output(output):
-    for item in output:
-        print('name:', item['name'], 
-              'position:', item['position'], 
-              'team:', item['team'],
-              'price:', item['price'],
-              'rating:', item['rating'])
+def print_output(output, max_attribute_assignment_permutation):
+    # _, max_attribute_assignment_permutation = max_attribute_assignment(players, requested_positions_attributes)
+    unique_pos_list = unique_positions(players)
+
+    i = 0
+
+    for position in unique_pos_list:
+        for player in output:
+            if player['position'] == position:
+                if max_attribute_assignment_permutation[i] == 'None':
+                    print('name:', player['name'], 
+                        'position:', player['position'], 
+                        'team:', player['team'],
+                        'price:', player['price'],
+                        'rating:', round(player['rating'], 3))
+                else:
+                    print('name:', player['name'], 
+                        'position:', player['position'], 
+                        'team:', player['team'],
+                        'price:', player['price'],
+                        'rating:', round(player['rating'], 3),
+                        max_attribute_assignment_permutation[i], round(player[max_attribute_assignment_permutation[i]], 3))
+                i += 1
 
 if __name__ == '__main__':
     
@@ -249,13 +311,10 @@ if __name__ == '__main__':
 
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
-    budget = 74000000
-    # requested_positions_attributes = [['Attacking Midfield', 'Playmaker'], ['Centre-Forward', 'Sharp-shooter'], ['Attacking Midfield', 'Free-kick Specialist']]
-    requested_positions_attributes = []
-    # requested_positions = []
-    team = 'Milan'
-    # requested_positions = ['Goalkeeper'] # WORKING
-    # requested_positions = ['Goalkeeper', 'Centre-Back'] # WORKING
+    budget = 60000000
+    team = 'Bayern Munich'
+    # requested_positions_attributes = []
+    requested_positions_attributes = [['Attacking Midfield', 'Assisting Machine']]
 
     # initial condition
     players = []  # the players we choose under restrictions
@@ -265,9 +324,9 @@ if __name__ == '__main__':
     if len(requested_positions_attributes) == 0:
         suggested_positions = team_positional_needs(df_transfers_norm, team)
         requested_positions_attributes = [[position, 'None'] for position in suggested_positions]
-        players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
-    
-    else:
-        players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
+        
+    players = hill_climb(df_transfers_norm, players, team, requested_positions_attributes, budget)
 
-    # print_output(players)
+    _, max_attribute_assignment_permutation = max_attribute_assignment(players, requested_positions_attributes)
+
+    print_output(players, max_attribute_assignment_permutation)
