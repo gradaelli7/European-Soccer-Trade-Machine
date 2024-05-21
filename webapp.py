@@ -175,15 +175,28 @@ def main():
                         else:
                             players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
+                            _, max_attribute_assignment_permutation = max_attribute_assignment(players, pos_att)
+
                         with col3:
                             st.header("Transfer Recommendations")
                             # Placeholder for output
+                            i=0
                             for item in players:
-                                st.write('name:', item['name'], 
-                                    'position:', item['position'], 
-                                    'team:', item['team'],
-                                    'price:', f"€{item['price']:,}",
-                                    'rating:', item['rating'])
+                                if max_attribute_assignment_permutation[i] == 'None':
+                                    st.write('name:', item['name'], 
+                                        'position:', item['position'], 
+                                        'team:', item['team'],
+                                        'price:', f"€{item['price']:,}",
+                                        'rating:', round(item['rating'],3))
+                                
+                                else:
+                                    print('name:', item['name'], 
+                                        'position:', item['position'], 
+                                        'team:', item['team'],
+                                        'price:', f"€{item['price']:,}",
+                                        'rating:', round(item['rating'], 3),
+                                        max_attribute_assignment_permutation[i], round(item[max_attribute_assignment_permutation[i]], 3))
+                                i += 1
                     except (IndexError):
                         with col3:
                             st.header("Transfer Recommendations")
