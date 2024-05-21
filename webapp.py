@@ -190,7 +190,7 @@ def main():
                                         'rating:', round(item['rating'],3))
                                 
                                 else:
-                                    print('name:', item['name'], 
+                                    st.write('name:', item['name'], 
                                         'position:', item['position'], 
                                         'team:', item['team'],
                                         'price:', f"€{item['price']:,}",

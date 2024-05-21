@@ -311,10 +311,10 @@ if __name__ == '__main__':
 
     ## budget and requeted_position. We can change it to input file later
     # The following is just for testing now
-    budget = 60000000
-    team = 'Bayern Munich'
+    budget = 100000000
+    team = 'Clermont Foot'
     # requested_positions_attributes = []
-    requested_positions_attributes = [['Attacking Midfield', 'Assisting Machine']]
+    requested_positions_attributes = [['Right-Back', 'Playmaker']]
 
     # initial condition
     players = []  # the players we choose under restrictions
