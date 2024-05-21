@@ -216,13 +216,10 @@ def main():
                                             **{max_attribute_assignment_permutation[i]}:** {round(item[max_attribute_assignment_permutation[i]], 3)}  
                                             """)
                                         i += 1
-
-                            
                         except (IndexError):
-                            with col3:
-                                st.header("Transfer Recommendations")
-                                st.write("Your transfer budget is too low! Modify your player requests or increase your budget.")
-                        
+                            with col2:
+                                st.markdown('<p style="color:red;">Your transfer budget is too low! Modify your player requests or increase your budget.</p>', unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
