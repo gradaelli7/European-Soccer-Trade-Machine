@@ -149,60 +149,65 @@ def main():
                         st.session_state.player_traits[i+1] = player_trait
 
                 if st.button("Find Transfer Suggestions"):
+                    if selected_team == 'Select a Team':
+                        st.write("Please select a valid team and set a transfer budget to get transfer suggestions.")
 
-                    requested_positions = list(st.session_state.player_positions.values())
-                    print(requested_positions)
-                    requested_traits = list(st.session_state.player_traits.values())
-                    
-                    # Combine the two lists into a list of lists
-                    pos_att = [[pos, trait] for pos, trait in zip(requested_positions, requested_traits)]
+                    else:
+                        requested_positions = list(st.session_state.player_positions.values())
+                        print(requested_positions)
+                        requested_traits = list(st.session_state.player_traits.values())
+                        
+                        # Combine the two lists into a list of lists
+                        pos_att = [[pos, trait] for pos, trait in zip(requested_positions, requested_traits)]
 
-                    
-                    data_to_normalize = df_transfers[['Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']]
-                    data_not_to_normalize = df_transfers[['name', 'games', 'position', 'team', 'price', 'rating']]
-                    data_normalized = (data_to_normalize - data_to_normalize.min()) / (data_to_normalize.max() - data_to_normalize.min())
-                    df_transfers_norm = pd.concat([data_not_to_normalize, data_normalized], axis=1)
+                        
+                        data_to_normalize = df_transfers[['Free-kick Specialist', 'Sharp-shooter', 'Playmaker', 'Impenetrable Wall', 'Crossing Specialist', 'Assisting Machine']]
+                        data_not_to_normalize = df_transfers[['name', 'games', 'position', 'team', 'price', 'rating']]
+                        data_normalized = (data_to_normalize - data_to_normalize.min()) / (data_to_normalize.max() - data_to_normalize.min())
+                        df_transfers_norm = pd.concat([data_not_to_normalize, data_normalized], axis=1)
 
-                    players = []
-                    try:
-                        csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                        players = []
+                        try:
+                            csp(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
-                        if len(pos_att) == 0:
-                            suggested_positions = team_positional_needs(df_transfers_norm, selected_team)
-                            pos_att = [[position, 'None'] for position in suggested_positions]
-                            players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
-                    
-                        else:
-                            players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                            if len(pos_att) == 0:
+                                suggested_positions = team_positional_needs(df_transfers_norm, selected_team)
+                                pos_att = [[position, 'None'] for position in suggested_positions]
+                                players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+                        
+                            else:
+                                players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
-                            _, max_attribute_assignment_permutation = max_attribute_assignment(players, pos_att)
+                                _, max_attribute_assignment_permutation = max_attribute_assignment(players, pos_att)
 
-                        with col3:
-                            st.header("Transfer Recommendations")
-                            # Placeholder for output
-                            i=0
-                            for item in players:
-                                if max_attribute_assignment_permutation[i] == 'None':
-                                    st.write('name:', item['name'], 
-                                        'position:', item['position'], 
-                                        'team:', item['team'],
-                                        'price:', f"€{item['price']:,}",
-                                        'rating:', round(item['rating'],3))
-                                
-                                else:
-                                    st.write('name:', item['name'], 
-                                        'position:', item['position'], 
-                                        'team:', item['team'],
-                                        'price:', f"€{item['price']:,}",
-                                        'rating:', round(item['rating'], 3),
-                                        max_attribute_assignment_permutation[i], round(item[max_attribute_assignment_permutation[i]], 3))
-                                i += 1
-                    except (IndexError):
-                        with col3:
-                            st.header("Transfer Recommendations")
-                            st.write("Your transfer budget is too low! Modify your player requests or increase your budget.")
-                    
-                    
+                            with col3:
+                                st.header("Transfer Recommendations")
+                                # Placeholder for output
+                                i=0
+                                for item in players:
+                                    if max_attribute_assignment_permutation[i] == 'None':
+                                        st.markdown(f"""
+                                        **Name:**     {item['name']}  
+                                        **Position:** {item['position']}  
+                                        **Team:**     {item['team']}  
+                                        **Price:**    €{item['price']:,}  
+                                        **Rating:**   {round(item['rating'], 3)}  
+                                        """)
+                                    else:
+                                        st.markdown(f"""
+                                        **Name:**     {item['name']}  
+                                        **Position:** {item['position']}  
+                                        **Team:**     {item['team']}  
+                                        **Price:**    €{item['price']:,}  
+                                        **Rating:**   {round(item['rating'], 3)}  
+                                        **{max_attribute_assignment_permutation[i]}:** {round(item[max_attribute_assignment_permutation[i]], 3)}  
+                                        """)
+                                    i += 1
+                        except (IndexError):
+                            with col3:
+                                st.header("Transfer Recommendations")
+                                st.write("Your transfer budget is too low! Modify your player requests or increase your budget.")
+                        
 
 if __name__ == "__main__":
     main()
