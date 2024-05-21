@@ -150,7 +150,7 @@ def main():
 
                 if st.button("Find Transfer Suggestions"):
                     if selected_team == 'Select a Team':
-                        st.write("Please select a valid team and set a transfer budget to get transfer suggestions.")
+                        st.markdown('<p style="color:red;">Please select a valid team and set a transfer budget to get transfer suggestions.</p>', unsafe_allow_html=True)
 
                     else:
                         requested_positions = list(st.session_state.player_positions.values())
@@ -174,35 +174,50 @@ def main():
                                 suggested_positions = team_positional_needs(df_transfers_norm, selected_team)
                                 pos_att = [[position, 'None'] for position in suggested_positions]
                                 players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
+
+                                with col3:
+                                    st.header("Transfer Recommendations")
+                                    # Placeholder for output
+                                    i=0
+                                    for item in players:
+                                            st.markdown(f"""
+                                            **Name:**     {item['name']}  
+                                            **Position:** {item['position']}  
+                                            **Team:**     {item['team']}  
+                                            **Price:**    €{item['price']:,}  
+                                            **Rating:**   {round(item['rating'], 3)}  
+                                            """)
                         
                             else:
                                 players = hill_climb(df_transfers_norm, players, selected_team, pos_att, transfer_budget)
 
                                 _, max_attribute_assignment_permutation = max_attribute_assignment(players, pos_att)
 
-                            with col3:
-                                st.header("Transfer Recommendations")
-                                # Placeholder for output
-                                i=0
-                                for item in players:
-                                    if max_attribute_assignment_permutation[i] == 'None':
-                                        st.markdown(f"""
-                                        **Name:**     {item['name']}  
-                                        **Position:** {item['position']}  
-                                        **Team:**     {item['team']}  
-                                        **Price:**    €{item['price']:,}  
-                                        **Rating:**   {round(item['rating'], 3)}  
-                                        """)
-                                    else:
-                                        st.markdown(f"""
-                                        **Name:**     {item['name']}  
-                                        **Position:** {item['position']}  
-                                        **Team:**     {item['team']}  
-                                        **Price:**    €{item['price']:,}  
-                                        **Rating:**   {round(item['rating'], 3)}  
-                                        **{max_attribute_assignment_permutation[i]}:** {round(item[max_attribute_assignment_permutation[i]], 3)}  
-                                        """)
-                                    i += 1
+                                with col3:
+                                    st.header("Transfer Recommendations")
+                                    # Placeholder for output
+                                    i=0
+                                    for item in players:
+                                        if max_attribute_assignment_permutation[i] == 'None':
+                                            st.markdown(f"""
+                                            **Name:**     {item['name']}  
+                                            **Position:** {item['position']}  
+                                            **Team:**     {item['team']}  
+                                            **Price:**    €{item['price']:,}  
+                                            **Rating:**   {round(item['rating'], 3)}  
+                                            """)
+                                        else:
+                                            st.markdown(f"""
+                                            **Name:**     {item['name']}  
+                                            **Position:** {item['position']}  
+                                            **Team:**     {item['team']}  
+                                            **Price:**    €{item['price']:,}  
+                                            **Rating:**   {round(item['rating'], 3)}  
+                                            **{max_attribute_assignment_permutation[i]}:** {round(item[max_attribute_assignment_permutation[i]], 3)}  
+                                            """)
+                                        i += 1
+
+                            
                         except (IndexError):
                             with col3:
                                 st.header("Transfer Recommendations")
