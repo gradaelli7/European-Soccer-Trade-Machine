@@ -119,6 +119,7 @@ Our goal with this algorithm is to output a combination of players satisfying th
         - Impenetrable Wall: associated with Blocks (of shots and passes)
         - Crossing Specialist: associated with CrsPA = completed crosses into the penalty area
         - Assisting Machine: associated with KP = Key Passes = passes leading directly to a shot
+  
 We initially viewed the above as a constraint satisfaction problem (CSP) due to the existence of criteria that a solution must meet. Our initial implementation of the algorithm—at which point we only cared about maximizing average player rating—used the standard CSP backtracking algorithm. When we sorted the data in descending order of player rating, this algorithm gave us a near-optimal solution, always choosing the top-rated players in each position as long as the budget was not too low.
 
 While the initial approach above gives us highly-rated players, it was lacking in several ways:
